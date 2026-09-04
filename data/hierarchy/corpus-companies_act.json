@@ -1,0 +1,157 @@
+{
+  "id": "corpus-companies_act",
+  "type": "act",
+  "title": "Companies Act 2013",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Companies Act 2013 — sourced from companies_act.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-companies_act.json-0",
+      "type": "chapter",
+      "number": "II",
+      "title": "Incorporation of Company and Matters Incidental Thereto",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-companies_act.json-3",
+          "type": "section",
+          "number": "3",
+          "title": "Section 3",
+          "content": "Formation of Company: A company may be formed for any lawful purpose by seven or more persons (Public Company), two or more persons (Private Company), or one person (One Person Company / OPC).",
+          "keywords": [
+            "Formation of company",
+            "Public company",
+            "Private company",
+            "One Person Company",
+            "OPC"
+          ],
+          "children": [],
+          "order": 3
+        },
+        {
+          "id": "sec-companies_act.json-7",
+          "type": "section",
+          "number": "7",
+          "title": "Section 7",
+          "content": "Incorporation of Company: Documents including Memorandum of Association (MOA) and Articles of Association (AOA) signed by subscribers, declaration by professionals, and details of directors shall be filed with the Registrar of Companies (ROC) for incorporation certificate.",
+          "keywords": [
+            "Incorporation",
+            "ROC",
+            "MOA",
+            "AOA",
+            "Certificate of Incorporation"
+          ],
+          "children": [],
+          "order": 7
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-companies_act.json-1",
+      "type": "chapter",
+      "number": "IX",
+      "title": "Accounts of Companies & CSR",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-companies_act.json-135",
+          "type": "section",
+          "number": "135",
+          "title": "Section 135",
+          "content": "Corporate Social Responsibility (CSR): Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more, or net profit of rupees five crore or more during immediately preceding financial year shall constitute a CSR Committee and ensure that company spends in every financial year at least two per cent (2%) of average net profits made during three immediately preceding financial years on CSR activities.",
+          "keywords": [
+            "CSR",
+            "Corporate Social Responsibility",
+            "Section 135",
+            "2% CSR spend mandatory threshold"
+          ],
+          "children": [],
+          "order": 135
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-companies_act.json-2",
+      "type": "chapter",
+      "number": "XI",
+      "title": "Appointment and Qualifications of Directors",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-companies_act.json-149",
+          "type": "section",
+          "number": "149",
+          "title": "Section 149",
+          "content": "Company to have Board of Directors: Every company shall have a Board of Directors consisting of individuals. Minimum 3 directors for public company, 2 for private company, 1 for OPC. Maximum 15 directors. Every listed public company shall have at least one-third of total directors as independent directors.",
+          "keywords": [
+            "Board of Directors",
+            "Independent Directors",
+            "Minimum directors"
+          ],
+          "children": [],
+          "order": 149
+        },
+        {
+          "id": "sec-companies_act.json-166",
+          "type": "section",
+          "number": "166",
+          "title": "Section 166",
+          "content": "Duties of Directors: A director of a company shall act in accordance with articles, act in good faith to promote objects of company for benefit of members, exercise duties with due and reasonable care, skill and diligence, not involve in situation of conflict of interest, and not achieve undue gain or advantage.",
+          "keywords": [
+            "Duties of directors",
+            "Fiduciary duty",
+            "Section 166",
+            "Conflict of interest"
+          ],
+          "children": [],
+          "order": 166
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "ch-companies_act.json-3",
+      "type": "chapter",
+      "number": "XVI",
+      "title": "Prevention of Oppression and Mismanagement",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-companies_act.json-241",
+          "type": "section",
+          "number": "241",
+          "title": "Section 241",
+          "content": "Application to Tribunal for relief in cases of oppression: Any member of a company who complains that affairs of company are being conducted in a manner prejudicial to public interest or oppressive to him or any member may apply to National Company Law Tribunal (NCLT).",
+          "keywords": [
+            "Oppression and mismanagement",
+            "NCLT",
+            "Section 241",
+            "Shareholder rights"
+          ],
+          "children": [],
+          "order": 241
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "metadata": {
+    "totalSections": 6,
+    "sourceFile": "companies_act.json",
+    "contentHash": "9e814cb8d6cb49fe",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.802Z",
+    "discoveredAt": "2026-08-11T23:53:51.802Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.802Z",
+  "updatedAt": "2026-08-11T23:53:51.867Z"
+}

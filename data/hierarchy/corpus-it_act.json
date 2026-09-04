@@ -1,0 +1,166 @@
+{
+  "id": "corpus-it_act",
+  "type": "act",
+  "title": "Information Technology Act 2000",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Information Technology Act 2000 — sourced from it_act.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-it_act.json-0",
+      "type": "chapter",
+      "number": "I",
+      "title": "Preliminary",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-it_act.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Section 1",
+          "content": "This Act may be called the Information Technology Act, 2000. It extends to the whole of India and applies also to any offence or contravention thereunder committed outside India by any person.",
+          "keywords": [
+            "IT Act title",
+            "Cyber law",
+            "Extraterritorial applicability"
+          ],
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": "sec-it_act.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Section 2",
+          "content": "Definitions: 'Access' means gaining entry into computer resource. 'Computer' means any electronic, magnetic, optical or other high-speed data processing device. 'Cyber security' means protecting information, equipment, devices, computer resources from unauthorised access, use, disclosure, disruption, modification or destruction. 'Intermediary' means any person who on behalf of another person receives, stores or transmits electronic record.",
+          "keywords": [
+            "Computer definition",
+            "Intermediary definition",
+            "Cyber security"
+          ],
+          "children": [],
+          "order": 2
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-it_act.json-1",
+      "type": "chapter",
+      "number": "XI",
+      "title": "Offences and Cyber Crimes",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-it_act.json-43",
+          "type": "section",
+          "number": "43",
+          "title": "Section 43",
+          "content": "Penalty and compensation for damage to computer system: If any person without permission of owner accesses, downloads, copies, introduces virus, damages, disrupts, denies access to computer system, he shall be liable to pay damages by way of compensation to the person so affected.",
+          "keywords": [
+            "Computer damage",
+            "Virus introduction",
+            "Data theft compensation",
+            "Unauthorized access"
+          ],
+          "children": [],
+          "order": 43
+        },
+        {
+          "id": "sec-it_act.json-65",
+          "type": "section",
+          "number": "65",
+          "title": "Section 65",
+          "content": "Tampering with computer source documents: Whoever knowingly or intentionally conceals, destroys or alters any computer source code used for a computer, computer programme, computer system or computer network, shall be punished with imprisonment up to three years, or with fine up to two lakh rupees.",
+          "keywords": [
+            "Source code tampering",
+            "Computer source code"
+          ],
+          "children": [],
+          "order": 65
+        },
+        {
+          "id": "sec-it_act.json-66",
+          "type": "section",
+          "number": "66",
+          "title": "Section 66",
+          "content": "Computer related offences (Cyber Crimes & Hacking): If any person, dishonestly or fraudulently, does any act referred to in section 43, he shall be punishable with imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both.",
+          "keywords": [
+            "Hacking",
+            "Cyber crime",
+            "Identity theft",
+            "Section 66B stolen computer",
+            "Section 66C identity theft",
+            "Section 66D cheating by personation"
+          ],
+          "children": [],
+          "order": 66
+        },
+        {
+          "id": "sec-it_act.json-66A",
+          "type": "section",
+          "number": "66A",
+          "title": "Section 66A",
+          "content": "Punishment for sending offensive messages through communication service (Struck Down): Section 66A was struck down as unconstitutional by the Supreme Court of India in Shreya Singhal v. Union of India (2015) for violating freedom of speech and expression under Article 19(1)(a).",
+          "keywords": [
+            "Section 66A",
+            "Shreya Singhal case",
+            "Struck down",
+            "Freedom of speech",
+            "Unconstitutional"
+          ],
+          "children": [],
+          "order": "66A"
+        },
+        {
+          "id": "sec-it_act.json-69A",
+          "type": "section",
+          "number": "69A",
+          "title": "Section 69A",
+          "content": "Power to issue directions for blocking for public access of any information through any computer resource: Central Government or authorized officer may, if satisfied that it is necessary in interest of sovereignty, integrity, defense of India, security of State, friendly relations with foreign states, or public order, direct any agency/intermediary to block for access by public any information generated, transmitted, received or stored in any computer resource.",
+          "keywords": [
+            "Website blocking",
+            "Section 69A",
+            "Blocking orders",
+            "National security blocking"
+          ],
+          "children": [],
+          "order": "69A"
+        },
+        {
+          "id": "sec-it_act.json-79",
+          "type": "section",
+          "number": "79",
+          "title": "Section 79",
+          "content": "Exemption from liability of intermediary in certain cases (Safe Harbour Protection): An intermediary shall not be liable for any third party information, data, or communication link made available or hosted by him if the function of the intermediary is limited to providing access to communication system and the intermediary observes due diligence while discharging duties.",
+          "keywords": [
+            "Intermediary safe harbour",
+            "Section 79",
+            "Social media liability",
+            "Due diligence",
+            "Notice and takedown"
+          ],
+          "children": [],
+          "order": 79
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "metadata": {
+    "totalSections": 8,
+    "sourceFile": "it_act.json",
+    "contentHash": "6eb24d2b860f7189",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.822Z",
+    "discoveredAt": "2026-08-11T23:53:51.822Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.822Z",
+  "updatedAt": "2026-08-11T23:53:51.976Z"
+}

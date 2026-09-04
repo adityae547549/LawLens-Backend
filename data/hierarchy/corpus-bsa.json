@@ -1,0 +1,142 @@
+{
+  "id": "corpus-bsa",
+  "type": "act",
+  "title": "Bharatiya Sakshya Adhiniyam 2023",
+  "actNumber": null,
+  "year": 2023,
+  "authority": "",
+  "description": "Bharatiya Sakshya Adhiniyam 2023 — sourced from bsa.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-bsa.json-0",
+      "type": "chapter",
+      "number": "Chapter I",
+      "title": "Preliminary",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bsa.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Short title, application and commencement",
+          "content": "1. (1) This Act may be called the Bharatiya Sakshya Adhiniyam, 2023.\n(2) It applies to all judicial proceedings in or before any Court.\n(3) This Act replaces the Indian Evidence Act, 1872.",
+          "keywords": [
+            "BSA title",
+            "Indian Evidence Act replacement",
+            "evidence law"
+          ],
+          "children": [],
+          "order": "1"
+        },
+        {
+          "id": "sec-bsa.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Definitions",
+          "content": "2. (1) In this Adhiniyam, unless the context otherwise requires,—\n(e) 'evidence' means and includes—\n(i) all statements which the Court permits or requires to be made before it by witnesses, in relation to matters of fact under inquiry; such statements are called oral evidence;\n(ii) all documents including electronic or digital records produced for the inspection of the Court; such documents are called documentary evidence.",
+          "keywords": [
+            "evidence definition",
+            "electronic records",
+            "digital evidence",
+            "Evidence Act Section 3"
+          ],
+          "children": [],
+          "order": "2"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-bsa.json-1",
+      "type": "chapter",
+      "number": "Chapter V",
+      "title": "Documentary Evidence and Electronic Records",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bsa.json-61",
+          "type": "section",
+          "number": "61",
+          "title": "Admissibility of Electronic Records",
+          "content": "61. Any information contained in an electronic record which is printed on paper, stored, recorded or copied in optical or magnetic media or semiconductor memory produced by a computer shall be deemed to be also a document and shall be admissible in any proceedings, without further proof or production of the original, as evidence of any contents of the original.",
+          "keywords": [
+            "electronic evidence",
+            "Evidence Act Section 65B",
+            "BSA Section 61",
+            "digital records admissibility"
+          ],
+          "children": [],
+          "order": "61"
+        },
+        {
+          "id": "sec-bsa.json-63",
+          "type": "section",
+          "number": "63",
+          "title": "Certificate for electronic evidence",
+          "content": "63. A certificate signed by a person occupying a responsible official position in relation to the operation of the relevant device or management of the relevant activities confirming the authenticity of an electronic record shall be submitted to the court.",
+          "keywords": [
+            "65B certificate replacement",
+            "electronic certificate",
+            "BSA Section 63",
+            "authentication of digital records"
+          ],
+          "children": [],
+          "order": "63"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-bsa.json-2",
+      "type": "chapter",
+      "number": "Chapter VII",
+      "title": "Burden of Proof",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bsa.json-104",
+          "type": "section",
+          "number": "104",
+          "title": "Burden of proof",
+          "content": "104. Whoever desires any Court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts, must prove that those facts exist. When a person is bound to prove the existence of any fact, it is said that the burden of proof lies on that person.",
+          "keywords": [
+            "burden of proof",
+            "Evidence Act Section 101",
+            "onus of proof"
+          ],
+          "children": [],
+          "order": "104"
+        },
+        {
+          "id": "sec-bsa.json-105",
+          "type": "section",
+          "number": "105",
+          "title": "On whom burden of proof lies",
+          "content": "105. The burden of proof in a suit or proceeding lies on that person who would fail if no evidence at all were given on either side.",
+          "keywords": [
+            "onus of proof",
+            "Evidence Act Section 102"
+          ],
+          "children": [],
+          "order": "105"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "metadata": {
+    "totalSections": 6,
+    "sourceFile": "bsa.json",
+    "contentHash": "45c5afa012464d1c",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.801Z",
+    "discoveredAt": "2026-08-11T23:53:51.801Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.801Z",
+  "updatedAt": "2026-08-11T23:53:51.839Z"
+}

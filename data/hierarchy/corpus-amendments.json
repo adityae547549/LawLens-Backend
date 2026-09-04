@@ -1,0 +1,791 @@
+{
+  "id": "corpus-amendments",
+  "type": "act",
+  "title": "Constitutional Amendments",
+  "actNumber": null,
+  "year": 1951,
+  "authority": "",
+  "description": "Constitutional Amendments — sourced from amendments.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-amendments.json-0",
+      "type": "chapter",
+      "number": "Group 1",
+      "title": "First Amendment",
+      "content": "",
+      "children": [],
+      "order": 0
+    },
+    {
+      "id": "ch-amendments.json-1",
+      "type": "chapter",
+      "number": "Group 2",
+      "title": "Second Amendment",
+      "content": "",
+      "children": [],
+      "order": 1
+    },
+    {
+      "id": "ch-amendments.json-2",
+      "type": "chapter",
+      "number": "Group 3",
+      "title": "Third Amendment",
+      "content": "",
+      "children": [],
+      "order": 2
+    },
+    {
+      "id": "ch-amendments.json-3",
+      "type": "chapter",
+      "number": "Group 4",
+      "title": "Fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 3
+    },
+    {
+      "id": "ch-amendments.json-4",
+      "type": "chapter",
+      "number": "Group 5",
+      "title": "Fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 4
+    },
+    {
+      "id": "ch-amendments.json-5",
+      "type": "chapter",
+      "number": "Group 6",
+      "title": "Seventh Amendment",
+      "content": "",
+      "children": [],
+      "order": 5
+    },
+    {
+      "id": "ch-amendments.json-6",
+      "type": "chapter",
+      "number": "Group 7",
+      "title": "Eighth Amendment",
+      "content": "",
+      "children": [],
+      "order": 6
+    },
+    {
+      "id": "ch-amendments.json-7",
+      "type": "chapter",
+      "number": "Group 8",
+      "title": "Ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 7
+    },
+    {
+      "id": "ch-amendments.json-8",
+      "type": "chapter",
+      "number": "Group 9",
+      "title": "Tenth Amendment",
+      "content": "",
+      "children": [],
+      "order": 8
+    },
+    {
+      "id": "ch-amendments.json-9",
+      "type": "chapter",
+      "number": "Group 10",
+      "title": "Eleventh Amendment",
+      "content": "",
+      "children": [],
+      "order": 9
+    },
+    {
+      "id": "ch-amendments.json-10",
+      "type": "chapter",
+      "number": "Group 11",
+      "title": "Twelfth Amendment",
+      "content": "",
+      "children": [],
+      "order": 10
+    },
+    {
+      "id": "ch-amendments.json-11",
+      "type": "chapter",
+      "number": "Group 12",
+      "title": "Thirteenth Amendment",
+      "content": "",
+      "children": [],
+      "order": 11
+    },
+    {
+      "id": "ch-amendments.json-12",
+      "type": "chapter",
+      "number": "Group 13",
+      "title": "Fourteenth Amendment",
+      "content": "",
+      "children": [],
+      "order": 12
+    },
+    {
+      "id": "ch-amendments.json-13",
+      "type": "chapter",
+      "number": "Group 14",
+      "title": "Fifteenth Amendment",
+      "content": "",
+      "children": [],
+      "order": 13
+    },
+    {
+      "id": "ch-amendments.json-14",
+      "type": "chapter",
+      "number": "Group 15",
+      "title": "Sixteenth Amendment",
+      "content": "",
+      "children": [],
+      "order": 14
+    },
+    {
+      "id": "ch-amendments.json-15",
+      "type": "chapter",
+      "number": "Group 16",
+      "title": "Seventeenth Amendment",
+      "content": "",
+      "children": [],
+      "order": 15
+    },
+    {
+      "id": "ch-amendments.json-16",
+      "type": "chapter",
+      "number": "Group 17",
+      "title": "Twenty-fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 16
+    },
+    {
+      "id": "ch-amendments.json-17",
+      "type": "chapter",
+      "number": "Group 18",
+      "title": "Twenty-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 17
+    },
+    {
+      "id": "ch-amendments.json-18",
+      "type": "chapter",
+      "number": "Group 19",
+      "title": "Twenty-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 18
+    },
+    {
+      "id": "ch-amendments.json-19",
+      "type": "chapter",
+      "number": "Group 20",
+      "title": "Twenty-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 19
+    },
+    {
+      "id": "ch-amendments.json-20",
+      "type": "chapter",
+      "number": "Group 21",
+      "title": "Thirtieth Amendment",
+      "content": "",
+      "children": [],
+      "order": 20
+    },
+    {
+      "id": "ch-amendments.json-21",
+      "type": "chapter",
+      "number": "Group 22",
+      "title": "Thirty-first Amendment",
+      "content": "",
+      "children": [],
+      "order": 21
+    },
+    {
+      "id": "ch-amendments.json-22",
+      "type": "chapter",
+      "number": "Group 23",
+      "title": "Thirty-second Amendment",
+      "content": "",
+      "children": [],
+      "order": 22
+    },
+    {
+      "id": "ch-amendments.json-23",
+      "type": "chapter",
+      "number": "Group 24",
+      "title": "Thirty-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 23
+    },
+    {
+      "id": "ch-amendments.json-24",
+      "type": "chapter",
+      "number": "Group 25",
+      "title": "Thirty-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 24
+    },
+    {
+      "id": "ch-amendments.json-25",
+      "type": "chapter",
+      "number": "Group 26",
+      "title": "Thirty-seventh Amendment",
+      "content": "",
+      "children": [],
+      "order": 25
+    },
+    {
+      "id": "ch-amendments.json-26",
+      "type": "chapter",
+      "number": "Group 27",
+      "title": "Thirty-eighth Amendment",
+      "content": "",
+      "children": [],
+      "order": 26
+    },
+    {
+      "id": "ch-amendments.json-27",
+      "type": "chapter",
+      "number": "Group 28",
+      "title": "Thirty-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 27
+    },
+    {
+      "id": "ch-amendments.json-28",
+      "type": "chapter",
+      "number": "Group 29",
+      "title": "Fortieth Amendment",
+      "content": "",
+      "children": [],
+      "order": 28
+    },
+    {
+      "id": "ch-amendments.json-29",
+      "type": "chapter",
+      "number": "Group 30",
+      "title": "Forty-first Amendment",
+      "content": "",
+      "children": [],
+      "order": 29
+    },
+    {
+      "id": "ch-amendments.json-30",
+      "type": "chapter",
+      "number": "Group 31",
+      "title": "Forty-second Amendment (Mini Constitution)",
+      "content": "",
+      "children": [],
+      "order": 30
+    },
+    {
+      "id": "ch-amendments.json-31",
+      "type": "chapter",
+      "number": "Group 32",
+      "title": "Forty-third Amendment",
+      "content": "",
+      "children": [],
+      "order": 31
+    },
+    {
+      "id": "ch-amendments.json-32",
+      "type": "chapter",
+      "number": "Group 33",
+      "title": "Forty-fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 32
+    },
+    {
+      "id": "ch-amendments.json-33",
+      "type": "chapter",
+      "number": "Group 34",
+      "title": "Forty-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 33
+    },
+    {
+      "id": "ch-amendments.json-34",
+      "type": "chapter",
+      "number": "Group 35",
+      "title": "Forty-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 34
+    },
+    {
+      "id": "ch-amendments.json-35",
+      "type": "chapter",
+      "number": "Group 36",
+      "title": "Forty-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 35
+    },
+    {
+      "id": "ch-amendments.json-36",
+      "type": "chapter",
+      "number": "Group 37",
+      "title": "Fifty-second Amendment",
+      "content": "",
+      "children": [],
+      "order": 36
+    },
+    {
+      "id": "ch-amendments.json-37",
+      "type": "chapter",
+      "number": "Group 38",
+      "title": "Fifty-third Amendment",
+      "content": "",
+      "children": [],
+      "order": 37
+    },
+    {
+      "id": "ch-amendments.json-38",
+      "type": "chapter",
+      "number": "Group 39",
+      "title": "Fifty-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 38
+    },
+    {
+      "id": "ch-amendments.json-39",
+      "type": "chapter",
+      "number": "Group 40",
+      "title": "Fifty-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 39
+    },
+    {
+      "id": "ch-amendments.json-40",
+      "type": "chapter",
+      "number": "Group 41",
+      "title": "Fifty-eighth Amendment",
+      "content": "",
+      "children": [],
+      "order": 40
+    },
+    {
+      "id": "ch-amendments.json-41",
+      "type": "chapter",
+      "number": "Group 42",
+      "title": "Fifty-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 41
+    },
+    {
+      "id": "ch-amendments.json-42",
+      "type": "chapter",
+      "number": "Group 43",
+      "title": "Sixty-first Amendment",
+      "content": "",
+      "children": [],
+      "order": 42
+    },
+    {
+      "id": "ch-amendments.json-43",
+      "type": "chapter",
+      "number": "Group 44",
+      "title": "Sixty-second Amendment",
+      "content": "",
+      "children": [],
+      "order": 43
+    },
+    {
+      "id": "ch-amendments.json-44",
+      "type": "chapter",
+      "number": "Group 45",
+      "title": "Sixty-third Amendment",
+      "content": "",
+      "children": [],
+      "order": 44
+    },
+    {
+      "id": "ch-amendments.json-45",
+      "type": "chapter",
+      "number": "Group 46",
+      "title": "Sixty-fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 45
+    },
+    {
+      "id": "ch-amendments.json-46",
+      "type": "chapter",
+      "number": "Group 47",
+      "title": "Sixty-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 46
+    },
+    {
+      "id": "ch-amendments.json-47",
+      "type": "chapter",
+      "number": "Group 48",
+      "title": "Sixty-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 47
+    },
+    {
+      "id": "ch-amendments.json-48",
+      "type": "chapter",
+      "number": "Group 49",
+      "title": "Sixty-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 48
+    },
+    {
+      "id": "ch-amendments.json-49",
+      "type": "chapter",
+      "number": "Group 50",
+      "title": "Seventieth Amendment",
+      "content": "",
+      "children": [],
+      "order": 49
+    },
+    {
+      "id": "ch-amendments.json-50",
+      "type": "chapter",
+      "number": "Group 51",
+      "title": "Seventy-first Amendment",
+      "content": "",
+      "children": [],
+      "order": 50
+    },
+    {
+      "id": "ch-amendments.json-51",
+      "type": "chapter",
+      "number": "Group 52",
+      "title": "Seventy-second Amendment",
+      "content": "",
+      "children": [],
+      "order": 51
+    },
+    {
+      "id": "ch-amendments.json-52",
+      "type": "chapter",
+      "number": "Group 53",
+      "title": "Seventy-third Amendment",
+      "content": "",
+      "children": [],
+      "order": 52
+    },
+    {
+      "id": "ch-amendments.json-53",
+      "type": "chapter",
+      "number": "Group 54",
+      "title": "Seventy-fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 53
+    },
+    {
+      "id": "ch-amendments.json-54",
+      "type": "chapter",
+      "number": "Group 55",
+      "title": "Seventy-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 54
+    },
+    {
+      "id": "ch-amendments.json-55",
+      "type": "chapter",
+      "number": "Group 56",
+      "title": "Seventy-seventh Amendment",
+      "content": "",
+      "children": [],
+      "order": 55
+    },
+    {
+      "id": "ch-amendments.json-56",
+      "type": "chapter",
+      "number": "Group 57",
+      "title": "Seventy-eighth Amendment",
+      "content": "",
+      "children": [],
+      "order": 56
+    },
+    {
+      "id": "ch-amendments.json-57",
+      "type": "chapter",
+      "number": "Group 58",
+      "title": "Seventy-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 57
+    },
+    {
+      "id": "ch-amendments.json-58",
+      "type": "chapter",
+      "number": "Group 59",
+      "title": "Eightieth Amendment",
+      "content": "",
+      "children": [],
+      "order": 58
+    },
+    {
+      "id": "ch-amendments.json-59",
+      "type": "chapter",
+      "number": "Group 60",
+      "title": "Eighty-first Amendment",
+      "content": "",
+      "children": [],
+      "order": 59
+    },
+    {
+      "id": "ch-amendments.json-60",
+      "type": "chapter",
+      "number": "Group 61",
+      "title": "Eighty-second Amendment",
+      "content": "",
+      "children": [],
+      "order": 60
+    },
+    {
+      "id": "ch-amendments.json-61",
+      "type": "chapter",
+      "number": "Group 62",
+      "title": "Eighty-third Amendment",
+      "content": "",
+      "children": [],
+      "order": 61
+    },
+    {
+      "id": "ch-amendments.json-62",
+      "type": "chapter",
+      "number": "Group 63",
+      "title": "Eighty-fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 62
+    },
+    {
+      "id": "ch-amendments.json-63",
+      "type": "chapter",
+      "number": "Group 64",
+      "title": "Eighty-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 63
+    },
+    {
+      "id": "ch-amendments.json-64",
+      "type": "chapter",
+      "number": "Group 65",
+      "title": "Eighty-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 64
+    },
+    {
+      "id": "ch-amendments.json-65",
+      "type": "chapter",
+      "number": "Group 66",
+      "title": "Eighty-seventh Amendment",
+      "content": "",
+      "children": [],
+      "order": 65
+    },
+    {
+      "id": "ch-amendments.json-66",
+      "type": "chapter",
+      "number": "Group 67",
+      "title": "Eighty-eighth Amendment",
+      "content": "",
+      "children": [],
+      "order": 66
+    },
+    {
+      "id": "ch-amendments.json-67",
+      "type": "chapter",
+      "number": "Group 68",
+      "title": "Eighty-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 67
+    },
+    {
+      "id": "ch-amendments.json-68",
+      "type": "chapter",
+      "number": "Group 69",
+      "title": "Ninetieth Amendment",
+      "content": "",
+      "children": [],
+      "order": 68
+    },
+    {
+      "id": "ch-amendments.json-69",
+      "type": "chapter",
+      "number": "Group 70",
+      "title": "Ninety-first Amendment",
+      "content": "",
+      "children": [],
+      "order": 69
+    },
+    {
+      "id": "ch-amendments.json-70",
+      "type": "chapter",
+      "number": "Group 71",
+      "title": "Ninety-second Amendment",
+      "content": "",
+      "children": [],
+      "order": 70
+    },
+    {
+      "id": "ch-amendments.json-71",
+      "type": "chapter",
+      "number": "Group 72",
+      "title": "Ninety-third Amendment",
+      "content": "",
+      "children": [],
+      "order": 71
+    },
+    {
+      "id": "ch-amendments.json-72",
+      "type": "chapter",
+      "number": "Group 73",
+      "title": "Ninety-fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 72
+    },
+    {
+      "id": "ch-amendments.json-73",
+      "type": "chapter",
+      "number": "Group 74",
+      "title": "Ninety-fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 73
+    },
+    {
+      "id": "ch-amendments.json-74",
+      "type": "chapter",
+      "number": "Group 75",
+      "title": "Ninety-sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 74
+    },
+    {
+      "id": "ch-amendments.json-75",
+      "type": "chapter",
+      "number": "Group 76",
+      "title": "Ninety-seventh Amendment",
+      "content": "",
+      "children": [],
+      "order": 75
+    },
+    {
+      "id": "ch-amendments.json-76",
+      "type": "chapter",
+      "number": "Group 77",
+      "title": "Ninety-eighth Amendment",
+      "content": "",
+      "children": [],
+      "order": 76
+    },
+    {
+      "id": "ch-amendments.json-77",
+      "type": "chapter",
+      "number": "Group 78",
+      "title": "Ninety-ninth Amendment",
+      "content": "",
+      "children": [],
+      "order": 77
+    },
+    {
+      "id": "ch-amendments.json-78",
+      "type": "chapter",
+      "number": "Group 79",
+      "title": "Hundredth Amendment",
+      "content": "",
+      "children": [],
+      "order": 78
+    },
+    {
+      "id": "ch-amendments.json-79",
+      "type": "chapter",
+      "number": "Group 80",
+      "title": "Hundred and First Amendment",
+      "content": "",
+      "children": [],
+      "order": 79
+    },
+    {
+      "id": "ch-amendments.json-80",
+      "type": "chapter",
+      "number": "Group 81",
+      "title": "Hundred and Second Amendment",
+      "content": "",
+      "children": [],
+      "order": 80
+    },
+    {
+      "id": "ch-amendments.json-81",
+      "type": "chapter",
+      "number": "Group 82",
+      "title": "Hundred and Third Amendment",
+      "content": "",
+      "children": [],
+      "order": 81
+    },
+    {
+      "id": "ch-amendments.json-82",
+      "type": "chapter",
+      "number": "Group 83",
+      "title": "Hundred and Fourth Amendment",
+      "content": "",
+      "children": [],
+      "order": 82
+    },
+    {
+      "id": "ch-amendments.json-83",
+      "type": "chapter",
+      "number": "Group 84",
+      "title": "Hundred and Fifth Amendment",
+      "content": "",
+      "children": [],
+      "order": 83
+    },
+    {
+      "id": "ch-amendments.json-84",
+      "type": "chapter",
+      "number": "Group 85",
+      "title": "Hundred and Sixth Amendment",
+      "content": "",
+      "children": [],
+      "order": 84
+    }
+  ],
+  "metadata": {
+    "totalSections": 0,
+    "sourceFile": "amendments.json",
+    "contentHash": "ba83c09d4c5314af",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.776Z",
+    "discoveredAt": "2026-08-11T23:53:51.776Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.776Z",
+  "updatedAt": "2026-08-11T23:53:51.872Z"
+}

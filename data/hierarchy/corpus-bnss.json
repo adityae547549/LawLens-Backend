@@ -1,0 +1,240 @@
+{
+  "id": "corpus-bnss",
+  "type": "act",
+  "title": "Bharatiya Nagarik Suraksha Sanhita 2023",
+  "actNumber": null,
+  "year": 2023,
+  "authority": "",
+  "description": "Bharatiya Nagarik Suraksha Sanhita 2023 — sourced from bnss.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-bnss.json-0",
+      "type": "chapter",
+      "number": "Chapter I",
+      "title": "Preliminary",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bnss.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Short title, extent and commencement",
+          "content": "1. (1) This Act may be called the Bharatiya Nagarik Suraksha Sanhita, 2023.\n(2) It extends to the whole of India.\n(3) This Act replaces the Code of Criminal Procedure, 1973 (CrPC).",
+          "keywords": [
+            "BNSS title",
+            "CrPC replacement",
+            "criminal procedure",
+            "extent"
+          ],
+          "children": [],
+          "order": "1"
+        },
+        {
+          "id": "sec-bnss.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Definitions",
+          "content": "2. (1) In this Sanhita, unless the context otherwise requires,—\n(a) 'bailable offence' means an offence which is shown as bailable in the First Schedule, or which is made bailable by any other law for the time being in force;\n(g) 'cognizable offence' means an offence for which, and 'cognizable case' means a case in which, a police officer may, in accordance with the First Schedule or under any other law for the time being in force, arrest without warrant;\n(n) 'non-bailable offence' means any other offence;\n(i) 'electronic communication' means the transmission of information, text, video, audio or data made through wire, radio, optical or other electromagnetic systems.",
+          "keywords": [
+            "cognizable offence",
+            "bailable offence",
+            "non-bailable offence",
+            "electronic communication",
+            "CrPC Section 2"
+          ],
+          "children": [],
+          "order": "2"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-bnss.json-1",
+      "type": "chapter",
+      "number": "Chapter V",
+      "title": "Arrest of Persons",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bnss.json-35",
+          "type": "section",
+          "number": "35",
+          "title": "When police may arrest without warrant",
+          "content": "35. (1) Any police officer may without an order from a Magistrate and without a warrant, arrest any person—\n(a) who commits, in the presence of a police officer, a cognizable offence;\n(b) against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists that he has committed a cognizable offence punishable with imprisonment for a term which may be less than seven years or which may extend to seven years if the police officer has reason to believe that such arrest is necessary to prevent such person from committing any further offence or for proper investigation.",
+          "keywords": [
+            "arrest without warrant",
+            "CrPC Section 41",
+            "BNSS Section 35",
+            "police powers of arrest",
+            "notice of appearance"
+          ],
+          "children": [],
+          "order": "35"
+        },
+        {
+          "id": "sec-bnss.json-37",
+          "type": "section",
+          "number": "37",
+          "title": "Designated Police Officer",
+          "content": "37. The State Government shall establish a police control room in every district and at State level, and designate a police officer in every district and at every police station who shall be responsible for displaying information about names and addresses of arrested persons.",
+          "keywords": [
+            "arrest transparency",
+            "control room",
+            "name display of arrested persons",
+            "district police officer"
+          ],
+          "children": [],
+          "order": "37"
+        },
+        {
+          "id": "sec-bnss.json-43",
+          "type": "section",
+          "number": "43",
+          "title": "Arrest how made",
+          "content": "43. (1) In making an arrest the police officer or other person making the same shall actually touch or confine the body of the person to be arrested, unless there be a submission to the custody by word or action.\nProvided that where a woman is to be arrested, her submission to custody on an oral intimation of arrest shall be presumed unless circumstances indicate to the contrary.\nProvided further that save in exceptional circumstances, no woman shall be arrested after sunset and before sunrise.",
+          "keywords": [
+            "mode of arrest",
+            "CrPC Section 46",
+            "BNSS Section 43",
+            "arrest of women",
+            "sunset to sunrise rule"
+          ],
+          "children": [],
+          "order": "43"
+        },
+        {
+          "id": "sec-bnss.json-47",
+          "type": "section",
+          "number": "47",
+          "title": "Person arrested to be informed of grounds of arrest and of right to bail",
+          "content": "47. Every police officer or other person arresting any person without warrant shall forthwith communicate to him full particulars of the offence for which he is arrested or other grounds for such arrest.",
+          "keywords": [
+            "grounds of arrest",
+            "right to bail",
+            "CrPC Section 50",
+            "Article 22 constitutional guarantee"
+          ],
+          "children": [],
+          "order": "47"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-bnss.json-2",
+      "type": "chapter",
+      "number": "Chapter XII",
+      "title": "Information to the Police and Their Powers to Investigate",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bnss.json-173",
+          "type": "section",
+          "number": "173",
+          "title": "Information in cognizable cases (FIR, Zero FIR, E-FIR)",
+          "content": "173. (1) Every information relating to the commission of a cognizable offence, if given orally to an officer in charge of a police station, shall be reduced to writing by him or under his direction... Provided that information may be given irrespective of the area where the offence was committed (Zero FIR)... Provided further that e-FIR is permitted provided it is signed within three days by the informant. Preliminary enquiry may be conducted within fourteen days in offences punishable between three to seven years before registering FIR.",
+          "keywords": [
+            "FIR",
+            "CrPC Section 154",
+            "BNSS Section 173",
+            "Zero FIR",
+            "E-FIR",
+            "preliminary enquiry"
+          ],
+          "children": [],
+          "order": "173"
+        },
+        {
+          "id": "sec-bnss.json-187",
+          "type": "section",
+          "number": "187",
+          "title": "Procedure when investigation cannot be completed in twenty-four hours (Custody & Remand)",
+          "content": "187. (1) Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours... the officer in charge of the police station shall produce the accused before the nearest Magistrate.\n(2) The Magistrate may authorize detention in custody (police custody or judicial custody) for a term not exceeding fifteen days in aggregate or in parts during the initial forty days or sixty days out of total sixty or ninety days period.",
+          "keywords": [
+            "remand",
+            "CrPC Section 167",
+            "BNSS Section 187",
+            "police custody",
+            "judicial custody",
+            "24 hours rule",
+            "default bail"
+          ],
+          "children": [],
+          "order": "187"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "ch-bnss.json-3",
+      "type": "chapter",
+      "number": "Chapter XXXIII",
+      "title": "Provisions as to Bail and Bonds",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-bnss.json-480",
+          "type": "section",
+          "number": "480",
+          "title": "Bail in bailable offences",
+          "content": "480. When any person accused of a bailable offence is arrested or detained without warrant by an officer in charge of a police station, or appears or is brought before a Court, and is prepared at any time while in the custody of such officer or at any stage of the proceeding before such Court to give bail, such person shall be released on bail.",
+          "keywords": [
+            "bailable offences",
+            "CrPC Section 436",
+            "BNSS Section 480",
+            "right to bail"
+          ],
+          "children": [],
+          "order": "480"
+        },
+        {
+          "id": "sec-bnss.json-482",
+          "type": "section",
+          "number": "482",
+          "title": "Direction for grant of bail to person apprehending arrest (Anticipatory Bail)",
+          "content": "482. (1) Where any person has reason to believe that he may be arrested on accusation of having committed a non-bailable offence, he may apply to the High Court or the Court of Session for a direction under this section that in the event of such arrest, he shall be released on bail.",
+          "keywords": [
+            "anticipatory bail",
+            "CrPC Section 438",
+            "BNSS Section 482",
+            "pre-arrest bail",
+            "Sessions Court and High Court jurisdiction"
+          ],
+          "children": [],
+          "order": "482"
+        },
+        {
+          "id": "sec-bnss.json-483",
+          "type": "section",
+          "number": "483",
+          "title": "Special powers of High Court or Court of Session regarding bail (Regular Bail)",
+          "content": "483. A High Court or Court of Session may direct that any person accused of an offence and in custody be released on bail, and if the offence is of the nature specified in sub-section (3) of section 480, may impose any condition which it considers necessary.",
+          "keywords": [
+            "regular bail",
+            "CrPC Section 439",
+            "BNSS Section 483",
+            "High Court and Sessions Court powers"
+          ],
+          "children": [],
+          "order": "483"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "metadata": {
+    "totalSections": 11,
+    "sourceFile": "bnss.json",
+    "contentHash": "edc852890464b58a",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.793Z",
+    "discoveredAt": "2026-08-11T23:53:51.793Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.793Z",
+  "updatedAt": "2026-08-11T23:53:51.825Z"
+}

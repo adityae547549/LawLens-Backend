@@ -1,0 +1,70 @@
+[
+  {
+    "act": "Consumer Protection Act 2019",
+    "chapter": "I",
+    "title": "Preliminary",
+    "sections": [
+      {
+        "num": 1,
+        "text": "This Act may be called the Consumer Protection Act, 2019. It replaces the Consumer Protection Act, 1986. It extends to the whole of India.",
+        "key_topics": ["Consumer Protection title", "1986 Act replacement"]
+      },
+      {
+        "num": 2,
+        "text": "Definitions: 'Consumer' means any person who buys any goods or hires/avails any services for a consideration, including offline and online transactions (e-commerce), but does not include a person who obtains goods for resale or commercial purpose. 'Consumer rights' include the right to be protected against marketing of goods/services hazardous to life/property, right to be informed about quality, quantity, potency, purity, standard and price, right to be assured access to variety at competitive prices, right to be heard, right to seek redressal against unfair trade practices or restrictive trade practices or exploitation, and right to consumer awareness.",
+        "key_topics": ["Consumer definition", "Consumer rights", "E-commerce consumer", "Deficiency of service", "Unfair trade practice"]
+      }
+    ]
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "chapter": "III",
+    "title": "Central Consumer Protection Authority (CCPA)",
+    "sections": [
+      {
+        "num": 10,
+        "text": "Establishment of Central Consumer Protection Authority (CCPA): Central Government shall establish a Central Authority to promote, protect and enforce the rights of consumers as a class, and to regulate matters relating to violation of rights of consumers, unfair trade practices and false or misleading advertisements which are prejudicial to the interests of public and consumers.",
+        "key_topics": ["CCPA", "Central Consumer Protection Authority", "Misleading advertisements", "Class action"]
+      },
+      {
+        "num": 21,
+        "text": "Power of Central Authority to issue directions and penalties against false or misleading advertisements: CCPA may issue directions to trader, manufacturer, endorser, advertiser or publisher to discontinue or modify misleading ads, and impose penalty up to ten lakh rupees, and for subsequent offence up to fifty lakh rupees.",
+        "key_topics": ["Misleading ads penalty", "Endorser liability", "Celebrity endorsement penalty"]
+      }
+    ]
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "chapter": "IV",
+    "title": "Consumer Disputes Redressal Commission",
+    "sections": [
+      {
+        "num": 28,
+        "text": "District Consumer Disputes Redressal Commission (District Commission): Established in each district. Jurisdiction to entertain complaints where the value of goods or services paid as consideration does not exceed fifty lakh rupees (up to Rs. 50 Lakhs).",
+        "key_topics": ["District Commission", "District Forum", "Jurisdiction up to 50 Lakhs"]
+      },
+      {
+        "num": 47,
+        "text": "State Consumer Disputes Redressal Commission (State Commission): Established in each State. Jurisdiction to entertain complaints where consideration paid exceeds fifty lakh rupees but does not exceed two crore rupees (Rs. 50 Lakhs to Rs. 2 Crores), and appeals against District Commission orders.",
+        "key_topics": ["State Commission", "Pecuniary jurisdiction 50L to 2 Cr", "Appeals from District Commission"]
+      },
+      {
+        "num": 58,
+        "text": "National Consumer Disputes Redressal Commission (National Commission): Established at national level. Jurisdiction to entertain complaints where consideration paid exceeds two crore rupees (exceeding Rs. 2 Crores), and appeals against State Commission orders.",
+        "key_topics": ["National Commission", "NCDRC", "Pecuniary jurisdiction exceeding 2 Crores"]
+      }
+    ]
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "chapter": "VI",
+    "title": "Product Liability",
+    "sections": [
+      {
+        "num": 82,
+        "text": "Product Liability Action: A complainant may bring a product liability action against a product manufacturer, product service provider, or product seller for any harm caused to him on account of a defective product or deficient service.",
+        "key_topics": ["Product liability", "Defective product compensation", "Manufacturer liability", "Seller liability"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1399 @@
+[
+  {
+    "chapter": 1,
+    "title": "Introduction",
+    "sections": [
+      {
+        "num": 1,
+        "text": "This Act shall be called the Indian Penal Code (1860). It extends to the whole of India.",
+        "key_offenses": [
+          "General provisions"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Every person shall be liable to punishment under this Code for every act or omission contrary to its provisions, committed within India.",
+        "key_offenses": [
+          "Territorial jurisdiction"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Any person liable by Indian law for an offense committed outside India shall be dealt with according to Indian law.",
+        "key_offenses": [
+          "Extra-territorial jurisdiction"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The Code applies to any citizen of India for any offense committed outside India, and to any person on a ship or aircraft registered in India.",
+        "key_offenses": [
+          "Citizens abroad",
+          "Ships",
+          "Aircraft"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "General Explanations",
+    "sections": [
+      {
+        "num": 6,
+        "text": "Throughout the Code every definition of an offense, every penal provision, and every illustration is subject to the exceptions contained in Chapter IV.",
+        "key_offenses": [
+          "General exceptions"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "The expression 'gender' denotes the male gender, but references to the masculine include females unless context otherwise requires."
+      },
+      {
+        "num": 11,
+        "text": "The word 'person' includes any company, association, or body of persons, whether incorporated or not.",
+        "key_offenses": [
+          "Corporate liability"
+        ]
+      },
+      {
+        "num": 21,
+        "text": "'Public servant' includes every officer in the military, navy or air force, judge, officer of a court of justice, police officer, and every officer whose duty is to prevent offenses.",
+        "key_offenses": [
+          "Public servant definition"
+        ]
+      },
+      {
+        "num": 22,
+        "text": "'Movable property' includes corporeal property of every description, except land and things attached to the earth.",
+        "key_offenses": [
+          "Property definition"
+        ]
+      },
+      {
+        "num": 24,
+        "text": "'Dishonestly' means doing anything with the intention of causing wrongful gain or wrongful loss.",
+        "key_offenses": [
+          "Dishonesty"
+        ]
+      },
+      {
+        "num": 25,
+        "text": "'Fraudulently' means doing anything with the intent to defraud but not otherwise.",
+        "key_offenses": [
+          "Fraud"
+        ]
+      },
+      {
+        "num": 26,
+        "text": "'Reason to believe' means a person has sufficient cause to believe a thing but not otherwise."
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "Punishments",
+    "sections": [
+      {
+        "num": 53,
+        "text": "Punishments under the Code include: Death, imprisonment for life, imprisonment (rigorous or simple), forfeiture of property, and fine.",
+        "key_offenses": [
+          "Death penalty",
+          "Life imprisonment",
+          "Fine",
+          "Forfeiture"
+        ]
+      },
+      {
+        "num": 54,
+        "text": "In every sentence of death, the appropriate government may commute the punishment without the consent of the offender.",
+        "key_offenses": [
+          "Death commutation"
+        ]
+      },
+      {
+        "num": 55,
+        "text": "The appropriate government may commute a sentence of imprisonment for life to imprisonment for a term not exceeding 14 years.",
+        "key_offenses": [
+          "Life commutation"
+        ]
+      },
+      {
+        "num": 57,
+        "text": "In calculating fractions of terms of imprisonment, imprisonment for life shall be reckoned as equivalent to imprisonment for 20 years.",
+        "key_offenses": [
+          "Life term calculation"
+        ]
+      },
+      {
+        "num": 63,
+        "text": "Where no sum is expressed to which a fine may extend, the amount of fine to which the offender is liable is unlimited but shall not be excessive.",
+        "key_offenses": [
+          "Fine amount"
+        ]
+      },
+      {
+        "num": 64,
+        "text": "In default of payment of fine, the offender shall undergo imprisonment of either description for a term as per the court's discretion.",
+        "key_offenses": [
+          "Fine default",
+          "Imprisonment"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "General Exceptions",
+    "sections": [
+      {
+        "num": 76,
+        "text": "Nothing is an offense done by a person who is bound by law to do it or who by reason of a mistake of fact in good faith believes himself bound by law to do it.",
+        "key_offenses": [
+          "Mistake of fact",
+          "Judicial acts"
+        ]
+      },
+      {
+        "num": 79,
+        "text": "Nothing is an offense done by a person who by reason of a mistake of fact in good faith believes himself justified by law in doing it.",
+        "key_offenses": [
+          "Mistake of fact",
+          "Good faith"
+        ]
+      },
+      {
+        "num": 80,
+        "text": "Nothing is an offense if done by accident or misfortune, without any criminal intention or knowledge, in the doing of a lawful act in a lawful manner.",
+        "key_offenses": [
+          "Accident",
+          "Misfortune",
+          "No intent"
+        ]
+      },
+      {
+        "num": 81,
+        "text": "Nothing is an offense merely by reason of its being done with the knowledge that it is likely to cause harm, if it was done without criminal intent to cause harm and in good faith for the purpose of preventing or avoiding other harm.",
+        "key_offenses": [
+          "Necessity",
+          "Lesser harm"
+        ]
+      },
+      {
+        "num": 82,
+        "text": "Nothing is an offense done by a child under 7 years of age.",
+        "key_offenses": [
+          "Infancy",
+          "Child under 7"
+        ]
+      },
+      {
+        "num": 83,
+        "text": "Nothing is an offense done by a child above 7 and under 12 years, who has not attained sufficient maturity of understanding to judge the consequences.",
+        "key_offenses": [
+          "Minor",
+          "Child 7-12",
+          "Immaturity"
+        ]
+      },
+      {
+        "num": 84,
+        "text": "Nothing is an offense done by a person who, at the time of doing it, is incapable of knowing the nature of the act due to unsoundness of mind.",
+        "key_offenses": [
+          "Insanity",
+          "Unsound mind",
+          "Mental illness"
+        ]
+      },
+      {
+        "num": 85,
+        "text": "Nothing is an offense done by a person who was intoxicated against his will.",
+        "key_offenses": [
+          "Involuntary intoxication"
+        ]
+      },
+      {
+        "num": 86,
+        "text": "In cases where an act requires a particular intent or knowledge, the state of intoxication shall be taken into account.",
+        "key_offenses": [
+          "Voluntary intoxication",
+          "Intent"
+        ]
+      },
+      {
+        "num": 87,
+        "text": "Nothing is an offense if done by consent, where no harm is intended or likely, and the harm done does not amount to grievous hurt or death.",
+        "key_offenses": [
+          "Consent",
+          "Volenti non fit injuria"
+        ]
+      },
+      {
+        "num": 88,
+        "text": "Nothing is an offense done in good faith for the benefit of a person who has given consent, even if the act causes harm.",
+        "key_offenses": [
+          "Medical treatment",
+          "Good faith consent"
+        ]
+      },
+      {
+        "num": 96,
+        "text": "Nothing is an offense done in the exercise of the right of private defense.",
+        "key_offenses": [
+          "Self-defense",
+          "Private defense"
+        ]
+      },
+      {
+        "num": 97,
+        "text": "Every person has a right to defend their own body and the body of any other person against any offense affecting the human body, and to defend their own or another's property against theft, robbery, mischief, or criminal trespass.",
+        "key_offenses": [
+          "Self-defense",
+          "Defense of others",
+          "Property defense"
+        ]
+      },
+      {
+        "num": 100,
+        "text": "The right of private defense of the body extends to causing death when the attack reasonably causes apprehension of death, grievous hurt, assault with intent to rape, kidnapping, or wrongful confinement.",
+        "key_offenses": [
+          "Deadly force",
+          "Apprehension of death",
+          "Rape prevention"
+        ]
+      },
+      {
+        "num": 103,
+        "text": "The right of private defense of property extends to causing death when the offense is robbery, house-breaking by night, mischief by fire on a building, theft or mischief where there is reasonable apprehension of death or grievous hurt.",
+        "key_offenses": [
+          "Property defense",
+          "Deadly force",
+          "Robbery",
+          "Arson"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "Abetment",
+    "sections": [
+      {
+        "num": 107,
+        "text": "A person abets the doing of a thing when he instigates, engages in conspiracy, or intentionally aids the doing of that thing.",
+        "key_offenses": [
+          "Abetment",
+          "Instigation",
+          "Conspiracy",
+          "Aiding"
+        ]
+      },
+      {
+        "num": 108,
+        "text": "An abettor is a person who abets either the commission of an offense or the commission of an act which would be an offense if done by a person capable by law.",
+        "key_offenses": [
+          "Abettor definition"
+        ]
+      },
+      {
+        "num": 109,
+        "text": "Whoever abets any offense shall be punished with the punishment provided for the offense if the act abetted is committed in consequence of the abetment.",
+        "key_offenses": [
+          "Punishment for abetment"
+        ]
+      },
+      {
+        "num": 120,
+        "text": "Whoever abets the commission of an offense punishable with death or imprisonment for life shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Abetment of capital offense",
+          "Abetment of life offense"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "5A",
+    "title": "Criminal Conspiracy",
+    "sections": [
+      {
+        "num": "120A",
+        "text": "When two or more persons agree to do an illegal act or a legal act by illegal means, such an agreement is a criminal conspiracy.",
+        "key_offenses": [
+          "Criminal conspiracy",
+          "Agreement to commit crime"
+        ]
+      },
+      {
+        "num": "120B",
+        "text": "Whoever is a party to a criminal conspiracy shall be punished with imprisonment up to 6 months or fine or both for minor conspiracies, or the same punishment as for the offense conspired for serious offenses.",
+        "key_offenses": [
+          "Conspiracy punishment"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "Offenses Against the State",
+    "sections": [
+      {
+        "num": 121,
+        "text": "Whoever wages war against the Government of India, or attempts to wage war, or abets the waging of such war, shall be punished with death or imprisonment for life and fine.",
+        "key_offenses": [
+          "Waging war",
+          "Treason",
+          "Sedition"
+        ]
+      },
+      {
+        "num": "124A",
+        "text": "Whoever by words, signs, or visible representation brings or attempts to bring into hatred or contempt the Government of India shall be punished with imprisonment for life or up to 3 years and fine.",
+        "key_offenses": [
+          "Sedition",
+          "Hatred against government",
+          "Disaffection"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "Offenses Relating to the Army, Navy and Air Force",
+    "sections": [
+      {
+        "num": 131,
+        "text": "Whoever abets the committing of mutiny by an officer, soldier, sailor or airman shall be punished with death or imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "Mutiny abetment",
+          "Military offense"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "Offenses Against Public Tranquility",
+    "sections": [
+      {
+        "num": 141,
+        "text": "An unlawful assembly is an assembly of 5 or more persons with a common object to use criminal force, commit mischief, or intimidate.",
+        "key_offenses": [
+          "Unlawful assembly",
+          "Common object"
+        ]
+      },
+      {
+        "num": 144,
+        "text": "Whoever joins an unlawful assembly shall be punished with imprisonment up to 6 months or fine or both.",
+        "key_offenses": [
+          "Joining unlawful assembly"
+        ]
+      },
+      {
+        "num": 146,
+        "text": "Whenever force or violence is used by an unlawful assembly, every member is guilty of rioting.",
+        "key_offenses": [
+          "Rioting",
+          "Violence"
+        ]
+      },
+      {
+        "num": 147,
+        "text": "Whoever is guilty of rioting shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Rioting punishment"
+        ]
+      },
+      {
+        "num": 149,
+        "text": "Every member of an unlawful assembly is guilty of any offense committed by any member in prosecution of the common object.",
+        "key_offenses": [
+          "Constructive liability",
+          "Common object"
+        ]
+      },
+      {
+        "num": "153A",
+        "text": "Whoever promotes enmity between different groups on grounds of religion, race, place of birth, residence, or language shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Communal enmity",
+          "Hate speech",
+          "Religious hatred"
+        ]
+      },
+      {
+        "num": 159,
+        "text": "An affray is committed when two or more persons fight in a public place to the terror of the public.",
+        "key_offenses": [
+          "Affray",
+          "Public fighting"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "Offenses by or Relating to Public Servants",
+    "sections": [
+      {
+        "num": 166,
+        "text": "Whoever, being a public servant, knowingly disobeys any law with intent to cause injury to any person shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "Public servant disobedience",
+          "Official misconduct"
+        ]
+      },
+      {
+        "num": 167,
+        "text": "Whoever, being a public servant, frames an incorrect document with intent to cause injury shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "False document",
+          "Public servant forgery"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "Contempt of Lawful Authority",
+    "sections": [
+      {
+        "num": 172,
+        "text": "Whoever absconds to avoid service of summons or other proceedings shall be punished with imprisonment up to 1 month or fine or both.",
+        "key_offenses": [
+          "Absconding",
+          "Contempt",
+          "Summons avoidance"
+        ]
+      },
+      {
+        "num": 174,
+        "text": "Whoever, being bound by law to attend as a witness, intentionally omits to attend, shall be punished with imprisonment up to 6 months or fine or both.",
+        "key_offenses": [
+          "Witness default",
+          "Contempt of court"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "False Evidence and Offenses Against Public Justice",
+    "sections": [
+      {
+        "num": 191,
+        "text": "Whoever, being legally bound by oath or by express provision of law to state the truth, makes a false statement, is said to give false evidence.",
+        "key_offenses": [
+          "False evidence",
+          "Perjury"
+        ]
+      },
+      {
+        "num": 193,
+        "text": "Whoever intentionally gives false evidence shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Perjury punishment"
+        ]
+      },
+      {
+        "num": 201,
+        "text": "Whoever causes evidence of an offense to disappear, or gives false information to screen the offender, shall be punished with imprisonment up to 7 years.",
+        "key_offenses": [
+          "Evidence destruction",
+          "Screening offender",
+          "Causing disappearance"
+        ]
+      },
+      {
+        "num": 202,
+        "text": "Whoever, knowing or having reason to believe that an offense has been committed, intentionally omits to give information thereof, shall be punished with imprisonment up to 6 months or fine or both.",
+        "key_offenses": [
+          "Concealment of offense",
+          "Failure to report"
+        ]
+      },
+      {
+        "num": 204,
+        "text": "Whoever secretes or destroys any document which he is legally bound to produce as evidence shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Document destruction",
+          "Evidence tampering"
+        ]
+      },
+      {
+        "num": 211,
+        "text": "Whoever institutes criminal proceedings with false charges intending to cause injury shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "False charge",
+          "Malicious prosecution",
+          "Fabricating evidence"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "Offenses Relating to Coin and Government Stamps",
+    "sections": [
+      {
+        "num": 230,
+        "text": "'Coin' means metal used as money, stamped and issued by the Government to be used as currency.",
+        "key_offenses": [
+          "Coin definition",
+          "Counterfeiting"
+        ]
+      },
+      {
+        "num": 231,
+        "text": "Whoever counterfeits or performs any part of the process of counterfeiting coin shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Coin counterfeiting"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "Offenses Relating to Weights and Measures",
+    "sections": [
+      {
+        "num": 264,
+        "text": "Whoever fraudulently uses any false weight or false measure shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "False weights",
+          "Fraudulent measures"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "title": "Offenses Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "sections": [
+      {
+        "num": 268,
+        "text": "A person is guilty of a public nuisance who does any act or omits to take care which causes common injury, danger or annoyance to the public.",
+        "key_offenses": [
+          "Public nuisance"
+        ]
+      },
+      {
+        "num": 269,
+        "text": "Whoever unlawfully or negligently does any act likely to spread infection of any disease dangerous to life shall be punished with imprisonment up to 6 months or fine or both.",
+        "key_offenses": [
+          "Infection spread",
+          "Public health",
+          "Negligence"
+        ]
+      },
+      {
+        "num": 279,
+        "text": "Whoever drives any vehicle on a public way rashly or negligently so as to endanger human life shall be punished with imprisonment up to 6 months or fine or both.",
+        "key_offenses": [
+          "Rash driving",
+          "Negligent driving",
+          "Road safety"
+        ]
+      },
+      {
+        "num": 292,
+        "text": "Whoever sells, distributes, or exhibits obscene material shall be punished with imprisonment up to 2 years and fine on first conviction.",
+        "key_offenses": [
+          "Obscenity",
+          "Pornography",
+          "Indecent material"
+        ]
+      },
+      {
+        "num": 294,
+        "text": "Whoever does any obscene act in public or sings obscene songs in public shall be punished with imprisonment up to 3 months or fine or both.",
+        "key_offenses": [
+          "Public obscenity",
+          "Obscene acts"
+        ]
+      },
+      {
+        "num": 295,
+        "text": "Whoever destroys, damages or defiles any place of worship or object held sacred with intent to insult the religion of any class shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Religious insult",
+          "Temple desecration",
+          "Sacred object"
+        ]
+      },
+      {
+        "num": "295A",
+        "text": "Whoever deliberately outrages the religious feelings of any class by words or representations shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Religious feelings",
+          "Blasphemy",
+          "Deliberate insult"
+        ]
+      },
+      {
+        "num": "304A",
+        "text": "Whoever causes death by a rash or negligent act not amounting to culpable homicide shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Causing death by negligence",
+          "Rashness",
+          "Negligence"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "title": "Offenses Relating to Religion",
+    "sections": [
+      {
+        "num": 296,
+        "text": "Whoever voluntarily causes disturbance to any assembly lawfully engaged in religious worship shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "Religious disturbance",
+          "Worship interruption"
+        ]
+      },
+      {
+        "num": 297,
+        "text": "Whoever trespasses on burial places or offers indignity to human remains shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "Trespass on burial",
+          "Indignity to corpse"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "title": "Offenses Affecting the Human Body",
+    "sections": [
+      {
+        "num": 299,
+        "text": "Culpable homicide is causing death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that the act is likely to cause death.",
+        "key_offenses": [
+          "Culpable homicide",
+          "Manslaughter",
+          "Death causing"
+        ]
+      },
+      {
+        "num": 300,
+        "text": "Murder is culpable homicide committed with the intention of causing death, or with the intention of causing bodily injury known to be likely to cause death, or with the knowledge that the act is so imminently dangerous that it must cause death.",
+        "key_offenses": [
+          "Murder",
+          "Intent to kill",
+          "Deadly act"
+        ]
+      },
+      {
+        "num": 302,
+        "text": "Whoever commits murder shall be punished with death or imprisonment for life and fine.",
+        "key_offenses": [
+          "Murder punishment",
+          "Death penalty",
+          "Life imprisonment"
+        ]
+      },
+      {
+        "num": 304,
+        "text": "Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "Culpable homicide not murder",
+          "Manslaughter"
+        ]
+      },
+      {
+        "num": "304B",
+        "text": "Where the death of a woman is caused by burns or bodily injury within 7 years of marriage and it is shown that she was subjected to cruelty for dowry, the husband or relative shall be deemed to have caused her death. Punishment: imprisonment for at least 7 years but may extend to life.",
+        "key_offenses": [
+          "Dowry death",
+          "Bride burning",
+          "Domestic cruelty"
+        ]
+      },
+      {
+        "num": 307,
+        "text": "Whoever does any act with such intention or knowledge that if he had caused death, it would be murder, shall be punished with imprisonment up to 10 years and fine.",
+        "key_offenses": [
+          "Attempt to murder",
+          "Attempt"
+        ]
+      },
+      {
+        "num": 309,
+        "text": "Whoever attempts to commit suicide shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "Suicide attempt"
+        ]
+      },
+      {
+        "num": 319,
+        "text": "Hurt is causing bodily pain, disease or infirmity to any person.",
+        "key_offenses": [
+          "Hurt definition"
+        ]
+      },
+      {
+        "num": 320,
+        "text": "Grievous hurt includes: emasculation, permanent loss of sight, hearing, or limb, destruction of a joint, disfigurement of the head or face, fracture or dislocation of bone, or any hurt endangering life.",
+        "key_offenses": [
+          "Grievous hurt",
+          "GBH",
+          "Permanent injury"
+        ]
+      },
+      {
+        "num": 321,
+        "text": "Whoever voluntarily causes hurt shall be punished with imprisonment up to 1 year or fine of up to Rs. 1000 or both.",
+        "key_offenses": [
+          "Simple hurt",
+          "Voluntarily causing hurt"
+        ]
+      },
+      {
+        "num": 322,
+        "text": "Whoever voluntarily causes grievous hurt shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Grievous hurt punishment",
+          "GBH"
+        ]
+      },
+      {
+        "num": 323,
+        "text": "Punishment for voluntarily causing hurt: imprisonment up to 1 year or fine up to Rs. 1000 or both.",
+        "key_offenses": [
+          "Hurt punishment"
+        ]
+      },
+      {
+        "num": 325,
+        "text": "Punishment for voluntarily causing grievous hurt: imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Grievous hurt punishment"
+        ]
+      },
+      {
+        "num": 326,
+        "text": "Whoever voluntarily causes grievous hurt by dangerous weapons or means shall be punished with imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "GBH by weapon",
+          "Dangerous weapon",
+          "Life imprisonment"
+        ]
+      },
+      {
+        "num": 339,
+        "text": "Wrongful restraint is voluntarily obstructing any person so as to prevent him from proceeding in any direction.",
+        "key_offenses": [
+          "Wrongful restraint",
+          "Illegal detention"
+        ]
+      },
+      {
+        "num": 340,
+        "text": "Wrongful confinement is wrongfully restraining a person in such a way as to prevent him from escaping beyond certain circumscribing limits.",
+        "key_offenses": [
+          "Wrongful confinement",
+          "False imprisonment"
+        ]
+      },
+      {
+        "num": 342,
+        "text": "Whoever wrongfully restrains any person shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "Wrongful restraint punishment"
+        ]
+      },
+      {
+        "num": 354,
+        "text": "Whoever assaults or uses criminal force on any woman intending to outrage her modesty shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Outraging modesty",
+          "Assault on woman",
+          "Sexual harassment"
+        ]
+      },
+      {
+        "num": "354A",
+        "text": "Sexual harassment includes unwelcome physical contact, demands for sexual favors, showing pornography, or making sexually colored remarks. Punishment: imprisonment up to 3 years or fine.",
+        "key_offenses": [
+          "Sexual harassment",
+          "Workplace harassment",
+          "Inappropriate conduct"
+        ]
+      },
+      {
+        "num": "354B",
+        "text": "Whoever assaults or uses criminal force with intent to disrobe a woman shall be punished with imprisonment of at least 3 years but may extend to 7 years and fine.",
+        "key_offenses": [
+          "Disrobing",
+          "Attempt to disrobe",
+          "Assault on woman"
+        ]
+      },
+      {
+        "num": "354C",
+        "text": "Whoever captures or publishes images of a woman engaged in a private act without her consent shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Voyeurism",
+          "Privacy violation",
+          "Non-consensual recording"
+        ]
+      },
+      {
+        "num": "354D",
+        "text": "Whoever follows a woman or contacts her repeatedly despite disinterest shall be punished with imprisonment up to 3 years and fine.",
+        "key_offenses": [
+          "Stalking",
+          "Harassment",
+          "Cyberstalking"
+        ]
+      },
+      {
+        "num": 359,
+        "text": "Kidnapping is of two kinds: kidnapping from India, and kidnapping from lawful guardianship.",
+        "key_offenses": [
+          "Kidnapping",
+          "Abduction"
+        ]
+      },
+      {
+        "num": 360,
+        "text": "Kidnapping from India means conveying any person beyond the limits of India without consent.",
+        "key_offenses": [
+          "Kidnapping from India"
+        ]
+      },
+      {
+        "num": 361,
+        "text": "Kidnapping from lawful guardianship means taking or enticing a minor (under 16 for males, under 18 for females) out of the keeping of their lawful guardian without consent.",
+        "key_offenses": [
+          "Kidnapping minor",
+          "Child abduction",
+          "Enticement"
+        ]
+      },
+      {
+        "num": 362,
+        "text": "Abduction is compelling a person by force to go from any place, or inducing a person to go from any place by deceitful means.",
+        "key_offenses": [
+          "Abduction",
+          "Force",
+          "Deceit"
+        ]
+      },
+      {
+        "num": 363,
+        "text": "Whoever kidnaps any person shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Kidnapping punishment"
+        ]
+      },
+      {
+        "num": 366,
+        "text": "Whoever kidnaps or abducts a woman with intent to compel her marriage or seduce her to illicit intercourse shall be punished with imprisonment up to 10 years and fine.",
+        "key_offenses": [
+          "Kidnapping for marriage",
+          "Sexual exploitation"
+        ]
+      },
+      {
+        "num": 375,
+        "text": "A man commits rape if he engages in sexual intercourse with a woman under circumstances falling under any of six conditions: against her will, without consent, consent by fear or fraud, consent when unsound mind, with a minor under 18, or when unable to communicate consent.",
+        "key_offenses": [
+          "Rape",
+          "Sexual assault",
+          "Non-consensual intercourse"
+        ]
+      },
+      {
+        "num": 376,
+        "text": "Whoever commits rape shall be punished with rigorous imprisonment of at least 10 years but may extend to life imprisonment and fine. In case of gang rape, minimum 20 years imprisonment.",
+        "key_offenses": [
+          "Rape punishment",
+          "Gang rape",
+          "Life imprisonment"
+        ]
+      },
+      {
+        "num": "376A",
+        "text": "Whoever commits rape and causes death or persistent vegetative state shall be punished with death or rigorous imprisonment for the remainder of natural life.",
+        "key_offenses": [
+          "Rape causing death",
+          "Death penalty",
+          "Vegetative state"
+        ]
+      },
+      {
+        "num": "376DA",
+        "text": "Where a woman is raped by one or more persons constituting a group or acting in furtherance of a common intention, each shall be punished with rigorous imprisonment of at least 20 years, extendable to life.",
+        "key_offenses": [
+          "Gang rape",
+          "Common intention",
+          "Enhanced punishment"
+        ]
+      },
+      {
+        "num": 377,
+        "text": "Whoever voluntarily engages in carnal intercourse against the order of nature with any person shall be punished with imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "Unnatural offenses",
+          "Sodomy",
+          "Carnal intercourse"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "title": "Offenses Against Property",
+    "sections": [
+      {
+        "num": 378,
+        "text": "Theft is the dishonest taking of movable property out of the possession of any person without that person's consent.",
+        "key_offenses": [
+          "Theft",
+          "Dishonest taking",
+          "Movable property"
+        ]
+      },
+      {
+        "num": 379,
+        "text": "Whoever commits theft shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Theft punishment"
+        ]
+      },
+      {
+        "num": 380,
+        "text": "Whoever commits theft in any building, tent or vessel used for human dwelling or custody of property shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Burglary",
+          "House theft",
+          "Building trespass"
+        ]
+      },
+      {
+        "num": 381,
+        "text": "Whoever being a clerk or servant commits theft of property in possession of his employer shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Theft by employee",
+          "Servant theft",
+          "Embezzlement"
+        ]
+      },
+      {
+        "num": 382,
+        "text": "Whoever commits theft and causes hurt or wrongful restraint shall be punished with imprisonment up to 10 years and fine.",
+        "key_offenses": [
+          "Robbery",
+          "Theft with violence"
+        ]
+      },
+      {
+        "num": 383,
+        "text": "Extortion is putting a person in fear of injury and dishonestly inducing that person to deliver property or valuable security.",
+        "key_offenses": [
+          "Extortion",
+          "Fear of injury",
+          "Coercion"
+        ]
+      },
+      {
+        "num": 384,
+        "text": "Whoever commits extortion shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Extortion punishment"
+        ]
+      },
+      {
+        "num": 390,
+        "text": "Robbery is theft combined with causing or attempting to cause death, hurt or wrongful restraint. All theft is robbery if accompanied by such violence.",
+        "key_offenses": [
+          "Robbery",
+          "Theft with violence"
+        ]
+      },
+      {
+        "num": 391,
+        "text": "When five or more persons conjointly commit a robbery, it is dacoity.",
+        "key_offenses": [
+          "Dacoity",
+          "Gang robbery",
+          "5+ persons"
+        ]
+      },
+      {
+        "num": 392,
+        "text": "Whoever commits robbery shall be punished with rigorous imprisonment for at least 3 years but may extend to 10 years and fine.",
+        "key_offenses": [
+          "Robbery punishment"
+        ]
+      },
+      {
+        "num": 395,
+        "text": "Whoever commits dacoity shall be punished with imprisonment for life or rigorous imprisonment up to 10 years and fine.",
+        "key_offenses": [
+          "Dacoity punishment",
+          "Life imprisonment"
+        ]
+      },
+      {
+        "num": 397,
+        "text": "If at the time of robbery or dacoity the offender uses a deadly weapon or causes grievous hurt, the minimum imprisonment is 7 years.",
+        "key_offenses": [
+          "Armed robbery",
+          "Deadly weapon",
+          "Grievous hurt"
+        ]
+      },
+      {
+        "num": 403,
+        "text": "Whoever dishonestly misappropriates or converts to his own use movable property shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Criminal misappropriation",
+          "Conversion",
+          "Dishonest use"
+        ]
+      },
+      {
+        "num": 405,
+        "text": "Criminal breach of trust is dishonestly misappropriating or converting property entrusted to a person, or using it in violation of trust directions.",
+        "key_offenses": [
+          "Criminal breach of trust",
+          "Misappropriation",
+          "Entrustment violation"
+        ]
+      },
+      {
+        "num": 406,
+        "text": "Whoever commits criminal breach of trust shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Breach of trust punishment"
+        ]
+      },
+      {
+        "num": 409,
+        "text": "Whoever commits criminal breach of trust as a public servant, banker, merchant, agent, or broker shall be punished with imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "Criminal breach by public servant",
+          "Bank fraud",
+          "Agent betrayal"
+        ]
+      },
+      {
+        "num": 410,
+        "text": "'Stolen property' is property obtained by theft, extortion, robbery, or criminal misappropriation, and any property obtained by dealing with such property.",
+        "key_offenses": [
+          "Stolen property definition"
+        ]
+      },
+      {
+        "num": 411,
+        "text": "Whoever dishonestly receives or retains stolen property knowing it to be stolen shall be punished with imprisonment up to 3 years or fine or both.",
+        "key_offenses": [
+          "Receiving stolen property",
+          "Handling stolen goods"
+        ]
+      },
+      {
+        "num": 415,
+        "text": "Cheating is deceiving a person fraudulently or dishonestly to induce delivery of property, or to induce a person to do or omit to do something causing damage.",
+        "key_offenses": [
+          "Cheating",
+          "Fraud",
+          "Deception"
+        ]
+      },
+      {
+        "num": 416,
+        "text": "Cheating by personation is pretending to be another person, or substituting one person for another.",
+        "key_offenses": [
+          "Impersonation",
+          "Identity fraud",
+          "Personation"
+        ]
+      },
+      {
+        "num": 417,
+        "text": "Whoever cheats shall be punished with imprisonment up to 1 year or fine or both.",
+        "key_offenses": [
+          "Cheating punishment"
+        ]
+      },
+      {
+        "num": 420,
+        "text": "Whoever cheats and dishonestly induces delivery of property shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Cheating with property delivery",
+          "Fraud",
+          "Section 420"
+        ]
+      },
+      {
+        "num": 425,
+        "text": "Mischief is causing destruction of property or any change in property destroying its value or utility.",
+        "key_offenses": [
+          "Mischief",
+          "Property destruction",
+          "Vandalism"
+        ]
+      },
+      {
+        "num": 426,
+        "text": "Whoever commits mischief shall be punished with imprisonment up to 3 months or fine or both.",
+        "key_offenses": [
+          "Mischief punishment"
+        ]
+      },
+      {
+        "num": 441,
+        "text": "Criminal trespass is entering into or upon property in possession of another with intent to commit an offense or to intimidate, insult or annoy.",
+        "key_offenses": [
+          "Criminal trespass",
+          "Trespassing",
+          "Intimidation"
+        ]
+      },
+      {
+        "num": 442,
+        "text": "House-trespass is criminal trespass into a building, tent or vessel used for human dwelling or worship or for custody of property.",
+        "key_offenses": [
+          "House trespass",
+          "Burglary"
+        ]
+      },
+      {
+        "num": 447,
+        "text": "Whoever commits criminal trespass shall be punished with imprisonment up to 3 months or fine or both.",
+        "key_offenses": [
+          "Trespass punishment"
+        ]
+      },
+      {
+        "num": 457,
+        "text": "Whoever commits lurking house-trespass or house-breaking by night shall be punished with imprisonment up to 5 years and fine.",
+        "key_offenses": [
+          "House-breaking",
+          "Night trespass",
+          "Burglary"
+        ]
+      },
+      {
+        "num": 458,
+        "text": "Whoever commits lurking house-trespass or house-breaking and causes hurt shall be punished with imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "House-breaking with hurt",
+          "Aggravated burglary"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "title": "Offenses Relating to Documents and Property Marks",
+    "sections": [
+      {
+        "num": 463,
+        "text": "Forgery is making a false document with intent to cause damage or injury, support a claim, commit fraud, or cause a person to part with property.",
+        "key_offenses": [
+          "Forgery",
+          "False document",
+          "Fraudulent document"
+        ]
+      },
+      {
+        "num": 465,
+        "text": "Whoever commits forgery shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Forgery punishment"
+        ]
+      },
+      {
+        "num": 467,
+        "text": "Whoever forges a document purporting to be a valuable security, will, or authority to transfer shares shall be punished with imprisonment for life or up to 10 years and fine.",
+        "key_offenses": [
+          "Forgery of valuable security",
+          "Will forgery",
+          "Financial forgery"
+        ]
+      },
+      {
+        "num": 468,
+        "text": "Whoever commits forgery for the purpose of cheating shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Forgery for cheating",
+          "Fraudulent forgery"
+        ]
+      },
+      {
+        "num": 469,
+        "text": "Whoever commits forgery of a public record or court document shall be punished with imprisonment for life or up to 7 years and fine.",
+        "key_offenses": [
+          "Forgery of public record",
+          "Court document forgery"
+        ]
+      },
+      {
+        "num": 471,
+        "text": "Whoever fraudulently uses a forged document knowing it to be forged shall be punished as if he had forged it.",
+        "key_offenses": [
+          "Using forged document",
+          "Fraudulent use"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "title": "Criminal Breach of Contracts of Service",
+    "sections": [
+      {
+        "num": 491,
+        "text": "Whoever, being bound by a contract to attend on a person of unsound mind, voluntarily omits to do so, shall be punished with imprisonment up to 3 months or fine or both.",
+        "key_offenses": [
+          "Contract breach",
+          "Care omission",
+          "Unsound mind"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "title": "Offenses Relating to Marriage",
+    "sections": [
+      {
+        "num": 493,
+        "text": "Whoever deceitfully causes a person to believe they are lawfully married, and cohabits with them, shall be punished with imprisonment up to 10 years and fine.",
+        "key_offenses": [
+          "False marriage",
+          "Deceitful cohabitation"
+        ]
+      },
+      {
+        "num": 494,
+        "text": "Whoever marries again during the lifetime of a spouse without the spouse being divorced shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Bigamy",
+          "Double marriage",
+          "Polygamy"
+        ]
+      },
+      {
+        "num": 496,
+        "text": "Whoever fraudulently goes through a marriage ceremony without the ceremony being lawful shall be punished with imprisonment up to 7 years and fine.",
+        "key_offenses": [
+          "Fraudulent marriage",
+          "False ceremony"
+        ]
+      },
+      {
+        "num": 497,
+        "text": "Whoever has sexual intercourse with a married woman without the consent of her husband commits adultery.",
+        "key_offenses": [
+          "Adultery"
+        ]
+      },
+      {
+        "num": "498A",
+        "text": "Whoever subjects a married woman to cruelty shall be punished with imprisonment up to 3 years and fine. Cruelty includes willful conduct driving the woman to suicide or causing grave injury, and harassment for dowry.",
+        "key_offenses": [
+          "Cruelty to wife",
+          "Domestic violence",
+          "Dowry harassment",
+          "Section 498A"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "title": "Defamation",
+    "sections": [
+      {
+        "num": 499,
+        "text": "Whoever by words spoken or intended to be read, or by signs or visible representations, makes or publishes any imputation concerning any person intending to harm their reputation, is said to defame that person.",
+        "key_offenses": [
+          "Defamation",
+          "Reputation harm",
+          "Libel",
+          "Slander"
+        ]
+      },
+      {
+        "num": 500,
+        "text": "Whoever defames another shall be punished with simple imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Defamation punishment"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "title": "Criminal Intimidation, Insult and Annoyance",
+    "sections": [
+      {
+        "num": 503,
+        "text": "Criminal intimidation is threatening a person with injury to their person, reputation, or property, intending to cause alarm or compel action.",
+        "key_offenses": [
+          "Criminal intimidation",
+          "Threat",
+          "Coercion"
+        ]
+      },
+      {
+        "num": 504,
+        "text": "Whoever intentionally insults and thereby provokes a person to break the public peace shall be punished with imprisonment up to 2 years or fine or both.",
+        "key_offenses": [
+          "Insult",
+          "Provocation",
+          "Breach of peace"
+        ]
+      },
+      {
+        "num": 506,
+        "text": "Whoever commits criminal intimidation shall be punished with imprisonment up to 2 years or fine or both. If the threat is to cause death or grievous hurt, imprisonment up to 7 years.",
+        "key_offenses": [
+          "Criminal intimidation punishment",
+          "Death threat"
+        ]
+      },
+      {
+        "num": 509,
+        "text": "Whoever utters any word, makes any sound or gesture, or exhibits any object intending to insult the modesty of a woman, or intrudes upon her privacy, shall be punished with imprisonment up to 3 years and fine.",
+        "key_offenses": [
+          "Modesty insult",
+          "Privacy violation",
+          "Word/gesture"
+        ]
+      },
+      {
+        "num": 510,
+        "text": "Whoever in a state of intoxication appears in a public place and causes annoyance shall be punished with imprisonment up to 24 hours or fine up to Rs. 10 or both.",
+        "key_offenses": [
+          "Public intoxication",
+          "Annoyance"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "title": "Attempts to Commit Offenses",
+    "sections": [
+      {
+        "num": 511,
+        "text": "Whoever attempts to commit an offense punishable with imprisonment for life or imprisonment, and does any act towards the commission of such offense, shall be punished with imprisonment up to half of the maximum imprisonment for that offense.",
+        "key_offenses": [
+          "Attempt",
+          "Inchoate offense",
+          "Preparation"
+        ]
+      }
+    ]
+  }
+]

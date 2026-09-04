@@ -1,0 +1,181 @@
+{
+  "id": "corpus-consumer_protection",
+  "type": "act",
+  "title": "Consumer Protection Act 2019",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Consumer Protection Act 2019 — sourced from consumer_protection.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-consumer_protection.json-0",
+      "type": "chapter",
+      "number": "I",
+      "title": "Preliminary",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-consumer_protection.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Section 1",
+          "content": "This Act may be called the Consumer Protection Act, 2019. It replaces the Consumer Protection Act, 1986. It extends to the whole of India.",
+          "keywords": [
+            "Consumer Protection title",
+            "1986 Act replacement"
+          ],
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": "sec-consumer_protection.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Section 2",
+          "content": "Definitions: 'Consumer' means any person who buys any goods or hires/avails any services for a consideration, including offline and online transactions (e-commerce), but does not include a person who obtains goods for resale or commercial purpose. 'Consumer rights' include the right to be protected against marketing of goods/services hazardous to life/property, right to be informed about quality, quantity, potency, purity, standard and price, right to be assured access to variety at competitive prices, right to be heard, right to seek redressal against unfair trade practices or restrictive trade practices or exploitation, and right to consumer awareness.",
+          "keywords": [
+            "Consumer definition",
+            "Consumer rights",
+            "E-commerce consumer",
+            "Deficiency of service",
+            "Unfair trade practice"
+          ],
+          "children": [],
+          "order": 2
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-consumer_protection.json-1",
+      "type": "chapter",
+      "number": "III",
+      "title": "Central Consumer Protection Authority (CCPA)",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-consumer_protection.json-10",
+          "type": "section",
+          "number": "10",
+          "title": "Section 10",
+          "content": "Establishment of Central Consumer Protection Authority (CCPA): Central Government shall establish a Central Authority to promote, protect and enforce the rights of consumers as a class, and to regulate matters relating to violation of rights of consumers, unfair trade practices and false or misleading advertisements which are prejudicial to the interests of public and consumers.",
+          "keywords": [
+            "CCPA",
+            "Central Consumer Protection Authority",
+            "Misleading advertisements",
+            "Class action"
+          ],
+          "children": [],
+          "order": 10
+        },
+        {
+          "id": "sec-consumer_protection.json-21",
+          "type": "section",
+          "number": "21",
+          "title": "Section 21",
+          "content": "Power of Central Authority to issue directions and penalties against false or misleading advertisements: CCPA may issue directions to trader, manufacturer, endorser, advertiser or publisher to discontinue or modify misleading ads, and impose penalty up to ten lakh rupees, and for subsequent offence up to fifty lakh rupees.",
+          "keywords": [
+            "Misleading ads penalty",
+            "Endorser liability",
+            "Celebrity endorsement penalty"
+          ],
+          "children": [],
+          "order": 21
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-consumer_protection.json-2",
+      "type": "chapter",
+      "number": "IV",
+      "title": "Consumer Disputes Redressal Commission",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-consumer_protection.json-28",
+          "type": "section",
+          "number": "28",
+          "title": "Section 28",
+          "content": "District Consumer Disputes Redressal Commission (District Commission): Established in each district. Jurisdiction to entertain complaints where the value of goods or services paid as consideration does not exceed fifty lakh rupees (up to Rs. 50 Lakhs).",
+          "keywords": [
+            "District Commission",
+            "District Forum",
+            "Jurisdiction up to 50 Lakhs"
+          ],
+          "children": [],
+          "order": 28
+        },
+        {
+          "id": "sec-consumer_protection.json-47",
+          "type": "section",
+          "number": "47",
+          "title": "Section 47",
+          "content": "State Consumer Disputes Redressal Commission (State Commission): Established in each State. Jurisdiction to entertain complaints where consideration paid exceeds fifty lakh rupees but does not exceed two crore rupees (Rs. 50 Lakhs to Rs. 2 Crores), and appeals against District Commission orders.",
+          "keywords": [
+            "State Commission",
+            "Pecuniary jurisdiction 50L to 2 Cr",
+            "Appeals from District Commission"
+          ],
+          "children": [],
+          "order": 47
+        },
+        {
+          "id": "sec-consumer_protection.json-58",
+          "type": "section",
+          "number": "58",
+          "title": "Section 58",
+          "content": "National Consumer Disputes Redressal Commission (National Commission): Established at national level. Jurisdiction to entertain complaints where consideration paid exceeds two crore rupees (exceeding Rs. 2 Crores), and appeals against State Commission orders.",
+          "keywords": [
+            "National Commission",
+            "NCDRC",
+            "Pecuniary jurisdiction exceeding 2 Crores"
+          ],
+          "children": [],
+          "order": 58
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "ch-consumer_protection.json-3",
+      "type": "chapter",
+      "number": "VI",
+      "title": "Product Liability",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-consumer_protection.json-82",
+          "type": "section",
+          "number": "82",
+          "title": "Section 82",
+          "content": "Product Liability Action: A complainant may bring a product liability action against a product manufacturer, product service provider, or product seller for any harm caused to him on account of a defective product or deficient service.",
+          "keywords": [
+            "Product liability",
+            "Defective product compensation",
+            "Manufacturer liability",
+            "Seller liability"
+          ],
+          "children": [],
+          "order": 82
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "metadata": {
+    "totalSections": 8,
+    "sourceFile": "consumer_protection.json",
+    "contentHash": "adaf078800797b7d",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.806Z",
+    "discoveredAt": "2026-08-11T23:53:51.806Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.806Z",
+  "updatedAt": "2026-08-11T23:53:51.888Z"
+}

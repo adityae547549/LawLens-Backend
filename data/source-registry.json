@@ -1,0 +1,1014 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-09-03T16:27:52.100Z",
+  "sources": [
+    {
+      "id": "constitution_of_india",
+      "name": "Constitution of India",
+      "authority": "Legislative Department, Ministry of Law and Justice",
+      "documentType": "constitutional",
+      "parser": "indiacode",
+      "sourceUrl": "https://legislative.gov.in/constitution-of-india/",
+      "updateFrequency": "monthly",
+      "checksum": "043686f3266b9a88fd7949f87120520e544aebd20189ee4fbfb246e871333540",
+      "version": 1,
+      "lastChecked": "2026-08-02T08:36:43.786Z",
+      "lastDownloaded": "2026-08-02T08:36:43.786Z",
+      "effectiveDate": "1950-01-01",
+      "integrityStatus": "verified",
+      "tags": [
+        "constitutional"
+      ],
+      "isActive": true,
+      "localFile": "constitution_of_india.pdf"
+    },
+    {
+      "id": "constitution_of_india_amendment",
+      "name": "Constitution of India Amendments",
+      "authority": "Legislative Department, Ministry of Law and Justice",
+      "documentType": "constitutional",
+      "parser": "indiacode",
+      "sourceUrl": "https://legislative.gov.in/constitution-of-india/",
+      "updateFrequency": "monthly",
+      "checksum": "4c8e93689ec245e26db08e22b5ff3ad645c98736f0e5b7c8b6638acd7861f85b",
+      "version": 1,
+      "lastChecked": "2026-08-02T08:36:43.807Z",
+      "lastDownloaded": "2026-08-02T08:36:43.807Z",
+      "effectiveDate": "2023-01-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "constitutional"
+      ],
+      "isActive": true,
+      "localFile": "constitution_of_india_amendment.pdf"
+    },
+    {
+      "id": "amendments_json",
+      "name": "Constitutional Amendments Summary",
+      "authority": "Legislative Department",
+      "documentType": "amendment",
+      "parser": "indiacode",
+      "sourceUrl": "https://legislative.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2023-01-01",
+      "tags": [
+        "constitutional"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:31.907Z",
+      "updatedAt": "2026-08-02T16:21:31.907Z"
+    },
+    {
+      "id": "bns_2023",
+      "name": "Bharatiya Nyaya Sanhita",
+      "authority": "eGazette / India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://egazette.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2023-01-01",
+      "tags": [
+        "criminal_substantive"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.593Z",
+      "updatedAt": "2026-08-02T16:21:32.594Z"
+    },
+    {
+      "id": "bnss_2023",
+      "name": "Bharatiya Nagarik Suraksha Sanhita",
+      "authority": "eGazette / India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://egazette.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2023-01-01",
+      "tags": [
+        "criminal_procedure"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.606Z",
+      "updatedAt": "2026-08-02T16:21:32.606Z"
+    },
+    {
+      "id": "bsa_2023",
+      "name": "Bharatiya Sakshya Adhiniyam",
+      "authority": "eGazette / India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://egazette.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2023-01-01",
+      "tags": [
+        "evidence"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.617Z",
+      "updatedAt": "2026-08-02T16:21:32.617Z"
+    },
+    {
+      "id": "ipc_1860",
+      "name": "Indian Penal Code",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "1860-01-01",
+      "tags": [
+        "criminal_substantive"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.715Z",
+      "updatedAt": "2026-08-02T16:21:32.715Z"
+    },
+    {
+      "id": "crpc_1973",
+      "name": "Code of Criminal Procedure",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "1973-01-01",
+      "tags": [
+        "criminal_procedure"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.649Z",
+      "updatedAt": "2026-08-02T16:21:32.649Z"
+    },
+    {
+      "id": "evidence_act_1872",
+      "name": "Indian Evidence Act",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "1872-01-01",
+      "tags": [
+        "evidence"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.683Z",
+      "updatedAt": "2026-08-02T16:21:32.683Z"
+    },
+    {
+      "id": "rti_2005",
+      "name": "Right to Information Act",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2005-01-01",
+      "tags": [
+        "transparency"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.913Z",
+      "updatedAt": "2026-08-02T16:21:32.913Z"
+    },
+    {
+      "id": "consumer_protection_2019",
+      "name": "Consumer Protection Act",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2019-01-01",
+      "tags": [
+        "consumer"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.634Z",
+      "updatedAt": "2026-08-02T16:21:32.634Z"
+    },
+    {
+      "id": "it_act_2000",
+      "name": "Information Technology Act",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2000-01-01",
+      "tags": [
+        "cyber"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.748Z",
+      "updatedAt": "2026-08-02T16:21:32.748Z"
+    },
+    {
+      "id": "contract_act_1872",
+      "name": "Indian Contract Act",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "1872-01-01",
+      "tags": [
+        "civil_contract"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.642Z",
+      "updatedAt": "2026-08-02T16:21:32.642Z"
+    },
+    {
+      "id": "companies_act_2013",
+      "name": "Companies Act",
+      "authority": "Ministry of Corporate Affairs / India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.mca.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2013-01-01",
+      "tags": [
+        "corporate"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.623Z",
+      "updatedAt": "2026-08-02T16:21:32.623Z"
+    },
+    {
+      "id": "gst_act_2017",
+      "name": "Central Goods and Services Tax Act",
+      "authority": "CBIC / India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.cbic.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2017-01-01",
+      "tags": [
+        "taxation"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.706Z",
+      "updatedAt": "2026-08-02T16:21:32.706Z"
+    },
+    {
+      "id": "motor_vehicles_1988",
+      "name": "Motor Vehicles Act",
+      "authority": "India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://www.indiacode.nic.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "1988-01-01",
+      "tags": [
+        "traffic_claims"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.906Z",
+      "updatedAt": "2026-08-02T16:21:32.906Z"
+    },
+    {
+      "id": "environment_act_1986",
+      "name": "Environment (Protection) Act",
+      "authority": "MoEFCC / India Code",
+      "documentType": "act",
+      "parser": "indiacode",
+      "sourceUrl": "https://moef.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "1986-01-01",
+      "tags": [
+        "environment"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.674Z",
+      "updatedAt": "2026-08-02T16:21:32.674Z"
+    },
+    {
+      "id": "landmark_cases",
+      "name": "Landmark Supreme Court Judgments",
+      "authority": "Supreme Court of India",
+      "documentType": "judgment",
+      "parser": "indiacode",
+      "sourceUrl": "https://main.sci.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2023-01-01",
+      "tags": [
+        "jurisprudence"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.756Z",
+      "updatedAt": "2026-08-02T16:21:32.756Z"
+    },
+    {
+      "id": "legal_maxims",
+      "name": "Legal Maxims & Principles",
+      "authority": "Supreme Court Jurisprudence",
+      "documentType": "legal_principle",
+      "parser": "indiacode",
+      "sourceUrl": "https://main.sci.gov.in/",
+      "updateFrequency": "monthly",
+      "effectiveDate": "2023-01-01",
+      "tags": [
+        "jurisprudence"
+      ],
+      "isActive": true,
+      "createdAt": "2026-08-02T16:21:32.828Z",
+      "updatedAt": "2026-08-02T16:21:32.828Z"
+    },
+    {
+      "id": "india-code-constitution",
+      "name": "Constitution of India",
+      "authority": "Legislative Department",
+      "documentType": "constitution",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_5_23_00061_19500925_1523866765688&sectionId=45892&sectionno=1",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1950-01-26",
+      "integrityStatus": "pending",
+      "tags": [
+        "constitutional",
+        "fundamental-rights",
+        "government"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-bns",
+      "name": "Bharatiya Nyaya Sanhita, 2023",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_5_23_01268_20231031_1698955813688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2024-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "criminal-law",
+        "penal-code",
+        "substantive"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-bnss",
+      "name": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_5_23_01269_20231031_1698955813688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2024-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "criminal-procedure",
+        "procedural"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-bsa",
+      "name": "Bharatiya Sakshya Adhiniyam, 2023",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_5_23_01270_20231031_1698955813688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2024-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "evidence",
+        "procedural"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-crpc",
+      "name": "Code of Criminal Procedure, 1973",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_18_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1974-04-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "criminal-procedure",
+        "procedural",
+        "repealed"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-ipc",
+      "name": "Indian Penal Code, 1860",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1860-01-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "criminal-law",
+        "penal-code",
+        "repealed",
+        "historical"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-iea",
+      "name": "Indian Evidence Act, 1872",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1872-01-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "evidence",
+        "procedural",
+        "repealed",
+        "historical"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-contract",
+      "name": "Indian Contract Act, 1872",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1872-09-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "contract",
+        "commercial",
+        "civil"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-sale",
+      "name": "Sale of Goods Act, 1930",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1930-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "contract",
+        "sale",
+        "commercial"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-partnership",
+      "name": "Indian Partnership Act, 1932",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1932-10-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "partnership",
+        "commercial",
+        "business"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-transfer",
+      "name": "Transfer of Property Act, 1882",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1882-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "property",
+        "civil",
+        "real-estate"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-specIFIC-relief",
+      "name": "Specific Relief Act, 1963",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1964-03-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "specific-relief",
+        "civil",
+        "injunction"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-limitation",
+      "name": "Limitation Act, 1963",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1963-01-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "limitation",
+        "civil",
+        "procedure"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-hindu",
+      "name": "Hindu Marriage Act, 1955",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1955-12-21",
+      "integrityStatus": "pending",
+      "tags": [
+        "family",
+        "marriage",
+        "hindu-law"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-muslim",
+      "name": "Muslim Personal Law (Shariat) Application Act, 1937",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1937-10-07",
+      "integrityStatus": "pending",
+      "tags": [
+        "family",
+        "marriage",
+        "muslim-law"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-maintenance",
+      "name": "Section 125 CrPC (Maintenance)",
+      "authority": "Legislative Department",
+      "documentType": "section",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_18_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1974-04-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "family",
+        "maintenance",
+        "protection"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-industrial",
+      "name": "Industrial Disputes Act, 1947",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1947-03-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "labour",
+        "employment",
+        "dispute"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-shops",
+      "name": "Shops and Establishments Act",
+      "authority": "State Legislature",
+      "documentType": "act",
+      "sourceUrl": null,
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "labour",
+        "employment",
+        "shops"
+      ],
+      "isActive": false
+    },
+    {
+      "id": "india-code-income-tax",
+      "name": "Income Tax Act, 1961",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1961-04-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "tax",
+        "income-tax",
+        "revenue"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-environment",
+      "name": "Environment Protection Act, 1986",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1986-05-22",
+      "integrityStatus": "pending",
+      "tags": [
+        "environment",
+        "pollution",
+        "conservation"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-consumer",
+      "name": "Consumer Protection Act, 2019",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2019-07-20",
+      "integrityStatus": "pending",
+      "tags": [
+        "consumer",
+        "protection",
+        "fair-trading"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-rti",
+      "name": "Right to Information Act, 2005",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2005-06-15",
+      "integrityStatus": "pending",
+      "tags": [
+        "rti",
+        "transparency",
+        "governance"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-motor-vehicles",
+      "name": "Motor Vehicles Act, 1988",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "1988-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "motor-vehicles",
+        "transport",
+        "accident"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-it",
+      "name": "Information Technology Act, 2000",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2000-05-17",
+      "integrityStatus": "pending",
+      "tags": [
+        "technology",
+        "cyber",
+        "data-protection"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-cgst",
+      "name": "Central Goods and Services Tax Act, 2017",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_5_23_00755_20170606_1517805765690",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2017-07-01",
+      "integrityStatus": "pending",
+      "tags": [
+        "gst",
+        "tax",
+        "indirect-tax"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "india-code-companies",
+      "name": "Companies Act, 2013",
+      "authority": "Legislative Department",
+      "documentType": "act",
+      "sourceUrl": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_2_19_19730201_1523266765688",
+      "parser": "indiacode",
+      "updateFrequency": "monthly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": "2013-09-12",
+      "integrityStatus": "pending",
+      "tags": [
+        "companies",
+        "corporate",
+        "business"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "sci-judgments",
+      "name": "Supreme Court of India Judgments",
+      "authority": "Supreme Court of India",
+      "documentType": "judgment",
+      "sourceUrl": "https://main.sci.gov.in/judgments",
+      "parser": "sci",
+      "updateFrequency": "daily",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "judgments",
+        "supreme-court",
+        "precedent"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "egazette",
+      "name": "eGazette Notifications",
+      "authority": "Government of India",
+      "documentType": "notification",
+      "sourceUrl": "https://egazette.gov.in/",
+      "parser": "egazette",
+      "updateFrequency": "weekly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "notifications",
+        "amendments",
+        "gazette"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "rbi-notifications",
+      "name": "RBI Notifications and Circulars",
+      "authority": "Reserve Bank of India",
+      "documentType": "notification",
+      "sourceUrl": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+      "parser": "rbi",
+      "updateFrequency": "weekly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "rbi",
+        "banking",
+        "finance",
+        "circulars"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "sebi-notifications",
+      "name": "SEBI Notifications and Orders",
+      "authority": "Securities and Exchange Board of India",
+      "documentType": "notification",
+      "sourceUrl": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doRecognisedFpi=yes&intmId=33",
+      "parser": "sebi",
+      "updateFrequency": "weekly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "sebi",
+        "securities",
+        "market",
+        "regulation"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "mca-notifications",
+      "name": "MCA Notifications and Circulars",
+      "authority": "Ministry of Corporate Affairs",
+      "documentType": "notification",
+      "sourceUrl": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks.html",
+      "parser": "mca",
+      "updateFrequency": "weekly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "mca",
+        "corporate",
+        "compliance"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cbic-notifications",
+      "name": "CBIC Notifications and Circulars",
+      "authority": "Central Board of Indirect Taxes and Customs",
+      "documentType": "notification",
+      "sourceUrl": "https://cbic-gst.gov.in/cbic-gst/cbic/notification.html",
+      "parser": "cbic",
+      "updateFrequency": "weekly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "cbic",
+        "customs",
+        "gst",
+        "indirect-tax"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cbdt-notifications",
+      "name": "CBDT Notifications and Circulars",
+      "authority": "Central Board of Direct Taxes",
+      "documentType": "notification",
+      "sourceUrl": "https://www.incometaxindia.gov.in/charts%20%20tables/notifications.htm",
+      "parser": "cbdt",
+      "updateFrequency": "weekly",
+      "checksum": null,
+      "version": null,
+      "lastChecked": null,
+      "lastDownloaded": null,
+      "effectiveDate": null,
+      "integrityStatus": "pending",
+      "tags": [
+        "cbdt",
+        "income-tax",
+        "direct-tax"
+      ],
+      "isActive": true
+    }
+  ]
+}

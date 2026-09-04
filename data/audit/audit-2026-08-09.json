@@ -1,0 +1,656 @@
+[
+  {
+    "id": "audit-1786265069290-a222ca",
+    "timestamp": "2026-08-09T08:44:29.290Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 172
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786266415913-stqiwi",
+    "timestamp": "2026-08-09T09:06:55.913Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 164
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786266485410-eixpiq",
+    "timestamp": "2026-08-09T09:08:05.410Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 103
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786266517369-4yn2w7",
+    "timestamp": "2026-08-09T09:08:37.369Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 129
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786266584565-kk9lpc",
+    "timestamp": "2026-08-09T09:09:44.565Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 86
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786266648591-mbrv5k",
+    "timestamp": "2026-08-09T09:10:48.591Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 238
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786266649910-4k90md",
+    "timestamp": "2026-08-09T09:10:49.910Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 143
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786267345316-hlyonz",
+    "timestamp": "2026-08-09T09:22:25.316Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786267345312",
+    "before": null,
+    "after": {
+      "id": "page-1786267345312",
+      "name": "About LawLens",
+      "slug": "about-lawlens",
+      "blocks": [
+        {
+          "type": "hero",
+          "config": {
+            "title": "About LawLens",
+            "subtitle": "AI-powered legal research"
+          }
+        }
+      ],
+      "metadata": {
+        "status": "draft"
+      },
+      "createdAt": "2026-08-09T09:22:25.313Z",
+      "updatedAt": "2026-08-09T09:22:25.313Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786267345370-e6i4nz",
+    "timestamp": "2026-08-09T09:22:25.370Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786267345312",
+    "before": {
+      "id": "page-1786267345312",
+      "name": "About LawLens",
+      "slug": "about-lawlens",
+      "blocks": [
+        {
+          "type": "hero",
+          "config": {
+            "title": "About LawLens",
+            "subtitle": "AI-powered legal research"
+          }
+        }
+      ],
+      "metadata": {
+        "status": "draft"
+      },
+      "createdAt": "2026-08-09T09:22:25.313Z",
+      "updatedAt": "2026-08-09T09:22:25.313Z"
+    },
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786267781911-3l9oe2",
+    "timestamp": "2026-08-09T09:29:41.911Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786267781908",
+    "before": null,
+    "after": {
+      "id": "page-1786267781908",
+      "name": "SSE Test",
+      "slug": "sse-test",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-09T09:29:41.908Z",
+      "updatedAt": "2026-08-09T09:29:41.908Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786267781964-4rs7xx",
+    "timestamp": "2026-08-09T09:29:41.964Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786267781908",
+    "before": {
+      "id": "page-1786267781908",
+      "name": "SSE Test",
+      "slug": "sse-test",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-09T09:29:41.908Z",
+      "updatedAt": "2026-08-09T09:29:41.908Z"
+    },
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786267781980-hx458l",
+    "timestamp": "2026-08-09T09:29:41.980Z",
+    "action": "job_created",
+    "entity": "job",
+    "entityId": "5ff7da97-92d3-44cb-8a30-f1b1ae54bf76",
+    "before": null,
+    "after": {
+      "id": "5ff7da97-92d3-44cb-8a30-f1b1ae54bf76",
+      "type": "rebuild",
+      "name": "SSE Test Job",
+      "description": "",
+      "status": "queued",
+      "progress": 0,
+      "result": null,
+      "error": null,
+      "metadata": {
+        "userId": "cd3bec85-6707-45b2-b635-23af84faf941"
+      },
+      "priority": 0,
+      "createdAt": "2026-08-09T09:29:41.977Z",
+      "startedAt": null,
+      "completedAt": null,
+      "logs": []
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {
+      "jobType": "rebuild",
+      "jobName": "SSE Test Job"
+    },
+    "ip": null
+  },
+  {
+    "id": "audit-1786267781994-1f0b0y",
+    "timestamp": "2026-08-09T09:29:41.994Z",
+    "action": "job_cancelled",
+    "entity": "job",
+    "entityId": "5ff7da97-92d3-44cb-8a30-f1b1ae54bf76",
+    "before": null,
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786268113328-ywrsur",
+    "timestamp": "2026-08-09T09:35:13.329Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786268113326",
+    "before": null,
+    "after": {
+      "id": "page-1786268113326",
+      "name": "Cleanup Test",
+      "slug": "cleanup-test",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-09T09:35:13.327Z",
+      "updatedAt": "2026-08-09T09:35:13.327Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786268113342-m2twpj",
+    "timestamp": "2026-08-09T09:35:13.342Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786268113326",
+    "before": {
+      "id": "page-1786268113326",
+      "name": "Cleanup Test",
+      "slug": "cleanup-test",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-09T09:35:13.327Z",
+      "updatedAt": "2026-08-09T09:35:13.327Z"
+    },
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786268113505-51b6vr",
+    "timestamp": "2026-08-09T09:35:13.505Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 153
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786268113635-dmisds",
+    "timestamp": "2026-08-09T09:35:13.635Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 100
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269564307-avt9f5",
+    "timestamp": "2026-08-09T09:59:24.307Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 98
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269589568-9e4pxx",
+    "timestamp": "2026-08-09T09:59:49.568Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 91
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269636887-ti4gws",
+    "timestamp": "2026-08-09T10:00:36.887Z",
+    "action": "lkos_rebuild",
+    "entity": "knowledge",
+    "entityId": "lkos",
+    "before": null,
+    "after": {
+      "sourcesDiscovered": 15,
+      "created": 15,
+      "updated": 0,
+      "unchanged": 0,
+      "skipped": 0,
+      "errors": 0,
+      "acts": 15,
+      "sections": 432,
+      "chunks": 432,
+      "graphNodes": 621,
+      "graphEdges": 1897,
+      "duration": 84
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269687966-n4t8l6",
+    "timestamp": "2026-08-09T10:01:27.966Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786269687964",
+    "before": null,
+    "after": {
+      "id": "page-1786269687964",
+      "name": "E2E Test Page",
+      "slug": "e2e-test-page",
+      "blocks": [
+        {
+          "type": "hero",
+          "config": {
+            "title": "Test"
+          }
+        }
+      ],
+      "metadata": {
+        "status": "draft"
+      },
+      "createdAt": "2026-08-09T10:01:27.964Z",
+      "updatedAt": "2026-08-09T10:01:27.964Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269688046-7ws5j8",
+    "timestamp": "2026-08-09T10:01:28.046Z",
+    "action": "page_updated",
+    "entity": "page",
+    "entityId": "page-1786269687964",
+    "before": null,
+    "after": {
+      "id": "page-1786269687964",
+      "name": "E2E Test Page UPDATED",
+      "slug": "e2e-test-page",
+      "blocks": [
+        {
+          "type": "hero",
+          "config": {
+            "title": "Updated Title"
+          }
+        }
+      ],
+      "metadata": {
+        "status": "draft"
+      },
+      "createdAt": "2026-08-09T10:01:27.964Z",
+      "updatedAt": "2026-08-09T10:01:28.043Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269688066-c8vs7k",
+    "timestamp": "2026-08-09T10:01:28.066Z",
+    "action": "page_updated",
+    "entity": "page",
+    "entityId": "page-1786269687964",
+    "before": null,
+    "after": {
+      "id": "page-1786269687964",
+      "name": "E2E Test Page UPDATED",
+      "slug": "e2e-test-page",
+      "blocks": [],
+      "metadata": {
+        "status": "published",
+        "publishedAt": "2026-08-09T15:31:28.0574428+05:30"
+      },
+      "createdAt": "2026-08-09T10:01:27.964Z",
+      "updatedAt": "2026-08-09T10:01:28.064Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269688093-dwrads",
+    "timestamp": "2026-08-09T10:01:28.093Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786269687964",
+    "before": {
+      "id": "page-1786269687964",
+      "name": "E2E Test Page UPDATED",
+      "slug": "e2e-test-page",
+      "blocks": [],
+      "metadata": {
+        "status": "published",
+        "publishedAt": "2026-08-09T15:31:28.0574428+05:30"
+      },
+      "createdAt": "2026-08-09T10:01:27.964Z",
+      "updatedAt": "2026-08-09T10:01:28.064Z"
+    },
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269710624-8kgin6",
+    "timestamp": "2026-08-09T10:01:50.624Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786269710622",
+    "before": null,
+    "after": {
+      "id": "page-1786269710622",
+      "name": "SSE Trigger Test",
+      "slug": "sse-trigger",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-09T10:01:50.622Z",
+      "updatedAt": "2026-08-09T10:01:50.622Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786269712657-y7wd69",
+    "timestamp": "2026-08-09T10:01:52.657Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786269710622",
+    "before": {
+      "id": "page-1786269710622",
+      "name": "SSE Trigger Test",
+      "slug": "sse-trigger",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-09T10:01:50.622Z",
+      "updatedAt": "2026-08-09T10:01:50.622Z"
+    },
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  }
+]

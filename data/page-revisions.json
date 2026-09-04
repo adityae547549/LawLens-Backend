@@ -1,0 +1,104 @@
+{
+  "revisions": [
+    {
+      "id": "rev-1786379799154-f7m2mu",
+      "pageId": "page-1786379799095",
+      "timestamp": "2026-08-10T16:36:39.154Z",
+      "author": "Admin",
+      "previousState": {
+        "name": "Revision Test",
+        "slug": "rev-test",
+        "description": "",
+        "blocks": [],
+        "metadata": {}
+      },
+      "state": {
+        "name": "Revision Test Updated",
+        "slug": "rev-test",
+        "description": "",
+        "blocks": [],
+        "metadata": {
+          "status": "draft"
+        }
+      }
+    },
+    {
+      "id": "rev-1786379833761-z58q6j",
+      "pageId": "app-dashboard",
+      "timestamp": "2026-08-10T16:37:13.761Z",
+      "author": "Admin",
+      "previousState": {
+        "name": "My Dashboard",
+        "slug": "untitled",
+        "description": "Custom dashboard description",
+        "blocks": [],
+        "metadata": {
+          "seoTitle": "Dashboard - LawLens",
+          "status": "published"
+        }
+      },
+      "state": {
+        "name": "Dashboard",
+        "slug": "untitled",
+        "description": "User dashboard",
+        "blocks": [],
+        "metadata": {
+          "isAppPage": true
+        }
+      }
+    },
+    {
+      "id": "rev-1786492405507-h4ofho",
+      "pageId": "app-dashboard",
+      "timestamp": "2026-08-11T23:53:25.507Z",
+      "author": "Admin",
+      "previousState": {
+        "name": "Dashboard",
+        "slug": "untitled",
+        "description": "User dashboard",
+        "blocks": [],
+        "metadata": {
+          "isAppPage": true
+        }
+      },
+      "state": {
+        "name": "Dashboard",
+        "slug": "dashboard",
+        "description": "Test description update",
+        "blocks": [],
+        "metadata": {
+          "status": "draft",
+          "seoTitle": "Dashboard SEO",
+          "seoDescription": "Dashboard meta"
+        }
+      }
+    },
+    {
+      "id": "rev-1786492405646-4yckr8",
+      "pageId": "app-dashboard",
+      "timestamp": "2026-08-11T23:53:25.646Z",
+      "author": "Admin",
+      "previousState": {
+        "name": "Dashboard",
+        "slug": "dashboard",
+        "description": "Test description update",
+        "blocks": [],
+        "metadata": {
+          "status": "draft",
+          "seoTitle": "Dashboard SEO",
+          "seoDescription": "Dashboard meta"
+        }
+      },
+      "state": {
+        "name": "Dashboard Updated",
+        "slug": "dashboard",
+        "description": "Second update",
+        "blocks": [],
+        "metadata": {
+          "status": "published",
+          "publishedAt": "2026-08-12T05:23:25.6329659+05:30"
+        }
+      }
+    }
+  ]
+}

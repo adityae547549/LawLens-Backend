@@ -1,0 +1,60 @@
+[
+  {
+    "act": "Companies Act 2013",
+    "chapter": "II",
+    "title": "Incorporation of Company and Matters Incidental Thereto",
+    "sections": [
+      {
+        "num": 3,
+        "text": "Formation of Company: A company may be formed for any lawful purpose by seven or more persons (Public Company), two or more persons (Private Company), or one person (One Person Company / OPC).",
+        "key_topics": ["Formation of company", "Public company", "Private company", "One Person Company", "OPC"]
+      },
+      {
+        "num": 7,
+        "text": "Incorporation of Company: Documents including Memorandum of Association (MOA) and Articles of Association (AOA) signed by subscribers, declaration by professionals, and details of directors shall be filed with the Registrar of Companies (ROC) for incorporation certificate.",
+        "key_topics": ["Incorporation", "ROC", "MOA", "AOA", "Certificate of Incorporation"]
+      }
+    ]
+  },
+  {
+    "act": "Companies Act 2013",
+    "chapter": "IX",
+    "title": "Accounts of Companies & CSR",
+    "sections": [
+      {
+        "num": 135,
+        "text": "Corporate Social Responsibility (CSR): Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more, or net profit of rupees five crore or more during immediately preceding financial year shall constitute a CSR Committee and ensure that company spends in every financial year at least two per cent (2%) of average net profits made during three immediately preceding financial years on CSR activities.",
+        "key_topics": ["CSR", "Corporate Social Responsibility", "Section 135", "2% CSR spend mandatory threshold"]
+      }
+    ]
+  },
+  {
+    "act": "Companies Act 2013",
+    "chapter": "XI",
+    "title": "Appointment and Qualifications of Directors",
+    "sections": [
+      {
+        "num": 149,
+        "text": "Company to have Board of Directors: Every company shall have a Board of Directors consisting of individuals. Minimum 3 directors for public company, 2 for private company, 1 for OPC. Maximum 15 directors. Every listed public company shall have at least one-third of total directors as independent directors.",
+        "key_topics": ["Board of Directors", "Independent Directors", "Minimum directors"]
+      },
+      {
+        "num": 166,
+        "text": "Duties of Directors: A director of a company shall act in accordance with articles, act in good faith to promote objects of company for benefit of members, exercise duties with due and reasonable care, skill and diligence, not involve in situation of conflict of interest, and not achieve undue gain or advantage.",
+        "key_topics": ["Duties of directors", "Fiduciary duty", "Section 166", "Conflict of interest"]
+      }
+    ]
+  },
+  {
+    "act": "Companies Act 2013",
+    "chapter": "XVI",
+    "title": "Prevention of Oppression and Mismanagement",
+    "sections": [
+      {
+        "num": 241,
+        "text": "Application to Tribunal for relief in cases of oppression: Any member of a company who complains that affairs of company are being conducted in a manner prejudicial to public interest or oppressive to him or any member may apply to National Company Law Tribunal (NCLT).",
+        "key_topics": ["Oppression and mismanagement", "NCLT", "Section 241", "Shareholder rights"]
+      }
+    ]
+  }
+]

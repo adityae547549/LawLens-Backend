@@ -1,0 +1,202 @@
+{
+  "id": "corpus-rti",
+  "type": "act",
+  "title": "Right to Information Act 2005",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Right to Information Act 2005 — sourced from rti.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-rti.json-0",
+      "type": "chapter",
+      "number": "I",
+      "title": "Preliminary",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-rti.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Section 1",
+          "content": "This Act may be called the Right to Information Act, 2005. It extends to the whole of India.",
+          "keywords": [
+            "RTI title",
+            "Short title",
+            "Commencement"
+          ],
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": "sec-rti.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Section 2",
+          "content": "Definitions: 'Public authority' means any authority or body or institution of self-government established or constituted by or under the Constitution, by any other law made by Parliament or State Legislature, or by notification issued or order made by the appropriate Government, and includes any body owned, controlled or substantially financed or non-Government organisation substantially financed, directly or indirectly by funds provided by the appropriate Government. 'Information' means any material in any form, including records, documents, memos, e-mails, opinions, advices, press releases, circulars, orders, logbooks, contracts, reports, papers, samples, models, data material held in any electronic form.",
+          "keywords": [
+            "Public authority definition",
+            "Information definition",
+            "Section 2(h)",
+            "Section 2(f)"
+          ],
+          "children": [],
+          "order": 2
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-rti.json-1",
+      "type": "chapter",
+      "number": "II",
+      "title": "Right to Information and Obligations of Public Authorities",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-rti.json-3",
+          "type": "section",
+          "number": "3",
+          "title": "Section 3",
+          "content": "Right to information: Subject to the provisions of this Act, all citizens shall have the right to information.",
+          "keywords": [
+            "Right to information",
+            "Citizen right",
+            "Transparency"
+          ],
+          "children": [],
+          "order": 3
+        },
+        {
+          "id": "sec-rti.json-4",
+          "type": "section",
+          "number": "4",
+          "title": "Section 4",
+          "content": "Obligations of public authorities: Every public authority shall maintain all its records duly catalogued and indexed, and publish within 120 days from enactment details of its organisation, functions, duties, powers of officers, decision making process, norms, rules, manuals, categories of documents held, and directory of officers (suo motu disclosure).",
+          "keywords": [
+            "Suo motu disclosure",
+            "Proactive disclosure",
+            "Obligations of public authorities"
+          ],
+          "children": [],
+          "order": 4
+        },
+        {
+          "id": "sec-rti.json-6",
+          "type": "section",
+          "number": "6",
+          "title": "Section 6",
+          "content": "Request for obtaining information: A person who desires to obtain any information under this Act shall make a request in writing or through electronic means in English or Hindi or in the official language of the area, accompanying prescribed fee, to the Central Public Information Officer (CPIO) or State Public Information Officer (SPIO). An applicant making request for information shall not be required to give any reason for requesting the information or any other personal details except those that may be necessary for contacting him.",
+          "keywords": [
+            "RTI application",
+            "CPIO",
+            "SPIO",
+            "No reason required",
+            "Fee"
+          ],
+          "children": [],
+          "order": 6
+        },
+        {
+          "id": "sec-rti.json-7",
+          "type": "section",
+          "number": "7",
+          "title": "Section 7",
+          "content": "Disposal of request: The Central Public Information Officer or State Public Information Officer shall as expeditiously as possible, and in any case within thirty days of the receipt of the request, either provide the information on payment of fee or reject the request for any of the reasons specified in sections 8 and 9. Provided that where the information requested for concerns the life or liberty of a person, the same shall be provided within forty-eight hours of the receipt of the request.",
+          "keywords": [
+            "30 days time limit",
+            "48 hours life or liberty limit",
+            "Disposal of RTI request"
+          ],
+          "children": [],
+          "order": 7
+        },
+        {
+          "id": "sec-rti.json-8",
+          "type": "section",
+          "number": "8",
+          "title": "Section 8",
+          "content": "Exemption from disclosure of information: Notwithstanding anything contained in this Act, there shall be no obligation to give any citizen information affecting sovereignty and integrity of India, security, strategic or economic interests; information expressly forbidden by court; breach of privilege of Parliament; commercial confidence, trade secrets, IP unless larger public interest warrants; information available to a person in his fiduciary relationship; information received in confidence from foreign Government; information endangering life or physical safety; cabinet papers; personal information having no relationship to public activity.",
+          "keywords": [
+            "RTI exemptions",
+            "Section 8(1)",
+            "National security exemption",
+            "Personal information exemption",
+            "Fiduciary relationship"
+          ],
+          "children": [],
+          "order": 8
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-rti.json-2",
+      "type": "chapter",
+      "number": "V",
+      "title": "Powers and Functions of Information Commissions, Appeals and Penalties",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-rti.json-18",
+          "type": "section",
+          "number": "18",
+          "title": "Section 18",
+          "content": "Powers and functions of Information Commissions: Central Information Commission (CIC) or State Information Commission (SIC) shall receive and inquire into a complaint from any person who has been unable to submit a request because no officer has been appointed, or who has been refused information, or who believes false/incomplete info was provided.",
+          "keywords": [
+            "CIC powers",
+            "SIC powers",
+            "Inquiry into complaints"
+          ],
+          "children": [],
+          "order": 18
+        },
+        {
+          "id": "sec-rti.json-19",
+          "type": "section",
+          "number": "19",
+          "title": "Section 19",
+          "content": "Appeals under RTI: Any person who does not receive a decision within 30 days or is aggrieved by a decision of the CPIO/SPIO may prefer a First Appeal within 30 days to an officer senior in rank to the CPIO/SPIO. A Second Appeal against the decision shall lie within 90 days to the Central Information Commission or State Information Commission.",
+          "keywords": [
+            "First appeal",
+            "Second appeal",
+            "CIC appeal",
+            "30 days limit for appeal"
+          ],
+          "children": [],
+          "order": 19
+        },
+        {
+          "id": "sec-rti.json-20",
+          "type": "section",
+          "number": "20",
+          "title": "Section 20",
+          "content": "Penalties under RTI: Where the Information Commission at the time of deciding any complaint or appeal is of the opinion that the CPIO or SPIO has without reasonable cause refused to receive an application, delayed info without reasonable cause, or knowingly gave incorrect/misleading info, it shall impose a penalty of two hundred and fifty rupees each day till application is received or info is furnished, subject to total maximum penalty of twenty-five thousand rupees.",
+          "keywords": [
+            "RTI penalties",
+            "250 rupees per day penalty",
+            "Maximum 25,000 penalty on CPIO"
+          ],
+          "children": [],
+          "order": 20
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "metadata": {
+    "totalSections": 10,
+    "sourceFile": "rti.json",
+    "contentHash": "3d79c3e114d3e208",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.824Z",
+    "discoveredAt": "2026-08-11T23:53:51.824Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.824Z",
+  "updatedAt": "2026-08-11T23:53:51.991Z"
+}

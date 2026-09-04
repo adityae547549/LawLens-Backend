@@ -1,0 +1,44 @@
+[
+  {
+    "id": "audit-1786173079127-kqr7w7",
+    "timestamp": "2026-08-08T07:11:19.127Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786173079125",
+    "before": null,
+    "after": {
+      "id": "page-1786173079125",
+      "name": "New Page",
+      "slug": "new-page",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-08T07:11:19.125Z",
+      "updatedAt": "2026-08-08T07:11:19.125Z"
+    },
+    "userId": "17bb4110-6ad7-418e-a98a-e987a19f9999",
+    "userName": "Aditya",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786173098781-miiq1k",
+    "timestamp": "2026-08-08T07:11:38.781Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786173079125",
+    "before": {
+      "id": "page-1786173079125",
+      "name": "New Page",
+      "slug": "new-page",
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-08T07:11:19.125Z",
+      "updatedAt": "2026-08-08T07:11:19.125Z"
+    },
+    "after": null,
+    "userId": "17bb4110-6ad7-418e-a98a-e987a19f9999",
+    "userName": "Aditya",
+    "metadata": {},
+    "ip": null
+  }
+]

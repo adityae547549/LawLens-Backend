@@ -1,0 +1,106 @@
+{
+  "id": "corpus-environment_act",
+  "type": "act",
+  "title": "Environment (Protection) Act 1986",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Environment (Protection) Act 1986 — sourced from environment_act.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-environment_act.json-0",
+      "type": "chapter",
+      "number": "I",
+      "title": "Preliminary & Powers of Central Government",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-environment_act.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Section 1",
+          "content": "This Act may be called the Environment (Protection) Act, 1986. It was enacted in the wake of the Bhopal Gas Tragedy to provide for the protection and improvement of environment.",
+          "keywords": [
+            "Environment Protection title",
+            "Bhopal gas tragedy background",
+            "EIA"
+          ],
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": "sec-environment_act.json-3",
+          "type": "section",
+          "number": "3",
+          "title": "Section 3",
+          "content": "Power of Central Government to take measures to protect and improve environment: Central Government shall have the power to take all such measures as it deems necessary or expedient for protecting environment and preventing environmental pollution, including setting standards for quality of environment, emission of pollutants, and restriction of industrial areas.",
+          "keywords": [
+            "Central Government environment powers",
+            "Pollution standards",
+            "Industrial restriction"
+          ],
+          "children": [],
+          "order": 3
+        },
+        {
+          "id": "sec-environment_act.json-5",
+          "type": "section",
+          "number": "5",
+          "title": "Section 5",
+          "content": "Power to give directions: Central Government may in exercise of its powers issue directions in writing to any person, officer or authority and such person or authority shall be bound to comply. Includes power to direct closure, prohibition or regulation of any industry or stoppage of electricity or water supply.",
+          "keywords": [
+            "Section 5 EPA",
+            "Power to order closure of industry",
+            "Stoppage of water/electricity supply"
+          ],
+          "children": [],
+          "order": 5
+        },
+        {
+          "id": "sec-environment_act.json-7",
+          "type": "section",
+          "number": "7",
+          "title": "Section 7",
+          "content": "Persons carrying on industry, operation, etc., not to allow discharge or emission of environmental pollutants in excess of standards: No person carrying on any industry, operation or process shall discharge or emit or permit to be discharged any environmental pollutant in excess of prescribed standards.",
+          "keywords": [
+            "Section 7 EPA",
+            "Pollution emission limit",
+            "Polluter pays principle"
+          ],
+          "children": [],
+          "order": 7
+        },
+        {
+          "id": "sec-environment_act.json-15",
+          "type": "section",
+          "number": "15",
+          "title": "Section 15",
+          "content": "Penalty for contravention of provisions of Act, Rules, Orders and Directions: Whoever fails to comply with or contravenes any provision of this Act shall be punishable with imprisonment for a term which may extend to five years or with fine which may extend to one lakh rupees, or with both.",
+          "keywords": [
+            "Environmental penalties",
+            "Section 15 EPA",
+            "Imprisonment for environmental pollution"
+          ],
+          "children": [],
+          "order": 15
+        }
+      ],
+      "order": 0
+    }
+  ],
+  "metadata": {
+    "totalSections": 5,
+    "sourceFile": "environment_act.json",
+    "contentHash": "89339ac4e9602253",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.811Z",
+    "discoveredAt": "2026-08-11T23:53:51.811Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.811Z",
+  "updatedAt": "2026-08-11T23:53:51.891Z"
+}

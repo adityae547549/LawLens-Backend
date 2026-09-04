@@ -1,0 +1,144 @@
+{
+  "id": "corpus-gst_act",
+  "type": "act",
+  "title": "Central Goods and Services Tax Act 2017",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Central Goods and Services Tax Act 2017 — sourced from gst_act.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-gst_act.json-0",
+      "type": "chapter",
+      "number": "Constitution",
+      "title": "GST Constitutional Provisions",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-gst_act.json-279A",
+          "type": "section",
+          "number": "279A",
+          "title": "Section 279A",
+          "content": "Goods and Services Tax Council (Article 279A): President shall constitute GST Council. Union Finance Minister is Chairperson. GST Council makes recommendations to Union and States on taxes, cesses, exemptions, model GST laws, and GST rates.",
+          "keywords": [
+            "Article 279A",
+            "GST Council",
+            "Constitutional amendment 101st",
+            "Tax recommendations"
+          ],
+          "children": [],
+          "order": "279A"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-gst_act.json-1",
+      "type": "chapter",
+      "number": "III",
+      "title": "Levy and Collection of Tax",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-gst_act.json-7",
+          "type": "section",
+          "number": "7",
+          "title": "Section 7",
+          "content": "Scope of Supply: For purposes of this Act, 'supply' includes all forms of supply of goods or services or both such as sale, transfer, barter, exchange, licence, rental, lease or disposal made or agreed to be made for a consideration by a person in the course or furtherance of business.",
+          "keywords": [
+            "Scope of supply",
+            "Section 7 GST",
+            "Taxable event",
+            "Supply of goods and services"
+          ],
+          "children": [],
+          "order": 7
+        },
+        {
+          "id": "sec-gst_act.json-9",
+          "type": "section",
+          "number": "9",
+          "title": "Section 9",
+          "content": "Levy and Collection: There shall be levied a tax called the central goods and services tax (CGST) on all intra-State supplies of goods or services or both, except on supply of alcoholic liquor for human consumption, at rates specified on recommendation of Council.",
+          "keywords": [
+            "Levy of GST",
+            "CGST",
+            "SGST",
+            "IGST",
+            "Reverse Charge Mechanism",
+            "RCM"
+          ],
+          "children": [],
+          "order": 9
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-gst_act.json-2",
+      "type": "chapter",
+      "number": "V",
+      "title": "Input Tax Credit (ITC)",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-gst_act.json-16",
+          "type": "section",
+          "number": "16",
+          "title": "Section 16",
+          "content": "Eligibility and conditions for taking Input Tax Credit (ITC): Every registered person shall be entitled to take credit of input tax charged on any supply of goods or services to him which are used in furtherance of business. Conditions: possession of tax invoice, receipt of goods/services, tax paid to Government, valid return filed.",
+          "keywords": [
+            "Input Tax Credit",
+            "ITC",
+            "Section 16 GST",
+            "Tax invoice",
+            "GSTR 3B"
+          ],
+          "children": [],
+          "order": 16
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "ch-gst_act.json-3",
+      "type": "chapter",
+      "number": "VI",
+      "title": "Registration",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-gst_act.json-22",
+          "type": "section",
+          "number": "22",
+          "title": "Section 22",
+          "content": "Persons liable for registration: Every supplier shall be liable to be registered under this Act in State or Union territory from where he makes taxable supply if aggregate turnover in a financial year exceeds twenty lakh rupees (Rs. 20 Lakhs for services / Rs. 40 Lakhs for goods in specified States).",
+          "keywords": [
+            "GST registration threshold",
+            "Section 22 GST",
+            "Aggregate turnover limit",
+            "20 Lakhs threshold"
+          ],
+          "children": [],
+          "order": 22
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "metadata": {
+    "totalSections": 5,
+    "sourceFile": "gst_act.json",
+    "contentHash": "d75f5113b93bf611",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.816Z",
+    "discoveredAt": "2026-08-11T23:53:51.816Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.816Z",
+  "updatedAt": "2026-08-11T23:53:51.844Z"
+}

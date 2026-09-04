@@ -1,0 +1,154 @@
+[
+  {
+    "id": "audit-1786379799098-69ug92",
+    "timestamp": "2026-08-10T16:36:39.098Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "page-1786379799095",
+    "before": null,
+    "after": {
+      "id": "page-1786379799095",
+      "name": "Revision Test",
+      "slug": "rev-test",
+      "description": "",
+      "type": "cms",
+      "sourceFile": null,
+      "category": null,
+      "icon": null,
+      "blocks": [],
+      "metadata": {},
+      "createdAt": "2026-08-10T16:36:39.095Z",
+      "updatedAt": "2026-08-10T16:36:39.095Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786379799164-rdxf27",
+    "timestamp": "2026-08-10T16:36:39.164Z",
+    "action": "page_updated",
+    "entity": "page",
+    "entityId": "page-1786379799095",
+    "before": null,
+    "after": {
+      "id": "page-1786379799095",
+      "name": "Revision Test Updated",
+      "slug": "rev-test",
+      "description": "",
+      "type": "cms",
+      "sourceFile": null,
+      "category": null,
+      "icon": null,
+      "blocks": [],
+      "metadata": {
+        "status": "draft"
+      },
+      "createdAt": "2026-08-10T16:36:39.095Z",
+      "updatedAt": "2026-08-10T16:36:39.153Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786379799295-2pmnnl",
+    "timestamp": "2026-08-10T16:36:39.295Z",
+    "action": "page_revision_restore",
+    "entity": "page",
+    "entityId": "page-1786379799095",
+    "before": null,
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786379799318-e9rhq2",
+    "timestamp": "2026-08-10T16:36:39.318Z",
+    "action": "page_deleted",
+    "entity": "page",
+    "entityId": "page-1786379799095",
+    "before": {
+      "id": "page-1786379799095",
+      "name": "Revision Test Updated",
+      "slug": "rev-test",
+      "description": "",
+      "type": "cms",
+      "sourceFile": null,
+      "category": null,
+      "icon": null,
+      "blocks": [],
+      "metadata": {
+        "status": "draft"
+      },
+      "createdAt": "2026-08-10T16:36:39.095Z",
+      "updatedAt": "2026-08-10T16:36:39.288Z"
+    },
+    "after": null,
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786379833689-6nyi82",
+    "timestamp": "2026-08-10T16:37:13.689Z",
+    "action": "page_created",
+    "entity": "page",
+    "entityId": "app-dashboard",
+    "before": null,
+    "after": {
+      "id": "app-dashboard",
+      "name": "My Dashboard",
+      "slug": "untitled",
+      "description": "Custom dashboard description",
+      "type": "application",
+      "sourceFile": "dashboard.html",
+      "category": null,
+      "icon": null,
+      "blocks": [],
+      "metadata": {
+        "seoTitle": "Dashboard - LawLens",
+        "status": "published"
+      },
+      "createdAt": "2026-08-10T16:37:13.686Z",
+      "updatedAt": "2026-08-10T16:37:13.686Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  },
+  {
+    "id": "audit-1786379833771-75qs4o",
+    "timestamp": "2026-08-10T16:37:13.771Z",
+    "action": "page_updated",
+    "entity": "page",
+    "entityId": "app-dashboard",
+    "before": null,
+    "after": {
+      "id": "app-dashboard",
+      "name": "Dashboard",
+      "slug": "untitled",
+      "description": "User dashboard",
+      "type": "application",
+      "sourceFile": "dashboard.html",
+      "category": null,
+      "icon": null,
+      "blocks": [],
+      "metadata": {
+        "isAppPage": true
+      },
+      "createdAt": "2026-08-10T16:37:13.686Z",
+      "updatedAt": "2026-08-10T16:37:13.755Z"
+    },
+    "userId": "cd3bec85-6707-45b2-b635-23af84faf941",
+    "userName": "Admin",
+    "metadata": {},
+    "ip": null
+  }
+]

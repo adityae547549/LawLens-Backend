@@ -1,0 +1,68 @@
+[
+  {
+    "act": "Bharatiya Sakshya Adhiniyam (BSA) 2023",
+    "year": 2023,
+    "chapter": "Chapter I",
+    "title": "Preliminary",
+    "sections": [
+      {
+        "num": "1",
+        "title": "Short title, application and commencement",
+        "previousEquivalent": "Evidence Act Section 1",
+        "text": "1. (1) This Act may be called the Bharatiya Sakshya Adhiniyam, 2023.\n(2) It applies to all judicial proceedings in or before any Court.\n(3) This Act replaces the Indian Evidence Act, 1872.",
+        "keywords": ["BSA title", "Indian Evidence Act replacement", "evidence law"]
+      },
+      {
+        "num": "2",
+        "title": "Definitions",
+        "previousEquivalent": "Evidence Act Section 3",
+        "text": "2. (1) In this Adhiniyam, unless the context otherwise requires,—\n(e) 'evidence' means and includes—\n(i) all statements which the Court permits or requires to be made before it by witnesses, in relation to matters of fact under inquiry; such statements are called oral evidence;\n(ii) all documents including electronic or digital records produced for the inspection of the Court; such documents are called documentary evidence.",
+        "keywords": ["evidence definition", "electronic records", "digital evidence", "Evidence Act Section 3"]
+      }
+    ]
+  },
+  {
+    "act": "Bharatiya Sakshya Adhiniyam (BSA) 2023",
+    "year": 2023,
+    "chapter": "Chapter V",
+    "title": "Documentary Evidence and Electronic Records",
+    "sections": [
+      {
+        "num": "61",
+        "title": "Admissibility of Electronic Records",
+        "previousEquivalent": "Evidence Act Section 65B",
+        "text": "61. Any information contained in an electronic record which is printed on paper, stored, recorded or copied in optical or magnetic media or semiconductor memory produced by a computer shall be deemed to be also a document and shall be admissible in any proceedings, without further proof or production of the original, as evidence of any contents of the original.",
+        "keywords": ["electronic evidence", "Evidence Act Section 65B", "BSA Section 61", "digital records admissibility"]
+      },
+      {
+        "num": "63",
+        "title": "Certificate for electronic evidence",
+        "previousEquivalent": "Evidence Act Section 65B(4)",
+        "text": "63. A certificate signed by a person occupying a responsible official position in relation to the operation of the relevant device or management of the relevant activities confirming the authenticity of an electronic record shall be submitted to the court.",
+        "keywords": ["65B certificate replacement", "electronic certificate", "BSA Section 63", "authentication of digital records"]
+      }
+    ]
+  },
+  {
+    "act": "Bharatiya Sakshya Adhiniyam (BSA) 2023",
+    "year": 2023,
+    "chapter": "Chapter VII",
+    "title": "Burden of Proof",
+    "sections": [
+      {
+        "num": "104",
+        "title": "Burden of proof",
+        "previousEquivalent": "Evidence Act Section 101",
+        "text": "104. Whoever desires any Court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts, must prove that those facts exist. When a person is bound to prove the existence of any fact, it is said that the burden of proof lies on that person.",
+        "keywords": ["burden of proof", "Evidence Act Section 101", "onus of proof"]
+      },
+      {
+        "num": "105",
+        "title": "On whom burden of proof lies",
+        "previousEquivalent": "Evidence Act Section 102",
+        "text": "105. The burden of proof in a suit or proceeding lies on that person who would fail if no evidence at all were given on either side.",
+        "keywords": ["onus of proof", "Evidence Act Section 102"]
+      }
+    ]
+  }
+]

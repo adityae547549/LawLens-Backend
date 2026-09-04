@@ -1,0 +1,1846 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-11T23:56:59.368Z",
+  "runs": [
+    {
+      "runId": "bench-1785687839849",
+      "timestamp": "2026-08-02T16:23:59.849Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.56,
+            "latency": 1368
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.59,
+            "latency": 1024
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.75,
+            "f1": 0.86,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.67,
+            "latency": 1038
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.2,
+            "f1": 0.33,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.75,
+            "latency": 913
+          },
+          "resultsCount": 4,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 864
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 0.6,
+            "confidence": 0.58,
+            "latency": 960
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.74,
+            "latency": 805
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 1,
+            "f1": 0.75,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.8,
+            "confidence": 0.53,
+            "latency": 1144
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.17,
+            "f1": 0.29,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.8,
+            "confidence": 0.5,
+            "latency": 979
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0,
+            "f1": 0,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.75,
+            "latency": 1068
+          },
+          "resultsCount": 4,
+          "passed": false
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 1,
+        "passRate": 10,
+        "avgMetrics": {
+          "precision": 0.8,
+          "recall": 0.49,
+          "f1": 0.52,
+          "citationAccuracy": 0.3,
+          "groundingQuality": 0.87,
+          "confidence": 0.64,
+          "latency": 1016.3
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 10168
+    },
+    {
+      "runId": "bench-1786173030622",
+      "timestamp": "2026-08-08T07:10:30.622Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1019
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 769
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 834
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 918
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 828
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 848
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 785
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 775
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 936
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1041
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 875.3
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 8760
+    },
+    {
+      "runId": "bench-1786207312982",
+      "timestamp": "2026-08-08T16:41:52.982Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1080
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 783
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 869
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 856
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 773
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 911
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 832
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 858
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1263
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1624
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 984.9
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 9853
+    },
+    {
+      "runId": "bench-1786207924153",
+      "timestamp": "2026-08-08T16:52:04.153Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1051
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 828
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 872
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 1000
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 1214
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 981
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 897
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 1065
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1558
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1041
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 1050.7
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 10512
+    },
+    {
+      "runId": "bench-1786267859556",
+      "timestamp": "2026-08-09T09:30:59.556Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1494
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 1376
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 1396
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 1451
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 1400
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 1453
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 1334
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 1362
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1435
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1580
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 1428.1
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 14289
+    },
+    {
+      "runId": "bench-1786269741581",
+      "timestamp": "2026-08-09T10:02:21.581Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1462
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 937
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 918
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 1081
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 856
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 858
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 766
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 881
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1076
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1019
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 985.4
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 9858
+    },
+    {
+      "runId": "bench-1786270777125",
+      "timestamp": "2026-08-09T10:19:37.125Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1072
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 758
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 948
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 868
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 808
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 905
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 740
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 845
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 807
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1332
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 908.3
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 9089
+    },
+    {
+      "runId": "bench-1786379524833",
+      "timestamp": "2026-08-10T16:32:04.833Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1313
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 1035
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 1138
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 992
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 1173
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 985
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 1386
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 2303
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1122
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1048
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 1249.5
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 12502
+    },
+    {
+      "runId": "bench-1786492547687",
+      "timestamp": "2026-08-11T23:55:47.687Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1092
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 993
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 1329
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 1133
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 1335
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 1525
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 1236
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 1211
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 946
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 1022
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 1182.2
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 11826
+    },
+    {
+      "runId": "bench-1786492609575",
+      "timestamp": "2026-08-11T23:56:49.575Z",
+      "queries": [
+        {
+          "query": "What is the punishment for murder under BNS?",
+          "category": "criminal-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 1326
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "How to file an FIR under BNSS?",
+          "category": "procedural-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 1,
+            "recall": 1,
+            "f1": 1,
+            "citationAccuracy": 0.4,
+            "groundingQuality": 1,
+            "confidence": 0.57,
+            "latency": 832
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is anticipatory bail and how to get it?",
+          "category": "criminal-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.77,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.69,
+            "latency": 985
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the fundamental rights under the Indian Constitution?",
+          "category": "constitutional-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8,
+            "citationAccuracy": 0.8,
+            "groundingQuality": 0.8,
+            "confidence": 0.67,
+            "latency": 1079
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "Is electronic evidence admissible in court?",
+          "category": "evidence-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1": 0.55,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 1,
+            "confidence": 0.72,
+            "latency": 870
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "Right to privacy under Article 21",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.8,
+            "f1": 0.89,
+            "citationAccuracy": 0.6,
+            "groundingQuality": 0.6,
+            "confidence": 0.66,
+            "latency": 1158
+          },
+          "resultsCount": 5,
+          "passed": true
+        },
+        {
+          "query": "What is the limitation period for filing a civil suit?",
+          "category": "procedural-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.33,
+            "f1": 0.5,
+            "citationAccuracy": 0,
+            "groundingQuality": 0.75,
+            "confidence": 0.62,
+            "latency": 960
+          },
+          "resultsCount": 4,
+          "passed": false
+        },
+        {
+          "query": "How to file a consumer complaint?",
+          "category": "consumer-law",
+          "difficulty": "easy",
+          "metrics": {
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.62,
+            "citationAccuracy": 0.2,
+            "groundingQuality": 0.8,
+            "confidence": 0.47,
+            "latency": 844
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What is the difference between IPC 302 and BNS 103?",
+          "category": "criminal-law",
+          "difficulty": "hard",
+          "metrics": {
+            "precision": 1,
+            "recall": 0.5,
+            "f1": 0.67,
+            "citationAccuracy": 0,
+            "groundingQuality": 1,
+            "confidence": 0.5,
+            "latency": 863
+          },
+          "resultsCount": 5,
+          "passed": false
+        },
+        {
+          "query": "What are the remedies for violation of fundamental rights?",
+          "category": "constitutional-law",
+          "difficulty": "medium",
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6,
+            "citationAccuracy": 1,
+            "groundingQuality": 0.75,
+            "confidence": 0.69,
+            "latency": 873
+          },
+          "resultsCount": 4,
+          "passed": true
+        }
+      ],
+      "summary": {
+        "totalQueries": 10,
+        "validQueries": 10,
+        "passedQueries": 3,
+        "passRate": 30,
+        "avgMetrics": {
+          "precision": 0.84,
+          "recall": 0.64,
+          "f1": 0.71,
+          "citationAccuracy": 0.32,
+          "groundingQuality": 0.87,
+          "confidence": 0.61,
+          "latency": 979
+        },
+        "hallucinationRate": 13,
+        "overallHealth": "healthy"
+      },
+      "duration": 9793
+    }
+  ]
+}

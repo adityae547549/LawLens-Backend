@@ -1,0 +1,56 @@
+[
+  {
+    "act": "Information Technology Act (IT Act) 2000",
+    "chapter": "I",
+    "title": "Preliminary",
+    "sections": [
+      {
+        "num": 1,
+        "text": "This Act may be called the Information Technology Act, 2000. It extends to the whole of India and applies also to any offence or contravention thereunder committed outside India by any person.",
+        "key_topics": ["IT Act title", "Cyber law", "Extraterritorial applicability"]
+      },
+      {
+        "num": 2,
+        "text": "Definitions: 'Access' means gaining entry into computer resource. 'Computer' means any electronic, magnetic, optical or other high-speed data processing device. 'Cyber security' means protecting information, equipment, devices, computer resources from unauthorised access, use, disclosure, disruption, modification or destruction. 'Intermediary' means any person who on behalf of another person receives, stores or transmits electronic record.",
+        "key_topics": ["Computer definition", "Intermediary definition", "Cyber security"]
+      }
+    ]
+  },
+  {
+    "act": "Information Technology Act (IT Act) 2000",
+    "chapter": "XI",
+    "title": "Offences and Cyber Crimes",
+    "sections": [
+      {
+        "num": 43,
+        "text": "Penalty and compensation for damage to computer system: If any person without permission of owner accesses, downloads, copies, introduces virus, damages, disrupts, denies access to computer system, he shall be liable to pay damages by way of compensation to the person so affected.",
+        "key_topics": ["Computer damage", "Virus introduction", "Data theft compensation", "Unauthorized access"]
+      },
+      {
+        "num": 65,
+        "text": "Tampering with computer source documents: Whoever knowingly or intentionally conceals, destroys or alters any computer source code used for a computer, computer programme, computer system or computer network, shall be punished with imprisonment up to three years, or with fine up to two lakh rupees.",
+        "key_topics": ["Source code tampering", "Computer source code"]
+      },
+      {
+        "num": 66,
+        "text": "Computer related offences (Cyber Crimes & Hacking): If any person, dishonestly or fraudulently, does any act referred to in section 43, he shall be punishable with imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both.",
+        "key_topics": ["Hacking", "Cyber crime", "Identity theft", "Section 66B stolen computer", "Section 66C identity theft", "Section 66D cheating by personation"]
+      },
+      {
+        "num": "66A",
+        "text": "Punishment for sending offensive messages through communication service (Struck Down): Section 66A was struck down as unconstitutional by the Supreme Court of India in Shreya Singhal v. Union of India (2015) for violating freedom of speech and expression under Article 19(1)(a).",
+        "key_topics": ["Section 66A", "Shreya Singhal case", "Struck down", "Freedom of speech", "Unconstitutional"]
+      },
+      {
+        "num": "69A",
+        "text": "Power to issue directions for blocking for public access of any information through any computer resource: Central Government or authorized officer may, if satisfied that it is necessary in interest of sovereignty, integrity, defense of India, security of State, friendly relations with foreign states, or public order, direct any agency/intermediary to block for access by public any information generated, transmitted, received or stored in any computer resource.",
+        "key_topics": ["Website blocking", "Section 69A", "Blocking orders", "National security blocking"]
+      },
+      {
+        "num": 79,
+        "text": "Exemption from liability of intermediary in certain cases (Safe Harbour Protection): An intermediary shall not be liable for any third party information, data, or communication link made available or hosted by him if the function of the intermediary is limited to providing access to communication system and the intermediary observes due diligence while discharging duties.",
+        "key_topics": ["Intermediary safe harbour", "Section 79", "Social media liability", "Due diligence", "Notice and takedown"]
+      }
+    ]
+  }
+]

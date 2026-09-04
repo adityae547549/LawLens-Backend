@@ -1,0 +1,34 @@
+[
+  {
+    "act": "Environment (Protection) Act 1986",
+    "chapter": "I",
+    "title": "Preliminary & Powers of Central Government",
+    "sections": [
+      {
+        "num": 1,
+        "text": "This Act may be called the Environment (Protection) Act, 1986. It was enacted in the wake of the Bhopal Gas Tragedy to provide for the protection and improvement of environment.",
+        "key_topics": ["Environment Protection title", "Bhopal gas tragedy background", "EIA"]
+      },
+      {
+        "num": 3,
+        "text": "Power of Central Government to take measures to protect and improve environment: Central Government shall have the power to take all such measures as it deems necessary or expedient for protecting environment and preventing environmental pollution, including setting standards for quality of environment, emission of pollutants, and restriction of industrial areas.",
+        "key_topics": ["Central Government environment powers", "Pollution standards", "Industrial restriction"]
+      },
+      {
+        "num": 5,
+        "text": "Power to give directions: Central Government may in exercise of its powers issue directions in writing to any person, officer or authority and such person or authority shall be bound to comply. Includes power to direct closure, prohibition or regulation of any industry or stoppage of electricity or water supply.",
+        "key_topics": ["Section 5 EPA", "Power to order closure of industry", "Stoppage of water/electricity supply"]
+      },
+      {
+        "num": 7,
+        "text": "Persons carrying on industry, operation, etc., not to allow discharge or emission of environmental pollutants in excess of standards: No person carrying on any industry, operation or process shall discharge or emit or permit to be discharged any environmental pollutant in excess of prescribed standards.",
+        "key_topics": ["Section 7 EPA", "Pollution emission limit", "Polluter pays principle"]
+      },
+      {
+        "num": 15,
+        "text": "Penalty for contravention of provisions of Act, Rules, Orders and Directions: Whoever fails to comply with or contravenes any provision of this Act shall be punishable with imprisonment for a term which may extend to five years or with fine which may extend to one lakh rupees, or with both.",
+        "key_topics": ["Environmental penalties", "Section 15 EPA", "Imprisonment for environmental pollution"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1995 @@
+{
+  "id": "corpus-crpc",
+  "type": "act",
+  "title": "Code of Criminal Procedure 1973",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Code of Criminal Procedure 1973 — sourced from crpc.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-crpc.json-0",
+      "type": "chapter",
+      "number": "1",
+      "title": "Preliminary",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Section 2",
+          "content": "The Code of Criminal Procedure 1973 extends to the whole of India and applies to all offenses under the Indian Penal Code and other laws.",
+          "keywords": [
+            "Scope",
+            "Territorial extent"
+          ],
+          "children": [],
+          "order": 2
+        },
+        {
+          "id": "sec-crpc.json-4",
+          "type": "section",
+          "number": "4",
+          "title": "Section 4",
+          "content": "All offenses under the Indian Penal Code shall be investigated, inquired into, tried, and otherwise dealt with according to the provisions of this Code.",
+          "keywords": [
+            "Trial of offenses",
+            "IPC application"
+          ],
+          "children": [],
+          "order": 4
+        },
+        {
+          "id": "sec-crpc.json-6",
+          "type": "section",
+          "number": "6",
+          "title": "Section 6",
+          "content": "Offenses under the IPC are classified as cognizable and non-cognizable, bailable and non-bailable, and compoundable and non-compoundable.",
+          "keywords": [
+            "Offense classification",
+            "Cognizable",
+            "Bailable"
+          ],
+          "children": [],
+          "order": 6
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-crpc.json-1",
+      "type": "chapter",
+      "number": "2",
+      "title": "Constitution of Criminal Courts and Offices",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-6",
+          "type": "section",
+          "number": "6",
+          "title": "Section 6",
+          "content": "Criminal courts include: Supreme Court, High Courts, Courts of Session, Judicial Magistrates of First Class, Second Class, and Executive Magistrates.",
+          "keywords": [
+            "Court hierarchy",
+            "Criminal courts"
+          ],
+          "children": [],
+          "order": 6
+        },
+        {
+          "id": "sec-crpc.json-9",
+          "type": "section",
+          "number": "9",
+          "title": "Section 9",
+          "content": "The High Court establishes Courts of Session presided over by a Sessions Judge appointed by the High Court.",
+          "keywords": [
+            "Sessions court",
+            "Sessions judge"
+          ],
+          "children": [],
+          "order": 9
+        },
+        {
+          "id": "sec-crpc.json-11",
+          "type": "section",
+          "number": "11",
+          "title": "Section 11",
+          "content": "In every district, the Chief Judicial Magistrate is appointed who exercises supervision over other Judicial Magistrates.",
+          "keywords": [
+            "Chief Judicial Magistrate",
+            "District judiciary"
+          ],
+          "children": [],
+          "order": 11
+        },
+        {
+          "id": "sec-crpc.json-12",
+          "type": "section",
+          "number": "12",
+          "title": "Section 12",
+          "content": "Judicial Magistrates of the First Class are appointed in every district by the High Court.",
+          "keywords": [
+            "First Class Magistrate",
+            "Magistrate appointment"
+          ],
+          "children": [],
+          "order": 12
+        },
+        {
+          "id": "sec-crpc.json-26",
+          "type": "section",
+          "number": "26",
+          "title": "Section 26",
+          "content": "Offenses punishable with death, imprisonment for life, or imprisonment exceeding 7 years shall be tried by a Court of Session.",
+          "keywords": [
+            "Session trial",
+            "Serious offenses"
+          ],
+          "children": [],
+          "order": 26
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-crpc.json-2",
+      "type": "chapter",
+      "number": "3",
+      "title": "Power of Courts",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-26",
+          "type": "section",
+          "number": "26",
+          "title": "Section 26",
+          "content": "Any offense not punishable with death, life imprisonment, or imprisonment exceeding 7 years may be tried by a Judicial Magistrate of the First Class.",
+          "keywords": [
+            "Magistrate jurisdiction",
+            "Trial powers"
+          ],
+          "children": [],
+          "order": 26
+        },
+        {
+          "id": "sec-crpc.json-27",
+          "type": "section",
+          "number": "27",
+          "title": "Section 27",
+          "content": "A Judicial Magistrate of the Second Class may try offenses punishable with imprisonment up to 1 year or fine up to Rs. 5000.",
+          "keywords": [
+            "Second Class Magistrate",
+            "Magistrate limit"
+          ],
+          "children": [],
+          "order": 27
+        },
+        {
+          "id": "sec-crpc.json-28",
+          "type": "section",
+          "number": "28",
+          "title": "Section 28",
+          "content": "A Court of Session may pass any sentence authorized by law, but any death sentence must be confirmed by the High Court.",
+          "keywords": [
+            "Session sentencing",
+            "Death confirmation"
+          ],
+          "children": [],
+          "order": 28
+        },
+        {
+          "id": "sec-crpc.json-29",
+          "type": "section",
+          "number": "29",
+          "title": "Section 29",
+          "content": "A Chief Judicial Magistrate may pass any sentence except death, life imprisonment, or imprisonment exceeding 7 years.",
+          "keywords": [
+            "CJM sentencing",
+            "Magistrate sentencing"
+          ],
+          "children": [],
+          "order": 29
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "ch-crpc.json-3",
+      "type": "chapter",
+      "number": "4",
+      "title": "Arrest",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-41",
+          "type": "section",
+          "number": "41",
+          "title": "Section 41",
+          "content": "A police officer may arrest without warrant any person concerned in a cognizable offense, or against whom a reasonable complaint has been made.",
+          "keywords": [
+            "Arrest without warrant",
+            "Cognizable offense",
+            "Police power"
+          ],
+          "children": [],
+          "order": 41
+        },
+        {
+          "id": "sec-crpc.json-41A",
+          "type": "section",
+          "number": "41A",
+          "title": "Section 41A",
+          "content": "In cases where arrest is not necessary, the police officer shall issue a notice of appearance. If the person complies, no arrest shall be made.",
+          "keywords": [
+            "Notice to appear",
+            "Arrest alternative",
+            "Summon"
+          ],
+          "children": [],
+          "order": "41A"
+        },
+        {
+          "id": "sec-crpc.json-46",
+          "type": "section",
+          "number": "46",
+          "title": "Section 46",
+          "content": "In making an arrest, the police officer shall actually touch or confine the body of the person unless there is submission to custody by word or action.",
+          "keywords": [
+            "Arrest procedure",
+            "Physical restraint"
+          ],
+          "children": [],
+          "order": 46
+        },
+        {
+          "id": "sec-crpc.json-47",
+          "type": "section",
+          "number": "47",
+          "title": "Section 47",
+          "content": "A police officer may break open any door or window to enter and search any place if entry is otherwise impossible, after giving notice of purpose.",
+          "keywords": [
+            "Search entry",
+            "Breaking doors",
+            "Warrant entry"
+          ],
+          "children": [],
+          "order": 47
+        },
+        {
+          "id": "sec-crpc.json-50",
+          "type": "section",
+          "number": "50",
+          "title": "Section 50",
+          "content": "Every person arrested without warrant shall be informed of the full particulars of the offense for which he is arrested immediately.",
+          "keywords": [
+            "Arrest notice",
+            "Rights of arrested",
+            "Disclosure"
+          ],
+          "children": [],
+          "order": 50
+        },
+        {
+          "id": "sec-crpc.json-56",
+          "type": "section",
+          "number": "56",
+          "title": "Section 56",
+          "content": "A police officer making an arrest shall produce the arrested person before a magistrate without unnecessary delay, within 24 hours.",
+          "keywords": [
+            "24-hour rule",
+            "Production before magistrate",
+            "Timely production"
+          ],
+          "children": [],
+          "order": 56
+        },
+        {
+          "id": "sec-crpc.json-57",
+          "type": "section",
+          "number": "57",
+          "title": "Section 57",
+          "content": "No person arrested shall be detained for more than 24 hours without being produced before a magistrate.",
+          "keywords": [
+            "24-hour detention limit",
+            "Magistrate production",
+            "Remand"
+          ],
+          "children": [],
+          "order": 57
+        },
+        {
+          "id": "sec-crpc.json-60A",
+          "type": "section",
+          "number": "60A",
+          "title": "Section 60A",
+          "content": "Arrest shall not be made unnecessarily and no more restraint than necessary shall be used.",
+          "keywords": [
+            "Necessary restraint",
+            "Minimal force",
+            "Arrest guidelines"
+          ],
+          "children": [],
+          "order": "60A"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "ch-crpc.json-4",
+      "type": "chapter",
+      "number": "5",
+      "title": "Processes to Compel Appearance",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-61",
+          "type": "section",
+          "number": "61",
+          "title": "Section 61",
+          "content": "Summons shall be in writing, signed by the presiding officer, and shall state the offense charged.",
+          "keywords": [
+            "Summons",
+            "Written notice",
+            "Court order"
+          ],
+          "children": [],
+          "order": 61
+        },
+        {
+          "id": "sec-crpc.json-62",
+          "type": "section",
+          "number": "62",
+          "title": "Section 62",
+          "content": "Every summons shall be served by a police officer or public servant by delivering a copy to the person summoned.",
+          "keywords": [
+            "Summons service",
+            "Personal delivery"
+          ],
+          "children": [],
+          "order": 62
+        },
+        {
+          "id": "sec-crpc.json-64",
+          "type": "section",
+          "number": "64",
+          "title": "Section 64",
+          "content": "Where the person cannot be found, the summons may be served by leaving a copy with an adult family member.",
+          "keywords": [
+            "Substitute service",
+            "Family member delivery"
+          ],
+          "children": [],
+          "order": 64
+        },
+        {
+          "id": "sec-crpc.json-68",
+          "type": "section",
+          "number": "68",
+          "title": "Section 68",
+          "content": "Where there is no reasonable likelihood of personal service, the serving officer may affix a copy of the summons to the outer door of the residence.",
+          "keywords": [
+            "Affixation",
+            "Door service",
+            "Constructive service"
+          ],
+          "children": [],
+          "order": 68
+        },
+        {
+          "id": "sec-crpc.json-69",
+          "type": "section",
+          "number": "69",
+          "title": "Section 69",
+          "content": "Service by post is permissible in certain cases where the court deems it fit.",
+          "keywords": [
+            "Postal service",
+            "Registered post"
+          ],
+          "children": [],
+          "order": 69
+        },
+        {
+          "id": "sec-crpc.json-70",
+          "type": "section",
+          "number": "70",
+          "title": "Section 70",
+          "content": "A warrant of arrest shall be signed by the presiding officer and shall bear the seal of the court.",
+          "keywords": [
+            "Arrest warrant",
+            "Judicial warrant"
+          ],
+          "children": [],
+          "order": 70
+        },
+        {
+          "id": "sec-crpc.json-71",
+          "type": "section",
+          "number": "71",
+          "title": "Section 71",
+          "content": "Every warrant of arrest shall be directed to one or more police officers, requiring them to arrest the person named.",
+          "keywords": [
+            "Warrant to police",
+            "Arrest direction"
+          ],
+          "children": [],
+          "order": 71
+        },
+        {
+          "id": "sec-crpc.json-73",
+          "type": "section",
+          "number": "73",
+          "title": "Section 73",
+          "content": "A warrant may be directed to any person for execution outside the local jurisdiction of the court.",
+          "keywords": [
+            "Warrant jurisdiction",
+            "Extra-jurisdictional warrant"
+          ],
+          "children": [],
+          "order": 73
+        },
+        {
+          "id": "sec-crpc.json-82",
+          "type": "section",
+          "number": "82",
+          "title": "Section 82",
+          "content": "If a person absconds to avoid warrant, the court may publish a proclamation requiring his appearance.",
+          "keywords": [
+            "Proclamation",
+            "Absconder",
+            "Public notice"
+          ],
+          "children": [],
+          "order": 82
+        },
+        {
+          "id": "sec-crpc.json-83",
+          "type": "section",
+          "number": "83",
+          "title": "Section 83",
+          "content": "After proclamation, the court may order attachment of the absconder's property.",
+          "keywords": [
+            "Property attachment",
+            "Absconder property",
+            "Attachment order"
+          ],
+          "children": [],
+          "order": 83
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "ch-crpc.json-5",
+      "type": "chapter",
+      "number": "6",
+      "title": "Processes to Compel Production of Things",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-91",
+          "type": "section",
+          "number": "91",
+          "title": "Section 91",
+          "content": "A court may issue a summons for the production of any document or other thing necessary for investigation or trial.",
+          "keywords": [
+            "Document production",
+            "Summons to produce",
+            "Discovery"
+          ],
+          "children": [],
+          "order": 91
+        },
+        {
+          "id": "sec-crpc.json-92",
+          "type": "section",
+          "number": "92",
+          "title": "Section 92",
+          "content": "The court may summon a public servant to produce a public document in his custody.",
+          "keywords": [
+            "Public document",
+            "Government record",
+            "Summons to public servant"
+          ],
+          "children": [],
+          "order": 92
+        },
+        {
+          "id": "sec-crpc.json-93",
+          "type": "section",
+          "number": "93",
+          "title": "Section 93",
+          "content": "A search warrant may be issued where the court has reason to believe a person will not produce a document or thing.",
+          "keywords": [
+            "Search warrant",
+            "Document seizure",
+            "Warrant issuance"
+          ],
+          "children": [],
+          "order": 93
+        },
+        {
+          "id": "sec-crpc.json-94",
+          "type": "section",
+          "number": "94",
+          "title": "Section 94",
+          "content": "Search warrants may be issued for search of a place suspected to contain stolen property, forged documents, or evidence of an offense.",
+          "keywords": [
+            "Search for evidence",
+            "Stolen property",
+            "Forged documents"
+          ],
+          "children": [],
+          "order": 94
+        },
+        {
+          "id": "sec-crpc.json-97",
+          "type": "section",
+          "number": "97",
+          "title": "Section 97",
+          "content": "A magistrate may issue a search warrant for a person wrongfully confined.",
+          "keywords": [
+            "Wrongful confinement",
+            "Search warrant",
+            "Person search"
+          ],
+          "children": [],
+          "order": 97
+        },
+        {
+          "id": "sec-crpc.json-100",
+          "type": "section",
+          "number": "100",
+          "title": "Section 100",
+          "content": "When a search is conducted, the officer shall call upon independent witnesses and shall prepare a list of all things seized.",
+          "keywords": [
+            "Search procedure",
+            "Independent witnesses",
+            "Seizure list"
+          ],
+          "children": [],
+          "order": 100
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "ch-crpc.json-6",
+      "type": "chapter",
+      "number": "7",
+      "title": "Security for Keeping the Peace and for Good Behavior",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-106",
+          "type": "section",
+          "number": "106",
+          "title": "Section 106",
+          "content": "A court may require a person convicted of certain offenses to execute a bond to keep the peace for a period not exceeding 3 years.",
+          "keywords": [
+            "Peace bond",
+            "Security",
+            "Binding over"
+          ],
+          "children": [],
+          "order": 106
+        },
+        {
+          "id": "sec-crpc.json-107",
+          "type": "section",
+          "number": "107",
+          "title": "Section 107",
+          "content": "When a magistrate receives information that a person is likely to commit a breach of peace or disturb public tranquility, he may require a bond for keeping the peace.",
+          "keywords": [
+            "Breach of peace",
+            "Preventive security",
+            "Public tranquility"
+          ],
+          "children": [],
+          "order": 107
+        },
+        {
+          "id": "sec-crpc.json-108",
+          "type": "section",
+          "number": "108",
+          "title": "Section 108",
+          "content": "Security for good behavior may be required from persons disseminating seditious matter or promoting class hatred.",
+          "keywords": [
+            "Sedition",
+            "Hate speech",
+            "Good behavior"
+          ],
+          "children": [],
+          "order": 108
+        },
+        {
+          "id": "sec-crpc.json-109",
+          "type": "section",
+          "number": "109",
+          "title": "Section 109",
+          "content": "Security may be required from persons suspected of concealing a design to commit a cognizable offense.",
+          "keywords": [
+            "Concealment of design",
+            "Cognizable offense",
+            "Preventive"
+          ],
+          "children": [],
+          "order": 109
+        },
+        {
+          "id": "sec-crpc.json-110",
+          "type": "section",
+          "number": "110",
+          "title": "Section 110",
+          "content": "Security may be required from habitual offenders, robbers, thieves, and persons who are a danger to society.",
+          "keywords": [
+            "Habitual offender",
+            "Repeat criminal",
+            "Security"
+          ],
+          "children": [],
+          "order": 110
+        }
+      ],
+      "order": 6
+    },
+    {
+      "id": "ch-crpc.json-7",
+      "type": "chapter",
+      "number": "8",
+      "title": "Preventive Action of the Police",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-149",
+          "type": "section",
+          "number": "149",
+          "title": "Section 149",
+          "content": "A police officer may prevent any injury attempted to be caused to any public property.",
+          "keywords": [
+            "Preventive action",
+            "Public property protection",
+            "Police"
+          ],
+          "children": [],
+          "order": 149
+        },
+        {
+          "id": "sec-crpc.json-150",
+          "type": "section",
+          "number": "150",
+          "title": "Section 150",
+          "content": "A police officer may intervene to prevent the commission of cognizable offenses.",
+          "keywords": [
+            "Crime prevention",
+            "Police intervention",
+            "Cognizable offense"
+          ],
+          "children": [],
+          "order": 150
+        },
+        {
+          "id": "sec-crpc.json-151",
+          "type": "section",
+          "number": "151",
+          "title": "Section 151",
+          "content": "A police officer knowing of a design to commit a cognizable offense shall arrest the person without order from a magistrate.",
+          "keywords": [
+            "Preventive arrest",
+            "Design to commit",
+            "Police detention"
+          ],
+          "children": [],
+          "order": 151
+        }
+      ],
+      "order": 7
+    },
+    {
+      "id": "ch-crpc.json-8",
+      "type": "chapter",
+      "number": "9",
+      "title": "Maintenance of Public Order and Tranquility",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-144",
+          "type": "section",
+          "number": "144",
+          "title": "Section 144",
+          "content": "A magistrate may issue orders in urgent cases of nuisance or apprehended danger, directing a person to abstain from a certain act or to take order with property in his possession.",
+          "keywords": [
+            "Section 144",
+            "Urgent nuisance",
+            "Public order",
+            "Curfew"
+          ],
+          "children": [],
+          "order": 144
+        },
+        {
+          "id": "sec-crpc.json-145",
+          "type": "section",
+          "number": "145",
+          "title": "Section 145",
+          "content": "A magistrate may make orders to prevent disputes concerning land or water likely to cause a breach of peace.",
+          "keywords": [
+            "Land dispute",
+            "Breach of peace",
+            "Attachment of property"
+          ],
+          "children": [],
+          "order": 145
+        }
+      ],
+      "order": 8
+    },
+    {
+      "id": "ch-crpc.json-9",
+      "type": "chapter",
+      "number": "10",
+      "title": "Maintenance of Wives, Children and Parents",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-125",
+          "type": "section",
+          "number": "125",
+          "title": "Section 125",
+          "content": "If a person having sufficient means neglects to maintain his wife, children, or parents who are unable to maintain themselves, a magistrate may order monthly maintenance of up to Rs. 5000.",
+          "keywords": [
+            "Maintenance",
+            "Wife maintenance",
+            "Child support",
+            "Parent support"
+          ],
+          "children": [],
+          "order": 125
+        },
+        {
+          "id": "sec-crpc.json-126",
+          "type": "section",
+          "number": "126",
+          "title": "Section 126",
+          "content": "Proceedings under Section 125 may be taken against any person in any district where he resides or where his wife resides.",
+          "keywords": [
+            "Maintenance jurisdiction",
+            "Venue",
+            "Residence"
+          ],
+          "children": [],
+          "order": 126
+        },
+        {
+          "id": "sec-crpc.json-127",
+          "type": "section",
+          "number": "127",
+          "title": "Section 127",
+          "content": "An order under Section 125 may be altered or modified on proof of change in circumstances.",
+          "keywords": [
+            "Maintenance modification",
+            "Changed circumstances",
+            "Variation"
+          ],
+          "children": [],
+          "order": 127
+        },
+        {
+          "id": "sec-crpc.json-128",
+          "type": "section",
+          "number": "128",
+          "title": "Section 128",
+          "content": "A magistrate may enforce payment of maintenance by issuing a warrant for levying the amount due.",
+          "keywords": [
+            "Maintenance enforcement",
+            "Warrant",
+            "Payment recovery"
+          ],
+          "children": [],
+          "order": 128
+        }
+      ],
+      "order": 9
+    },
+    {
+      "id": "ch-crpc.json-10",
+      "type": "chapter",
+      "number": "11",
+      "title": "Information to the Police and Their Powers to Investigate",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-154",
+          "type": "section",
+          "number": "154",
+          "title": "Section 154",
+          "content": "Every information relating to the commission of a cognizable offense given orally to a police officer shall be reduced to writing and signed by the informant. This is the First Information Report (FIR). A copy shall be given free of cost to the informant.",
+          "keywords": [
+            "FIR",
+            "First Information Report",
+            "Cognizable offense",
+            "Police report"
+          ],
+          "children": [],
+          "order": 154
+        },
+        {
+          "id": "sec-crpc.json-155",
+          "type": "section",
+          "number": "155",
+          "title": "Section 155",
+          "content": "Information relating to non-cognizable offenses shall be entered in a diary and the police officer shall refer the informant to the magistrate.",
+          "keywords": [
+            "Non-cognizable offense",
+            "Police diary",
+            "Magistrate referral"
+          ],
+          "children": [],
+          "order": 155
+        },
+        {
+          "id": "sec-crpc.json-156",
+          "type": "section",
+          "number": "156",
+          "title": "Section 156",
+          "content": "A police officer may investigate any cognizable offense without the order of a magistrate.",
+          "keywords": [
+            "Police investigation",
+            "Cognizable offense",
+            "Investigation power"
+          ],
+          "children": [],
+          "order": 156
+        },
+        {
+          "id": "sec-crpc.json-157",
+          "type": "section",
+          "number": "157",
+          "title": "Section 157",
+          "content": "If a police officer has reason to suspect the commission of a cognizable offense, he shall send a report to the magistrate and proceed to investigate.",
+          "keywords": [
+            "Investigation commencement",
+            "Police report",
+            "Suspicion"
+          ],
+          "children": [],
+          "order": 157
+        },
+        {
+          "id": "sec-crpc.json-160",
+          "type": "section",
+          "number": "160",
+          "title": "Section 160",
+          "content": "A police officer may require attendance of witnesses acquainted with the facts for examination during investigation.",
+          "keywords": [
+            "Witness examination",
+            "Investigation",
+            "Summoning witnesses"
+          ],
+          "children": [],
+          "order": 160
+        },
+        {
+          "id": "sec-crpc.json-161",
+          "type": "section",
+          "number": "161",
+          "title": "Section 161",
+          "content": "A police officer may examine orally any person supposed to be acquainted with the facts. The person is bound to answer truly except incriminating questions.",
+          "keywords": [
+            "Oral examination",
+            "Witness statement",
+            "Right against self-incrimination"
+          ],
+          "children": [],
+          "order": 161
+        },
+        {
+          "id": "sec-crpc.json-162",
+          "type": "section",
+          "number": "162",
+          "title": "Section 162",
+          "content": "No statement made to a police officer during investigation shall be signed, and it may be used only for contradicting the witness in court.",
+          "keywords": [
+            "Statement not signed",
+            "Court contradiction",
+            "Investigation use"
+          ],
+          "children": [],
+          "order": 162
+        },
+        {
+          "id": "sec-crpc.json-164",
+          "type": "section",
+          "number": "164",
+          "title": "Section 164",
+          "content": "A magistrate may record any confession or statement made during investigation. Confessions recorded under this section are admissible in evidence.",
+          "keywords": [
+            "Magistrate confession",
+            "Judicial confession",
+            "Section 164 statement"
+          ],
+          "children": [],
+          "order": 164
+        },
+        {
+          "id": "sec-crpc.json-167",
+          "type": "section",
+          "number": "167",
+          "title": "Section 167",
+          "content": "If investigation cannot be completed within 24 hours, the accused shall be produced before a magistrate who may authorize detention for up to 15 days. Total judicial custody may extend up to 90 days for serious offenses and 60 days for others.",
+          "keywords": [
+            "Police custody",
+            "Judicial custody",
+            "Remand",
+            "90-day limit"
+          ],
+          "children": [],
+          "order": 167
+        },
+        {
+          "id": "sec-crpc.json-169",
+          "type": "section",
+          "number": "169",
+          "title": "Section 169",
+          "content": "If upon investigation there is no sufficient evidence, the police shall release the accused on bond.",
+          "keywords": [
+            "Release",
+            "No evidence",
+            "Bond",
+            "Unsubstantiated"
+          ],
+          "children": [],
+          "order": 169
+        },
+        {
+          "id": "sec-crpc.json-170",
+          "type": "section",
+          "number": "170",
+          "title": "Section 170",
+          "content": "If sufficient evidence is found, the police shall forward the accused to a magistrate for trial.",
+          "keywords": [
+            "Charge sheet",
+            "Police report",
+            "Forwarding to magistrate"
+          ],
+          "children": [],
+          "order": 170
+        },
+        {
+          "id": "sec-crpc.json-173",
+          "type": "section",
+          "number": "173",
+          "title": "Section 173",
+          "content": "On completion of investigation, the police shall submit a final report (charge sheet) to the magistrate with all relevant documents.",
+          "keywords": [
+            "Charge sheet",
+            "Final report",
+            "Investigation completion",
+            "Cognizance"
+          ],
+          "children": [],
+          "order": 173
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "ch-crpc.json-11",
+      "type": "chapter",
+      "number": "12",
+      "title": "Jurisdiction of Criminal Courts in Inquiries and Trials",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-177",
+          "type": "section",
+          "number": "177",
+          "title": "Section 177",
+          "content": "Every offense shall ordinarily be tried by a court within whose local jurisdiction it was committed.",
+          "keywords": [
+            "Jurisdiction",
+            "Territorial",
+            "Venue",
+            "Place of offense"
+          ],
+          "children": [],
+          "order": 177
+        },
+        {
+          "id": "sec-crpc.json-178",
+          "type": "section",
+          "number": "178",
+          "title": "Section 178",
+          "content": "Where the offense consists of several acts done in different local areas, the trial may be in any such area.",
+          "keywords": [
+            "Continuing offense",
+            "Multiple jurisdictions",
+            "Any venue"
+          ],
+          "children": [],
+          "order": 178
+        },
+        {
+          "id": "sec-crpc.json-179",
+          "type": "section",
+          "number": "179",
+          "title": "Section 179",
+          "content": "Where an act is done in one place and the consequence ensues in another, the trial may be in either place.",
+          "keywords": [
+            "Act and consequence",
+            "Cross-jurisdiction",
+            "Result venue"
+          ],
+          "children": [],
+          "order": 179
+        },
+        {
+          "id": "sec-crpc.json-180",
+          "type": "section",
+          "number": "180",
+          "title": "Section 180",
+          "content": "Where it is uncertain in which jurisdiction an offense was committed, the trial may be in any such area.",
+          "keywords": [
+            "Uncertain jurisdiction",
+            "Any venue",
+            "Convenience"
+          ],
+          "children": [],
+          "order": 180
+        }
+      ],
+      "order": 11
+    },
+    {
+      "id": "ch-crpc.json-12",
+      "type": "chapter",
+      "number": "13",
+      "title": "Conditions Requisite for Initiation of Proceedings",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-190",
+          "type": "section",
+          "number": "190",
+          "title": "Section 190",
+          "content": "A magistrate may take cognizance of an offense upon receiving a complaint, upon a police report, or upon information from any person.",
+          "keywords": [
+            "Cognizance",
+            "Magistrate",
+            "Complaint",
+            "Information"
+          ],
+          "children": [],
+          "order": 190
+        },
+        {
+          "id": "sec-crpc.json-195",
+          "type": "section",
+          "number": "195",
+          "title": "Section 195",
+          "content": "A court shall not take cognizance of offenses against public justice or contempt of lawful authority except on complaint in writing by the concerned court.",
+          "keywords": [
+            "Sanction",
+            "Public justice",
+            "Court complaint",
+            "Contempt"
+          ],
+          "children": [],
+          "order": 195
+        },
+        {
+          "id": "sec-crpc.json-196",
+          "type": "section",
+          "number": "196",
+          "title": "Section 196",
+          "content": "For certain offenses against the State, cognizance may be taken only with prior sanction of the central or state government.",
+          "keywords": [
+            "State sanction",
+            "Offenses against state",
+            "Government consent"
+          ],
+          "children": [],
+          "order": 196
+        },
+        {
+          "id": "sec-crpc.json-200",
+          "type": "section",
+          "number": "200",
+          "title": "Section 200",
+          "content": "A magistrate taking cognizance of an offense on complaint shall examine the complainant and the witnesses on oath.",
+          "keywords": [
+            "Complaint examination",
+            "Witness oath",
+            "Magistrate inquiry"
+          ],
+          "children": [],
+          "order": 200
+        }
+      ],
+      "order": 12
+    },
+    {
+      "id": "ch-crpc.json-13",
+      "type": "chapter",
+      "number": "14",
+      "title": "Complaints to Magistrates",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-200",
+          "type": "section",
+          "number": "200",
+          "title": "Section 200",
+          "content": "A magistrate taking cognizance of an offense on complaint shall examine the complainant upon oath and reduce the substance to writing.",
+          "keywords": [
+            "Complaint",
+            "Magistrate examination",
+            "Oath",
+            "Written record"
+          ],
+          "children": [],
+          "order": 200
+        },
+        {
+          "id": "sec-crpc.json-202",
+          "type": "section",
+          "number": "202",
+          "title": "Section 202",
+          "content": "The magistrate may postpone issuance of process and conduct an inquiry or direct investigation by police.",
+          "keywords": [
+            "Pre-process inquiry",
+            "Police investigation",
+            "Inquiry postponement"
+          ],
+          "children": [],
+          "order": 202
+        },
+        {
+          "id": "sec-crpc.json-203",
+          "type": "section",
+          "number": "203",
+          "title": "Section 203",
+          "content": "If the magistrate finds no sufficient ground for proceeding, he shall dismiss the complaint.",
+          "keywords": [
+            "Complaint dismissal",
+            "No ground",
+            "Summons rejection"
+          ],
+          "children": [],
+          "order": 203
+        }
+      ],
+      "order": 13
+    },
+    {
+      "id": "ch-crpc.json-14",
+      "type": "chapter",
+      "number": "15",
+      "title": "Charge",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-211",
+          "type": "section",
+          "number": "211",
+          "title": "Section 211",
+          "content": "Every charge shall state the offense with which the accused is charged, giving the name and specific provision of law.",
+          "keywords": [
+            "Charge framing",
+            "Offense statement",
+            "Legal provision"
+          ],
+          "children": [],
+          "order": 211
+        },
+        {
+          "id": "sec-crpc.json-212",
+          "type": "section",
+          "number": "212",
+          "title": "Section 212",
+          "content": "The charge shall contain particulars as to time, place, and person against whom the offense was committed.",
+          "keywords": [
+            "Charge particulars",
+            "Time and place",
+            "Person"
+          ],
+          "children": [],
+          "order": 212
+        },
+        {
+          "id": "sec-crpc.json-218",
+          "type": "section",
+          "number": "218",
+          "title": "Section 218",
+          "content": "For every distinct offense, there shall be a separate charge and each charge shall be tried separately.",
+          "keywords": [
+            "Separate charge",
+            "Distinct offense",
+            "Separate trial"
+          ],
+          "children": [],
+          "order": 218
+        },
+        {
+          "id": "sec-crpc.json-222",
+          "type": "section",
+          "number": "222",
+          "title": "Section 222",
+          "content": "When a person is charged with an offense and facts prove a minor offense, he may be convicted of the minor offense.",
+          "keywords": [
+            "Lesser offense conviction",
+            "Alternate verdict",
+            "Minor offense"
+          ],
+          "children": [],
+          "order": 222
+        },
+        {
+          "id": "sec-crpc.json-228",
+          "type": "section",
+          "number": "228",
+          "title": "Section 228",
+          "content": "If the magistrate finds that the case is exclusively triable by the Court of Session, he shall commit the case to the Sessions Court.",
+          "keywords": [
+            "Commitment to sessions",
+            "Session trial",
+            "Magistrate committal"
+          ],
+          "children": [],
+          "order": 228
+        }
+      ],
+      "order": 14
+    },
+    {
+      "id": "ch-crpc.json-15",
+      "type": "chapter",
+      "number": "16",
+      "title": "Trial before a Court of Session",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-226",
+          "type": "section",
+          "number": "226",
+          "title": "Section 226",
+          "content": "When the accused is brought before the Court of Session, the prosecution shall open its case by describing the charge and stating the evidence.",
+          "keywords": [
+            "Prosecution opening",
+            "Session trial",
+            "Charge statement"
+          ],
+          "children": [],
+          "order": 226
+        },
+        {
+          "id": "sec-crpc.json-227",
+          "type": "section",
+          "number": "227",
+          "title": "Section 227",
+          "content": "If the judge finds no sufficient ground for proceeding, he shall discharge the accused.",
+          "keywords": [
+            "Discharge",
+            "No ground",
+            "Session discharge"
+          ],
+          "children": [],
+          "order": 227
+        },
+        {
+          "id": "sec-crpc.json-228",
+          "type": "section",
+          "number": "228",
+          "title": "Section 228",
+          "content": "If the judge finds grounds for presuming the accused committed the offense, he shall frame a charge in writing.",
+          "keywords": [
+            "Charge framing",
+            "Session charge",
+            "Presumption"
+          ],
+          "children": [],
+          "order": 228
+        },
+        {
+          "id": "sec-crpc.json-231",
+          "type": "section",
+          "number": "231",
+          "title": "Section 231",
+          "content": "The prosecution shall produce its evidence after the charge is read and explained.",
+          "keywords": [
+            "Prosecution evidence",
+            "Witness",
+            "Examination-in-chief"
+          ],
+          "children": [],
+          "order": 231
+        },
+        {
+          "id": "sec-crpc.json-232",
+          "type": "section",
+          "number": "232",
+          "title": "Section 232",
+          "content": "If after prosecution evidence the judge finds no evidence against the accused, he shall record an acquittal.",
+          "keywords": [
+            "Acquittal",
+            "No evidence",
+            "Summary acquittal"
+          ],
+          "children": [],
+          "order": 232
+        },
+        {
+          "id": "sec-crpc.json-233",
+          "type": "section",
+          "number": "233",
+          "title": "Section 233",
+          "content": "Where the accused is not acquitted, he shall enter his defense and produce evidence.",
+          "keywords": [
+            "Defense evidence",
+            "Accused defense",
+            "Witness production"
+          ],
+          "children": [],
+          "order": 233
+        },
+        {
+          "id": "sec-crpc.json-235",
+          "type": "section",
+          "number": "235",
+          "title": "Section 235",
+          "content": "After hearing arguments, the judge shall give judgment. If convicted, the judge shall hear the accused on sentence.",
+          "keywords": [
+            "Judgment",
+            "Sentencing hearing",
+            "Conviction"
+          ],
+          "children": [],
+          "order": 235
+        },
+        {
+          "id": "sec-crpc.json-248",
+          "type": "section",
+          "number": "248",
+          "title": "Section 248",
+          "content": "If the magistrate finds the accused not guilty, he shall record an order of acquittal. If guilty, he shall pass sentence according to law.",
+          "keywords": [
+            "Magistrate judgment",
+            "Acquittal",
+            "Conviction and sentence"
+          ],
+          "children": [],
+          "order": 248
+        }
+      ],
+      "order": 15
+    },
+    {
+      "id": "ch-crpc.json-16",
+      "type": "chapter",
+      "number": "17",
+      "title": "Trial of Warrant Cases by Magistrates",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-238",
+          "type": "section",
+          "number": "238",
+          "title": "Section 238",
+          "content": "In warrant cases instituted on police report, the magistrate shall satisfy himself that the documents have been furnished to the accused.",
+          "keywords": [
+            "Warrant case",
+            "Police report",
+            "Documents to accused"
+          ],
+          "children": [],
+          "order": 238
+        },
+        {
+          "id": "sec-crpc.json-239",
+          "type": "section",
+          "number": "239",
+          "title": "Section 239",
+          "content": "If the magistrate considers the charge groundless, he shall discharge the accused.",
+          "keywords": [
+            "Discharge",
+            "Warrant case",
+            "No case"
+          ],
+          "children": [],
+          "order": 239
+        },
+        {
+          "id": "sec-crpc.json-240",
+          "type": "section",
+          "number": "240",
+          "title": "Section 240",
+          "content": "If the magistrate finds reason to proceed, he shall frame a charge in writing against the accused.",
+          "keywords": [
+            "Charge framing",
+            "Warrant case",
+            "Reason to proceed"
+          ],
+          "children": [],
+          "order": 240
+        },
+        {
+          "id": "sec-crpc.json-242",
+          "type": "section",
+          "number": "242",
+          "title": "Section 242",
+          "content": "The prosecution shall produce evidence after the charge is framed. The magistrate may issue summons to witnesses.",
+          "keywords": [
+            "Prosecution evidence",
+            "Witness summons",
+            "Warrant trial"
+          ],
+          "children": [],
+          "order": 242
+        },
+        {
+          "id": "sec-crpc.json-243",
+          "type": "section",
+          "number": "243",
+          "title": "Section 243",
+          "content": "The accused may produce evidence in defense after the prosecution closes its case.",
+          "keywords": [
+            "Defense evidence",
+            "Accused witness",
+            "Cross-examination"
+          ],
+          "children": [],
+          "order": 243
+        },
+        {
+          "id": "sec-crpc.json-248",
+          "type": "section",
+          "number": "248",
+          "title": "Section 248",
+          "content": "If the magistrate finds the accused not guilty, he shall acquit. If guilty, he shall convict and pass sentence.",
+          "keywords": [
+            "Warrant judgment",
+            "Acquittal",
+            "Sentencing"
+          ],
+          "children": [],
+          "order": 248
+        },
+        {
+          "id": "sec-crpc.json-249",
+          "type": "section",
+          "number": "249",
+          "title": "Section 249",
+          "content": "If the complainant is absent, the magistrate may acquit the accused or adjourn the case.",
+          "keywords": [
+            "Complainant absence",
+            "Acquittal",
+            "Discharge"
+          ],
+          "children": [],
+          "order": 249
+        },
+        {
+          "id": "sec-crpc.json-250",
+          "type": "section",
+          "number": "250",
+          "title": "Section 250",
+          "content": "If a complaint is found false or vexatious, the magistrate may order compensation to the accused.",
+          "keywords": [
+            "False complaint",
+            "Compensation",
+            "Vexatious litigation"
+          ],
+          "children": [],
+          "order": 250
+        }
+      ],
+      "order": 16
+    },
+    {
+      "id": "ch-crpc.json-17",
+      "type": "chapter",
+      "number": "18",
+      "title": "Trial of Summons Cases by Magistrates",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-251",
+          "type": "section",
+          "number": "251",
+          "title": "Section 251",
+          "content": "In summons cases, the magistrate shall state the particulars of the offense to the accused and ask if he pleads guilty.",
+          "keywords": [
+            "Summons case",
+            "Particulars",
+            "Plea"
+          ],
+          "children": [],
+          "order": 251
+        },
+        {
+          "id": "sec-crpc.json-252",
+          "type": "section",
+          "number": "252",
+          "title": "Section 252",
+          "content": "If the accused pleads guilty, the magistrate shall record the plea and convict him.",
+          "keywords": [
+            "Guilty plea",
+            "Summary conviction",
+            "Plea recording"
+          ],
+          "children": [],
+          "order": 252
+        },
+        {
+          "id": "sec-crpc.json-253",
+          "type": "section",
+          "number": "253",
+          "title": "Section 253",
+          "content": "In petty cases, the magistrate may convict the accused on his plea of guilty without trial.",
+          "keywords": [
+            "Petty offense",
+            "Summary trial",
+            "Summary conviction"
+          ],
+          "children": [],
+          "order": 253
+        },
+        {
+          "id": "sec-crpc.json-254",
+          "type": "section",
+          "number": "254",
+          "title": "Section 254",
+          "content": "If the accused does not plead guilty, the magistrate shall hear the prosecution evidence and the accused's evidence.",
+          "keywords": [
+            "Summons trial",
+            "Evidence",
+            "Not guilty"
+          ],
+          "children": [],
+          "order": 254
+        },
+        {
+          "id": "sec-crpc.json-255",
+          "type": "section",
+          "number": "255",
+          "title": "Section 255",
+          "content": "If the magistrate finds the accused not guilty, he shall acquit. If guilty, he shall pass sentence.",
+          "keywords": [
+            "Summons judgment",
+            "Acquittal",
+            "Conviction"
+          ],
+          "children": [],
+          "order": 255
+        },
+        {
+          "id": "sec-crpc.json-257",
+          "type": "section",
+          "number": "257",
+          "title": "Section 257",
+          "content": "In summons cases, the complainant may withdraw the complaint, and the magistrate shall acquit the accused.",
+          "keywords": [
+            "Withdrawal",
+            "Compromise",
+            "Acquittal"
+          ],
+          "children": [],
+          "order": 257
+        },
+        {
+          "id": "sec-crpc.json-258",
+          "type": "section",
+          "number": "258",
+          "title": "Section 258",
+          "content": "In summons cases, the magistrate may stop proceedings and discharge the accused at any stage without recording an acquittal.",
+          "keywords": [
+            "Stoppage",
+            "Discharge",
+            "Summons case"
+          ],
+          "children": [],
+          "order": 258
+        }
+      ],
+      "order": 17
+    },
+    {
+      "id": "ch-crpc.json-18",
+      "type": "chapter",
+      "number": "19",
+      "title": "Summary Trials",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-260",
+          "type": "section",
+          "number": "260",
+          "title": "Section 260",
+          "content": "The following offenses may be tried summarily: offenses punishable with imprisonment up to 2 years, theft, receiving stolen property, criminal trespass, etc.",
+          "keywords": [
+            "Summary trial",
+            "Petty offenses",
+            "Fast track"
+          ],
+          "children": [],
+          "order": 260
+        },
+        {
+          "id": "sec-crpc.json-262",
+          "type": "section",
+          "number": "262",
+          "title": "Section 262",
+          "content": "In summary trials, no sentence of imprisonment exceeding 3 months shall be passed.",
+          "keywords": [
+            "Summary sentencing",
+            "3-month limit",
+            "Imprisonment cap"
+          ],
+          "children": [],
+          "order": 262
+        },
+        {
+          "id": "sec-crpc.json-263",
+          "type": "section",
+          "number": "263",
+          "title": "Section 263",
+          "content": "The magistrate shall maintain a brief record of the substance of evidence and particulars of conviction.",
+          "keywords": [
+            "Summary record",
+            "Brief evidence",
+            "Conviction note"
+          ],
+          "children": [],
+          "order": 263
+        }
+      ],
+      "order": 18
+    },
+    {
+      "id": "ch-crpc.json-19",
+      "type": "chapter",
+      "number": "20",
+      "title": "Bail",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-436",
+          "type": "section",
+          "number": "436",
+          "title": "Section 436",
+          "content": "A person arrested for a non-bailable offense shall be released on bail if the offense is bailable. The police officer shall release him on executing a bond.",
+          "keywords": [
+            "Bailable offense",
+            "Bail",
+            "Police bail",
+            "Bond"
+          ],
+          "children": [],
+          "order": 436
+        },
+        {
+          "id": "sec-crpc.json-437",
+          "type": "section",
+          "number": "437",
+          "title": "Section 437",
+          "content": "A person accused of a non-bailable offense may be released on bail, except where there are reasonable grounds to believe guilt of an offense punishable with death or life imprisonment.",
+          "keywords": [
+            "Non-bailable offense",
+            "Bail discretion",
+            "Serious offense",
+            "Court bail"
+          ],
+          "children": [],
+          "order": 437
+        },
+        {
+          "id": "sec-crpc.json-439",
+          "type": "section",
+          "number": "439",
+          "title": "Section 439",
+          "content": "A High Court or Court of Session may grant bail to any person accused of any offense, including non-bailable offenses.",
+          "keywords": [
+            "High Court bail",
+            "Session bail",
+            "Bail power",
+            "Anticipatory bail"
+          ],
+          "children": [],
+          "order": 439
+        },
+        {
+          "id": "sec-crpc.json-440",
+          "type": "section",
+          "number": "440",
+          "title": "Section 440",
+          "content": "The amount of bail shall be fixed with due regard to the circumstances and shall not be excessive.",
+          "keywords": [
+            "Bail amount",
+            "Proportional",
+            "Not excessive"
+          ],
+          "children": [],
+          "order": 440
+        },
+        {
+          "id": "sec-crpc.json-441",
+          "type": "section",
+          "number": "441",
+          "title": "Section 441",
+          "content": "Before a person is released on bail, a bond for the sum fixed shall be executed.",
+          "keywords": [
+            "Bail bond",
+            "Surety",
+            "Execution"
+          ],
+          "children": [],
+          "order": 441
+        },
+        {
+          "id": "sec-crpc.json-445",
+          "type": "section",
+          "number": "445",
+          "title": "Section 445",
+          "content": "A court may accept a deposit of money or valuable property in lieu of a bond.",
+          "keywords": [
+            "Bail deposit",
+            "Cash bail",
+            "Property deposit"
+          ],
+          "children": [],
+          "order": 445
+        },
+        {
+          "id": "sec-crpc.json-446A",
+          "type": "section",
+          "number": "446A",
+          "title": "Section 446A",
+          "content": "If bail is forfeited, the bond and any surety amount shall be forfeited to the government.",
+          "keywords": [
+            "Bail forfeiture",
+            "Surety forfeiture",
+            "Penalty"
+          ],
+          "children": [],
+          "order": "446A"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "id": "ch-crpc.json-20",
+      "type": "chapter",
+      "number": "21",
+      "title": "Appeals",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-372",
+          "type": "section",
+          "number": "372",
+          "title": "Section 372",
+          "content": "No appeal shall lie from a judgment of acquittal unless the State government directs an appeal. The victim also has a right to appeal.",
+          "keywords": [
+            "Appeal",
+            "Acquittal appeal",
+            "State appeal",
+            "Victim appeal"
+          ],
+          "children": [],
+          "order": 372
+        },
+        {
+          "id": "sec-crpc.json-374",
+          "type": "section",
+          "number": "374",
+          "title": "Section 374",
+          "content": "Appeals from convictions by the Court of Session lie to the High Court. Appeals from magistrate convictions lie to the Sessions Court.",
+          "keywords": [
+            "Criminal appeal",
+            "Session appeal",
+            "High Court appeal",
+            "Conviction appeal"
+          ],
+          "children": [],
+          "order": 374
+        },
+        {
+          "id": "sec-crpc.json-375",
+          "type": "section",
+          "number": "375",
+          "title": "Section 375",
+          "content": "No appeal lies where the accused pleads guilty and is convicted on such plea, except as to the extent or legality of the sentence.",
+          "keywords": [
+            "Guilty plea appeal",
+            "Sentence appeal",
+            "No conviction appeal"
+          ],
+          "children": [],
+          "order": 375
+        },
+        {
+          "id": "sec-crpc.json-376",
+          "type": "section",
+          "number": "376",
+          "title": "Section 376",
+          "content": "No appeal lies in petty cases where the magistrate imposes a fine only of up to Rs. 100.",
+          "keywords": [
+            "Petty case no appeal",
+            "Fine only",
+            "Minor penalty"
+          ],
+          "children": [],
+          "order": 376
+        },
+        {
+          "id": "sec-crpc.json-377",
+          "type": "section",
+          "number": "377",
+          "title": "Section 377",
+          "content": "The State government may appeal against the inadequacy of sentence to the High Court.",
+          "keywords": [
+            "State appeal",
+            "Sentence inadequacy",
+            "Enhancement"
+          ],
+          "children": [],
+          "order": 377
+        },
+        {
+          "id": "sec-crpc.json-378",
+          "type": "section",
+          "number": "378",
+          "title": "Section 378",
+          "content": "The State government may appeal against an acquittal to the High Court.",
+          "keywords": [
+            "Acquittal appeal",
+            "State acquittal appeal",
+            "High Court"
+          ],
+          "children": [],
+          "order": 378
+        },
+        {
+          "id": "sec-crpc.json-386",
+          "type": "section",
+          "number": "386",
+          "title": "Section 386",
+          "content": "After hearing an appeal, the appellate court may reverse, confirm, or modify the judgment, or order a new trial.",
+          "keywords": [
+            "Appeal powers",
+            "Reverse",
+            "Confirm",
+            "New trial",
+            "Modify sentence"
+          ],
+          "children": [],
+          "order": 386
+        },
+        {
+          "id": "sec-crpc.json-389",
+          "type": "section",
+          "number": "389",
+          "title": "Section 389",
+          "content": "Pending appeal, the appellate court may suspend the sentence and release the appellant on bail.",
+          "keywords": [
+            "Sentence suspension",
+            "Appeal bail",
+            "Bail pending appeal"
+          ],
+          "children": [],
+          "order": 389
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "ch-crpc.json-21",
+      "type": "chapter",
+      "number": "22",
+      "title": "Reference and Revision",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-395",
+          "type": "section",
+          "number": "395",
+          "title": "Section 395",
+          "content": "A Sessions Judge may refer a question of law arising in a case to the High Court.",
+          "keywords": [
+            "Reference",
+            "Question of law",
+            "High Court referral"
+          ],
+          "children": [],
+          "order": 395
+        },
+        {
+          "id": "sec-crpc.json-397",
+          "type": "section",
+          "number": "397",
+          "title": "Section 397",
+          "content": "The High Court or Sessions Judge may call for and examine the records of any inferior criminal court to satisfy themselves on the correctness or legality of any finding, sentence or order.",
+          "keywords": [
+            "Revision",
+            "High Court revision",
+            "Session revision",
+            "Record examination"
+          ],
+          "children": [],
+          "order": 397
+        },
+        {
+          "id": "sec-crpc.json-401",
+          "type": "section",
+          "number": "401",
+          "title": "Section 401",
+          "content": "The High Court may exercise revision powers suo motu or on application. No revision lies against an order of acquittal.",
+          "keywords": [
+            "Revision power",
+            "Suo motu",
+            "Acquittal no revision"
+          ],
+          "children": [],
+          "order": 401
+        },
+        {
+          "id": "sec-crpc.json-402",
+          "type": "section",
+          "number": "402",
+          "title": "Section 402",
+          "content": "The power of revision shall not be exercised in favor of the convicted person unless an opportunity of being heard is given to the prosecution.",
+          "keywords": [
+            "Revision hearing",
+            "Prosecution hearing",
+            "Natural justice"
+          ],
+          "children": [],
+          "order": 402
+        }
+      ],
+      "order": 21
+    },
+    {
+      "id": "ch-crpc.json-22",
+      "type": "chapter",
+      "number": "23",
+      "title": "Inherent Powers of High Court",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-crpc.json-482",
+          "type": "section",
+          "number": "482",
+          "title": "Section 482",
+          "content": "Nothing in this Code shall be deemed to limit or affect the inherent powers of the High Court to make such orders as may be necessary to give effect to any order under this Code, or to prevent abuse of the process of any court, or otherwise to secure the ends of justice.",
+          "keywords": [
+            "Inherent powers",
+            "High Court",
+            "Abuse of process",
+            "Ends of justice",
+            "Quashing",
+            "Section 482"
+          ],
+          "children": [],
+          "order": 482
+        }
+      ],
+      "order": 22
+    }
+  ],
+  "metadata": {
+    "totalSections": 124,
+    "sourceFile": "crpc.json",
+    "contentHash": "e5e783a9f374be9e",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.810Z",
+    "discoveredAt": "2026-08-11T23:53:51.810Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.810Z",
+  "updatedAt": "2026-08-11T23:53:51.852Z"
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-02T08:33:25.249Z",
+  "documentsScanned": 12,
+  "newActs": [],
+  "updatedActs": [],
+  "unchangedActs": [
+    "constitution_of_india",
+    "bnss_2023",
+    "bsa_2023",
+    "rti_2005",
+    "consumer_protection_2019",
+    "it_act_2000",
+    "contract_act_1872",
+    "companies_act_2013",
+    "gst_act_2017",
+    "motor_vehicles_1988",
+    "environment_act_1986"
+  ],
+  "missingFiles": [
+    "bns_2023"
+  ],
+  "indexing": {
+    "totalChunks": 2078,
+    "durationMs": 15458,
+    "errorsCount": 0
+  },
+  "status": "SUCCESS"
+}

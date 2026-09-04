@@ -1,0 +1,2291 @@
+{
+  "id": "corpus-ipc",
+  "type": "act",
+  "title": "Indian Penal Code 1860",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Indian Penal Code 1860 — sourced from ipc.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-ipc.json-0",
+      "type": "chapter",
+      "number": "1",
+      "title": "Introduction",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-1",
+          "type": "section",
+          "number": "1",
+          "title": "Section 1",
+          "content": "This Act shall be called the Indian Penal Code (1860). It extends to the whole of India.",
+          "keywords": [
+            "General provisions"
+          ],
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": "sec-ipc.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Section 2",
+          "content": "Every person shall be liable to punishment under this Code for every act or omission contrary to its provisions, committed within India.",
+          "keywords": [
+            "Territorial jurisdiction"
+          ],
+          "children": [],
+          "order": 2
+        },
+        {
+          "id": "sec-ipc.json-3",
+          "type": "section",
+          "number": "3",
+          "title": "Section 3",
+          "content": "Any person liable by Indian law for an offense committed outside India shall be dealt with according to Indian law.",
+          "keywords": [
+            "Extra-territorial jurisdiction"
+          ],
+          "children": [],
+          "order": 3
+        },
+        {
+          "id": "sec-ipc.json-4",
+          "type": "section",
+          "number": "4",
+          "title": "Section 4",
+          "content": "The Code applies to any citizen of India for any offense committed outside India, and to any person on a ship or aircraft registered in India.",
+          "keywords": [
+            "Citizens abroad",
+            "Ships",
+            "Aircraft"
+          ],
+          "children": [],
+          "order": 4
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-ipc.json-1",
+      "type": "chapter",
+      "number": "2",
+      "title": "General Explanations",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-6",
+          "type": "section",
+          "number": "6",
+          "title": "Section 6",
+          "content": "Throughout the Code every definition of an offense, every penal provision, and every illustration is subject to the exceptions contained in Chapter IV.",
+          "keywords": [
+            "General exceptions"
+          ],
+          "children": [],
+          "order": 6
+        },
+        {
+          "id": "sec-ipc.json-8",
+          "type": "section",
+          "number": "8",
+          "title": "Section 8",
+          "content": "The expression 'gender' denotes the male gender, but references to the masculine include females unless context otherwise requires.",
+          "keywords": [],
+          "children": [],
+          "order": 8
+        },
+        {
+          "id": "sec-ipc.json-11",
+          "type": "section",
+          "number": "11",
+          "title": "Section 11",
+          "content": "The word 'person' includes any company, association, or body of persons, whether incorporated or not.",
+          "keywords": [
+            "Corporate liability"
+          ],
+          "children": [],
+          "order": 11
+        },
+        {
+          "id": "sec-ipc.json-21",
+          "type": "section",
+          "number": "21",
+          "title": "Section 21",
+          "content": "'Public servant' includes every officer in the military, navy or air force, judge, officer of a court of justice, police officer, and every officer whose duty is to prevent offenses.",
+          "keywords": [
+            "Public servant definition"
+          ],
+          "children": [],
+          "order": 21
+        },
+        {
+          "id": "sec-ipc.json-22",
+          "type": "section",
+          "number": "22",
+          "title": "Section 22",
+          "content": "'Movable property' includes corporeal property of every description, except land and things attached to the earth.",
+          "keywords": [
+            "Property definition"
+          ],
+          "children": [],
+          "order": 22
+        },
+        {
+          "id": "sec-ipc.json-24",
+          "type": "section",
+          "number": "24",
+          "title": "Section 24",
+          "content": "'Dishonestly' means doing anything with the intention of causing wrongful gain or wrongful loss.",
+          "keywords": [
+            "Dishonesty"
+          ],
+          "children": [],
+          "order": 24
+        },
+        {
+          "id": "sec-ipc.json-25",
+          "type": "section",
+          "number": "25",
+          "title": "Section 25",
+          "content": "'Fraudulently' means doing anything with the intent to defraud but not otherwise.",
+          "keywords": [
+            "Fraud"
+          ],
+          "children": [],
+          "order": 25
+        },
+        {
+          "id": "sec-ipc.json-26",
+          "type": "section",
+          "number": "26",
+          "title": "Section 26",
+          "content": "'Reason to believe' means a person has sufficient cause to believe a thing but not otherwise.",
+          "keywords": [],
+          "children": [],
+          "order": 26
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-ipc.json-2",
+      "type": "chapter",
+      "number": "3",
+      "title": "Punishments",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-53",
+          "type": "section",
+          "number": "53",
+          "title": "Section 53",
+          "content": "Punishments under the Code include: Death, imprisonment for life, imprisonment (rigorous or simple), forfeiture of property, and fine.",
+          "keywords": [
+            "Death penalty",
+            "Life imprisonment",
+            "Fine",
+            "Forfeiture"
+          ],
+          "children": [],
+          "order": 53
+        },
+        {
+          "id": "sec-ipc.json-54",
+          "type": "section",
+          "number": "54",
+          "title": "Section 54",
+          "content": "In every sentence of death, the appropriate government may commute the punishment without the consent of the offender.",
+          "keywords": [
+            "Death commutation"
+          ],
+          "children": [],
+          "order": 54
+        },
+        {
+          "id": "sec-ipc.json-55",
+          "type": "section",
+          "number": "55",
+          "title": "Section 55",
+          "content": "The appropriate government may commute a sentence of imprisonment for life to imprisonment for a term not exceeding 14 years.",
+          "keywords": [
+            "Life commutation"
+          ],
+          "children": [],
+          "order": 55
+        },
+        {
+          "id": "sec-ipc.json-57",
+          "type": "section",
+          "number": "57",
+          "title": "Section 57",
+          "content": "In calculating fractions of terms of imprisonment, imprisonment for life shall be reckoned as equivalent to imprisonment for 20 years.",
+          "keywords": [
+            "Life term calculation"
+          ],
+          "children": [],
+          "order": 57
+        },
+        {
+          "id": "sec-ipc.json-63",
+          "type": "section",
+          "number": "63",
+          "title": "Section 63",
+          "content": "Where no sum is expressed to which a fine may extend, the amount of fine to which the offender is liable is unlimited but shall not be excessive.",
+          "keywords": [
+            "Fine amount"
+          ],
+          "children": [],
+          "order": 63
+        },
+        {
+          "id": "sec-ipc.json-64",
+          "type": "section",
+          "number": "64",
+          "title": "Section 64",
+          "content": "In default of payment of fine, the offender shall undergo imprisonment of either description for a term as per the court's discretion.",
+          "keywords": [
+            "Fine default",
+            "Imprisonment"
+          ],
+          "children": [],
+          "order": 64
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "ch-ipc.json-3",
+      "type": "chapter",
+      "number": "4",
+      "title": "General Exceptions",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-76",
+          "type": "section",
+          "number": "76",
+          "title": "Section 76",
+          "content": "Nothing is an offense done by a person who is bound by law to do it or who by reason of a mistake of fact in good faith believes himself bound by law to do it.",
+          "keywords": [
+            "Mistake of fact",
+            "Judicial acts"
+          ],
+          "children": [],
+          "order": 76
+        },
+        {
+          "id": "sec-ipc.json-79",
+          "type": "section",
+          "number": "79",
+          "title": "Section 79",
+          "content": "Nothing is an offense done by a person who by reason of a mistake of fact in good faith believes himself justified by law in doing it.",
+          "keywords": [
+            "Mistake of fact",
+            "Good faith"
+          ],
+          "children": [],
+          "order": 79
+        },
+        {
+          "id": "sec-ipc.json-80",
+          "type": "section",
+          "number": "80",
+          "title": "Section 80",
+          "content": "Nothing is an offense if done by accident or misfortune, without any criminal intention or knowledge, in the doing of a lawful act in a lawful manner.",
+          "keywords": [
+            "Accident",
+            "Misfortune",
+            "No intent"
+          ],
+          "children": [],
+          "order": 80
+        },
+        {
+          "id": "sec-ipc.json-81",
+          "type": "section",
+          "number": "81",
+          "title": "Section 81",
+          "content": "Nothing is an offense merely by reason of its being done with the knowledge that it is likely to cause harm, if it was done without criminal intent to cause harm and in good faith for the purpose of preventing or avoiding other harm.",
+          "keywords": [
+            "Necessity",
+            "Lesser harm"
+          ],
+          "children": [],
+          "order": 81
+        },
+        {
+          "id": "sec-ipc.json-82",
+          "type": "section",
+          "number": "82",
+          "title": "Section 82",
+          "content": "Nothing is an offense done by a child under 7 years of age.",
+          "keywords": [
+            "Infancy",
+            "Child under 7"
+          ],
+          "children": [],
+          "order": 82
+        },
+        {
+          "id": "sec-ipc.json-83",
+          "type": "section",
+          "number": "83",
+          "title": "Section 83",
+          "content": "Nothing is an offense done by a child above 7 and under 12 years, who has not attained sufficient maturity of understanding to judge the consequences.",
+          "keywords": [
+            "Minor",
+            "Child 7-12",
+            "Immaturity"
+          ],
+          "children": [],
+          "order": 83
+        },
+        {
+          "id": "sec-ipc.json-84",
+          "type": "section",
+          "number": "84",
+          "title": "Section 84",
+          "content": "Nothing is an offense done by a person who, at the time of doing it, is incapable of knowing the nature of the act due to unsoundness of mind.",
+          "keywords": [
+            "Insanity",
+            "Unsound mind",
+            "Mental illness"
+          ],
+          "children": [],
+          "order": 84
+        },
+        {
+          "id": "sec-ipc.json-85",
+          "type": "section",
+          "number": "85",
+          "title": "Section 85",
+          "content": "Nothing is an offense done by a person who was intoxicated against his will.",
+          "keywords": [
+            "Involuntary intoxication"
+          ],
+          "children": [],
+          "order": 85
+        },
+        {
+          "id": "sec-ipc.json-86",
+          "type": "section",
+          "number": "86",
+          "title": "Section 86",
+          "content": "In cases where an act requires a particular intent or knowledge, the state of intoxication shall be taken into account.",
+          "keywords": [
+            "Voluntary intoxication",
+            "Intent"
+          ],
+          "children": [],
+          "order": 86
+        },
+        {
+          "id": "sec-ipc.json-87",
+          "type": "section",
+          "number": "87",
+          "title": "Section 87",
+          "content": "Nothing is an offense if done by consent, where no harm is intended or likely, and the harm done does not amount to grievous hurt or death.",
+          "keywords": [
+            "Consent",
+            "Volenti non fit injuria"
+          ],
+          "children": [],
+          "order": 87
+        },
+        {
+          "id": "sec-ipc.json-88",
+          "type": "section",
+          "number": "88",
+          "title": "Section 88",
+          "content": "Nothing is an offense done in good faith for the benefit of a person who has given consent, even if the act causes harm.",
+          "keywords": [
+            "Medical treatment",
+            "Good faith consent"
+          ],
+          "children": [],
+          "order": 88
+        },
+        {
+          "id": "sec-ipc.json-96",
+          "type": "section",
+          "number": "96",
+          "title": "Section 96",
+          "content": "Nothing is an offense done in the exercise of the right of private defense.",
+          "keywords": [
+            "Self-defense",
+            "Private defense"
+          ],
+          "children": [],
+          "order": 96
+        },
+        {
+          "id": "sec-ipc.json-97",
+          "type": "section",
+          "number": "97",
+          "title": "Section 97",
+          "content": "Every person has a right to defend their own body and the body of any other person against any offense affecting the human body, and to defend their own or another's property against theft, robbery, mischief, or criminal trespass.",
+          "keywords": [
+            "Self-defense",
+            "Defense of others",
+            "Property defense"
+          ],
+          "children": [],
+          "order": 97
+        },
+        {
+          "id": "sec-ipc.json-100",
+          "type": "section",
+          "number": "100",
+          "title": "Section 100",
+          "content": "The right of private defense of the body extends to causing death when the attack reasonably causes apprehension of death, grievous hurt, assault with intent to rape, kidnapping, or wrongful confinement.",
+          "keywords": [
+            "Deadly force",
+            "Apprehension of death",
+            "Rape prevention"
+          ],
+          "children": [],
+          "order": 100
+        },
+        {
+          "id": "sec-ipc.json-103",
+          "type": "section",
+          "number": "103",
+          "title": "Section 103",
+          "content": "The right of private defense of property extends to causing death when the offense is robbery, house-breaking by night, mischief by fire on a building, theft or mischief where there is reasonable apprehension of death or grievous hurt.",
+          "keywords": [
+            "Property defense",
+            "Deadly force",
+            "Robbery",
+            "Arson"
+          ],
+          "children": [],
+          "order": 103
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "ch-ipc.json-4",
+      "type": "chapter",
+      "number": "5",
+      "title": "Abetment",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-107",
+          "type": "section",
+          "number": "107",
+          "title": "Section 107",
+          "content": "A person abets the doing of a thing when he instigates, engages in conspiracy, or intentionally aids the doing of that thing.",
+          "keywords": [
+            "Abetment",
+            "Instigation",
+            "Conspiracy",
+            "Aiding"
+          ],
+          "children": [],
+          "order": 107
+        },
+        {
+          "id": "sec-ipc.json-108",
+          "type": "section",
+          "number": "108",
+          "title": "Section 108",
+          "content": "An abettor is a person who abets either the commission of an offense or the commission of an act which would be an offense if done by a person capable by law.",
+          "keywords": [
+            "Abettor definition"
+          ],
+          "children": [],
+          "order": 108
+        },
+        {
+          "id": "sec-ipc.json-109",
+          "type": "section",
+          "number": "109",
+          "title": "Section 109",
+          "content": "Whoever abets any offense shall be punished with the punishment provided for the offense if the act abetted is committed in consequence of the abetment.",
+          "keywords": [
+            "Punishment for abetment"
+          ],
+          "children": [],
+          "order": 109
+        },
+        {
+          "id": "sec-ipc.json-120",
+          "type": "section",
+          "number": "120",
+          "title": "Section 120",
+          "content": "Whoever abets the commission of an offense punishable with death or imprisonment for life shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Abetment of capital offense",
+            "Abetment of life offense"
+          ],
+          "children": [],
+          "order": 120
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "ch-ipc.json-5",
+      "type": "chapter",
+      "number": "5A",
+      "title": "Criminal Conspiracy",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-120A",
+          "type": "section",
+          "number": "120A",
+          "title": "Section 120A",
+          "content": "When two or more persons agree to do an illegal act or a legal act by illegal means, such an agreement is a criminal conspiracy.",
+          "keywords": [
+            "Criminal conspiracy",
+            "Agreement to commit crime"
+          ],
+          "children": [],
+          "order": "120A"
+        },
+        {
+          "id": "sec-ipc.json-120B",
+          "type": "section",
+          "number": "120B",
+          "title": "Section 120B",
+          "content": "Whoever is a party to a criminal conspiracy shall be punished with imprisonment up to 6 months or fine or both for minor conspiracies, or the same punishment as for the offense conspired for serious offenses.",
+          "keywords": [
+            "Conspiracy punishment"
+          ],
+          "children": [],
+          "order": "120B"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "ch-ipc.json-6",
+      "type": "chapter",
+      "number": "6",
+      "title": "Offenses Against the State",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-121",
+          "type": "section",
+          "number": "121",
+          "title": "Section 121",
+          "content": "Whoever wages war against the Government of India, or attempts to wage war, or abets the waging of such war, shall be punished with death or imprisonment for life and fine.",
+          "keywords": [
+            "Waging war",
+            "Treason",
+            "Sedition"
+          ],
+          "children": [],
+          "order": 121
+        },
+        {
+          "id": "sec-ipc.json-124A",
+          "type": "section",
+          "number": "124A",
+          "title": "Section 124A",
+          "content": "Whoever by words, signs, or visible representation brings or attempts to bring into hatred or contempt the Government of India shall be punished with imprisonment for life or up to 3 years and fine.",
+          "keywords": [
+            "Sedition",
+            "Hatred against government",
+            "Disaffection"
+          ],
+          "children": [],
+          "order": "124A"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "id": "ch-ipc.json-7",
+      "type": "chapter",
+      "number": "7",
+      "title": "Offenses Relating to the Army, Navy and Air Force",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-131",
+          "type": "section",
+          "number": "131",
+          "title": "Section 131",
+          "content": "Whoever abets the committing of mutiny by an officer, soldier, sailor or airman shall be punished with death or imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "Mutiny abetment",
+            "Military offense"
+          ],
+          "children": [],
+          "order": 131
+        }
+      ],
+      "order": 7
+    },
+    {
+      "id": "ch-ipc.json-8",
+      "type": "chapter",
+      "number": "8",
+      "title": "Offenses Against Public Tranquility",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-141",
+          "type": "section",
+          "number": "141",
+          "title": "Section 141",
+          "content": "An unlawful assembly is an assembly of 5 or more persons with a common object to use criminal force, commit mischief, or intimidate.",
+          "keywords": [
+            "Unlawful assembly",
+            "Common object"
+          ],
+          "children": [],
+          "order": 141
+        },
+        {
+          "id": "sec-ipc.json-144",
+          "type": "section",
+          "number": "144",
+          "title": "Section 144",
+          "content": "Whoever joins an unlawful assembly shall be punished with imprisonment up to 6 months or fine or both.",
+          "keywords": [
+            "Joining unlawful assembly"
+          ],
+          "children": [],
+          "order": 144
+        },
+        {
+          "id": "sec-ipc.json-146",
+          "type": "section",
+          "number": "146",
+          "title": "Section 146",
+          "content": "Whenever force or violence is used by an unlawful assembly, every member is guilty of rioting.",
+          "keywords": [
+            "Rioting",
+            "Violence"
+          ],
+          "children": [],
+          "order": 146
+        },
+        {
+          "id": "sec-ipc.json-147",
+          "type": "section",
+          "number": "147",
+          "title": "Section 147",
+          "content": "Whoever is guilty of rioting shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Rioting punishment"
+          ],
+          "children": [],
+          "order": 147
+        },
+        {
+          "id": "sec-ipc.json-149",
+          "type": "section",
+          "number": "149",
+          "title": "Section 149",
+          "content": "Every member of an unlawful assembly is guilty of any offense committed by any member in prosecution of the common object.",
+          "keywords": [
+            "Constructive liability",
+            "Common object"
+          ],
+          "children": [],
+          "order": 149
+        },
+        {
+          "id": "sec-ipc.json-153A",
+          "type": "section",
+          "number": "153A",
+          "title": "Section 153A",
+          "content": "Whoever promotes enmity between different groups on grounds of religion, race, place of birth, residence, or language shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Communal enmity",
+            "Hate speech",
+            "Religious hatred"
+          ],
+          "children": [],
+          "order": "153A"
+        },
+        {
+          "id": "sec-ipc.json-159",
+          "type": "section",
+          "number": "159",
+          "title": "Section 159",
+          "content": "An affray is committed when two or more persons fight in a public place to the terror of the public.",
+          "keywords": [
+            "Affray",
+            "Public fighting"
+          ],
+          "children": [],
+          "order": 159
+        }
+      ],
+      "order": 8
+    },
+    {
+      "id": "ch-ipc.json-9",
+      "type": "chapter",
+      "number": "9",
+      "title": "Offenses by or Relating to Public Servants",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-166",
+          "type": "section",
+          "number": "166",
+          "title": "Section 166",
+          "content": "Whoever, being a public servant, knowingly disobeys any law with intent to cause injury to any person shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "Public servant disobedience",
+            "Official misconduct"
+          ],
+          "children": [],
+          "order": 166
+        },
+        {
+          "id": "sec-ipc.json-167",
+          "type": "section",
+          "number": "167",
+          "title": "Section 167",
+          "content": "Whoever, being a public servant, frames an incorrect document with intent to cause injury shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "False document",
+            "Public servant forgery"
+          ],
+          "children": [],
+          "order": 167
+        }
+      ],
+      "order": 9
+    },
+    {
+      "id": "ch-ipc.json-10",
+      "type": "chapter",
+      "number": "10",
+      "title": "Contempt of Lawful Authority",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-172",
+          "type": "section",
+          "number": "172",
+          "title": "Section 172",
+          "content": "Whoever absconds to avoid service of summons or other proceedings shall be punished with imprisonment up to 1 month or fine or both.",
+          "keywords": [
+            "Absconding",
+            "Contempt",
+            "Summons avoidance"
+          ],
+          "children": [],
+          "order": 172
+        },
+        {
+          "id": "sec-ipc.json-174",
+          "type": "section",
+          "number": "174",
+          "title": "Section 174",
+          "content": "Whoever, being bound by law to attend as a witness, intentionally omits to attend, shall be punished with imprisonment up to 6 months or fine or both.",
+          "keywords": [
+            "Witness default",
+            "Contempt of court"
+          ],
+          "children": [],
+          "order": 174
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "ch-ipc.json-11",
+      "type": "chapter",
+      "number": "11",
+      "title": "False Evidence and Offenses Against Public Justice",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-191",
+          "type": "section",
+          "number": "191",
+          "title": "Section 191",
+          "content": "Whoever, being legally bound by oath or by express provision of law to state the truth, makes a false statement, is said to give false evidence.",
+          "keywords": [
+            "False evidence",
+            "Perjury"
+          ],
+          "children": [],
+          "order": 191
+        },
+        {
+          "id": "sec-ipc.json-193",
+          "type": "section",
+          "number": "193",
+          "title": "Section 193",
+          "content": "Whoever intentionally gives false evidence shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Perjury punishment"
+          ],
+          "children": [],
+          "order": 193
+        },
+        {
+          "id": "sec-ipc.json-201",
+          "type": "section",
+          "number": "201",
+          "title": "Section 201",
+          "content": "Whoever causes evidence of an offense to disappear, or gives false information to screen the offender, shall be punished with imprisonment up to 7 years.",
+          "keywords": [
+            "Evidence destruction",
+            "Screening offender",
+            "Causing disappearance"
+          ],
+          "children": [],
+          "order": 201
+        },
+        {
+          "id": "sec-ipc.json-202",
+          "type": "section",
+          "number": "202",
+          "title": "Section 202",
+          "content": "Whoever, knowing or having reason to believe that an offense has been committed, intentionally omits to give information thereof, shall be punished with imprisonment up to 6 months or fine or both.",
+          "keywords": [
+            "Concealment of offense",
+            "Failure to report"
+          ],
+          "children": [],
+          "order": 202
+        },
+        {
+          "id": "sec-ipc.json-204",
+          "type": "section",
+          "number": "204",
+          "title": "Section 204",
+          "content": "Whoever secretes or destroys any document which he is legally bound to produce as evidence shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Document destruction",
+            "Evidence tampering"
+          ],
+          "children": [],
+          "order": 204
+        },
+        {
+          "id": "sec-ipc.json-211",
+          "type": "section",
+          "number": "211",
+          "title": "Section 211",
+          "content": "Whoever institutes criminal proceedings with false charges intending to cause injury shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "False charge",
+            "Malicious prosecution",
+            "Fabricating evidence"
+          ],
+          "children": [],
+          "order": 211
+        }
+      ],
+      "order": 11
+    },
+    {
+      "id": "ch-ipc.json-12",
+      "type": "chapter",
+      "number": "12",
+      "title": "Offenses Relating to Coin and Government Stamps",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-230",
+          "type": "section",
+          "number": "230",
+          "title": "Section 230",
+          "content": "'Coin' means metal used as money, stamped and issued by the Government to be used as currency.",
+          "keywords": [
+            "Coin definition",
+            "Counterfeiting"
+          ],
+          "children": [],
+          "order": 230
+        },
+        {
+          "id": "sec-ipc.json-231",
+          "type": "section",
+          "number": "231",
+          "title": "Section 231",
+          "content": "Whoever counterfeits or performs any part of the process of counterfeiting coin shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Coin counterfeiting"
+          ],
+          "children": [],
+          "order": 231
+        }
+      ],
+      "order": 12
+    },
+    {
+      "id": "ch-ipc.json-13",
+      "type": "chapter",
+      "number": "13",
+      "title": "Offenses Relating to Weights and Measures",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-264",
+          "type": "section",
+          "number": "264",
+          "title": "Section 264",
+          "content": "Whoever fraudulently uses any false weight or false measure shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "False weights",
+            "Fraudulent measures"
+          ],
+          "children": [],
+          "order": 264
+        }
+      ],
+      "order": 13
+    },
+    {
+      "id": "ch-ipc.json-14",
+      "type": "chapter",
+      "number": "14",
+      "title": "Offenses Affecting the Public Health, Safety, Convenience, Decency and Morals",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-268",
+          "type": "section",
+          "number": "268",
+          "title": "Section 268",
+          "content": "A person is guilty of a public nuisance who does any act or omits to take care which causes common injury, danger or annoyance to the public.",
+          "keywords": [
+            "Public nuisance"
+          ],
+          "children": [],
+          "order": 268
+        },
+        {
+          "id": "sec-ipc.json-269",
+          "type": "section",
+          "number": "269",
+          "title": "Section 269",
+          "content": "Whoever unlawfully or negligently does any act likely to spread infection of any disease dangerous to life shall be punished with imprisonment up to 6 months or fine or both.",
+          "keywords": [
+            "Infection spread",
+            "Public health",
+            "Negligence"
+          ],
+          "children": [],
+          "order": 269
+        },
+        {
+          "id": "sec-ipc.json-279",
+          "type": "section",
+          "number": "279",
+          "title": "Section 279",
+          "content": "Whoever drives any vehicle on a public way rashly or negligently so as to endanger human life shall be punished with imprisonment up to 6 months or fine or both.",
+          "keywords": [
+            "Rash driving",
+            "Negligent driving",
+            "Road safety"
+          ],
+          "children": [],
+          "order": 279
+        },
+        {
+          "id": "sec-ipc.json-292",
+          "type": "section",
+          "number": "292",
+          "title": "Section 292",
+          "content": "Whoever sells, distributes, or exhibits obscene material shall be punished with imprisonment up to 2 years and fine on first conviction.",
+          "keywords": [
+            "Obscenity",
+            "Pornography",
+            "Indecent material"
+          ],
+          "children": [],
+          "order": 292
+        },
+        {
+          "id": "sec-ipc.json-294",
+          "type": "section",
+          "number": "294",
+          "title": "Section 294",
+          "content": "Whoever does any obscene act in public or sings obscene songs in public shall be punished with imprisonment up to 3 months or fine or both.",
+          "keywords": [
+            "Public obscenity",
+            "Obscene acts"
+          ],
+          "children": [],
+          "order": 294
+        },
+        {
+          "id": "sec-ipc.json-295",
+          "type": "section",
+          "number": "295",
+          "title": "Section 295",
+          "content": "Whoever destroys, damages or defiles any place of worship or object held sacred with intent to insult the religion of any class shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Religious insult",
+            "Temple desecration",
+            "Sacred object"
+          ],
+          "children": [],
+          "order": 295
+        },
+        {
+          "id": "sec-ipc.json-295A",
+          "type": "section",
+          "number": "295A",
+          "title": "Section 295A",
+          "content": "Whoever deliberately outrages the religious feelings of any class by words or representations shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Religious feelings",
+            "Blasphemy",
+            "Deliberate insult"
+          ],
+          "children": [],
+          "order": "295A"
+        },
+        {
+          "id": "sec-ipc.json-304A",
+          "type": "section",
+          "number": "304A",
+          "title": "Section 304A",
+          "content": "Whoever causes death by a rash or negligent act not amounting to culpable homicide shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Causing death by negligence",
+            "Rashness",
+            "Negligence"
+          ],
+          "children": [],
+          "order": "304A"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "id": "ch-ipc.json-15",
+      "type": "chapter",
+      "number": "15",
+      "title": "Offenses Relating to Religion",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-296",
+          "type": "section",
+          "number": "296",
+          "title": "Section 296",
+          "content": "Whoever voluntarily causes disturbance to any assembly lawfully engaged in religious worship shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "Religious disturbance",
+            "Worship interruption"
+          ],
+          "children": [],
+          "order": 296
+        },
+        {
+          "id": "sec-ipc.json-297",
+          "type": "section",
+          "number": "297",
+          "title": "Section 297",
+          "content": "Whoever trespasses on burial places or offers indignity to human remains shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "Trespass on burial",
+            "Indignity to corpse"
+          ],
+          "children": [],
+          "order": 297
+        }
+      ],
+      "order": 15
+    },
+    {
+      "id": "ch-ipc.json-16",
+      "type": "chapter",
+      "number": "16",
+      "title": "Offenses Affecting the Human Body",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-299",
+          "type": "section",
+          "number": "299",
+          "title": "Section 299",
+          "content": "Culpable homicide is causing death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that the act is likely to cause death.",
+          "keywords": [
+            "Culpable homicide",
+            "Manslaughter",
+            "Death causing"
+          ],
+          "children": [],
+          "order": 299
+        },
+        {
+          "id": "sec-ipc.json-300",
+          "type": "section",
+          "number": "300",
+          "title": "Section 300",
+          "content": "Murder is culpable homicide committed with the intention of causing death, or with the intention of causing bodily injury known to be likely to cause death, or with the knowledge that the act is so imminently dangerous that it must cause death.",
+          "keywords": [
+            "Murder",
+            "Intent to kill",
+            "Deadly act"
+          ],
+          "children": [],
+          "order": 300
+        },
+        {
+          "id": "sec-ipc.json-302",
+          "type": "section",
+          "number": "302",
+          "title": "Section 302",
+          "content": "Whoever commits murder shall be punished with death or imprisonment for life and fine.",
+          "keywords": [
+            "Murder punishment",
+            "Death penalty",
+            "Life imprisonment"
+          ],
+          "children": [],
+          "order": 302
+        },
+        {
+          "id": "sec-ipc.json-304",
+          "type": "section",
+          "number": "304",
+          "title": "Section 304",
+          "content": "Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "Culpable homicide not murder",
+            "Manslaughter"
+          ],
+          "children": [],
+          "order": 304
+        },
+        {
+          "id": "sec-ipc.json-304B",
+          "type": "section",
+          "number": "304B",
+          "title": "Section 304B",
+          "content": "Where the death of a woman is caused by burns or bodily injury within 7 years of marriage and it is shown that she was subjected to cruelty for dowry, the husband or relative shall be deemed to have caused her death. Punishment: imprisonment for at least 7 years but may extend to life.",
+          "keywords": [
+            "Dowry death",
+            "Bride burning",
+            "Domestic cruelty"
+          ],
+          "children": [],
+          "order": "304B"
+        },
+        {
+          "id": "sec-ipc.json-307",
+          "type": "section",
+          "number": "307",
+          "title": "Section 307",
+          "content": "Whoever does any act with such intention or knowledge that if he had caused death, it would be murder, shall be punished with imprisonment up to 10 years and fine.",
+          "keywords": [
+            "Attempt to murder",
+            "Attempt"
+          ],
+          "children": [],
+          "order": 307
+        },
+        {
+          "id": "sec-ipc.json-309",
+          "type": "section",
+          "number": "309",
+          "title": "Section 309",
+          "content": "Whoever attempts to commit suicide shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "Suicide attempt"
+          ],
+          "children": [],
+          "order": 309
+        },
+        {
+          "id": "sec-ipc.json-319",
+          "type": "section",
+          "number": "319",
+          "title": "Section 319",
+          "content": "Hurt is causing bodily pain, disease or infirmity to any person.",
+          "keywords": [
+            "Hurt definition"
+          ],
+          "children": [],
+          "order": 319
+        },
+        {
+          "id": "sec-ipc.json-320",
+          "type": "section",
+          "number": "320",
+          "title": "Section 320",
+          "content": "Grievous hurt includes: emasculation, permanent loss of sight, hearing, or limb, destruction of a joint, disfigurement of the head or face, fracture or dislocation of bone, or any hurt endangering life.",
+          "keywords": [
+            "Grievous hurt",
+            "GBH",
+            "Permanent injury"
+          ],
+          "children": [],
+          "order": 320
+        },
+        {
+          "id": "sec-ipc.json-321",
+          "type": "section",
+          "number": "321",
+          "title": "Section 321",
+          "content": "Whoever voluntarily causes hurt shall be punished with imprisonment up to 1 year or fine of up to Rs. 1000 or both.",
+          "keywords": [
+            "Simple hurt",
+            "Voluntarily causing hurt"
+          ],
+          "children": [],
+          "order": 321
+        },
+        {
+          "id": "sec-ipc.json-322",
+          "type": "section",
+          "number": "322",
+          "title": "Section 322",
+          "content": "Whoever voluntarily causes grievous hurt shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Grievous hurt punishment",
+            "GBH"
+          ],
+          "children": [],
+          "order": 322
+        },
+        {
+          "id": "sec-ipc.json-323",
+          "type": "section",
+          "number": "323",
+          "title": "Section 323",
+          "content": "Punishment for voluntarily causing hurt: imprisonment up to 1 year or fine up to Rs. 1000 or both.",
+          "keywords": [
+            "Hurt punishment"
+          ],
+          "children": [],
+          "order": 323
+        },
+        {
+          "id": "sec-ipc.json-325",
+          "type": "section",
+          "number": "325",
+          "title": "Section 325",
+          "content": "Punishment for voluntarily causing grievous hurt: imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Grievous hurt punishment"
+          ],
+          "children": [],
+          "order": 325
+        },
+        {
+          "id": "sec-ipc.json-326",
+          "type": "section",
+          "number": "326",
+          "title": "Section 326",
+          "content": "Whoever voluntarily causes grievous hurt by dangerous weapons or means shall be punished with imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "GBH by weapon",
+            "Dangerous weapon",
+            "Life imprisonment"
+          ],
+          "children": [],
+          "order": 326
+        },
+        {
+          "id": "sec-ipc.json-339",
+          "type": "section",
+          "number": "339",
+          "title": "Section 339",
+          "content": "Wrongful restraint is voluntarily obstructing any person so as to prevent him from proceeding in any direction.",
+          "keywords": [
+            "Wrongful restraint",
+            "Illegal detention"
+          ],
+          "children": [],
+          "order": 339
+        },
+        {
+          "id": "sec-ipc.json-340",
+          "type": "section",
+          "number": "340",
+          "title": "Section 340",
+          "content": "Wrongful confinement is wrongfully restraining a person in such a way as to prevent him from escaping beyond certain circumscribing limits.",
+          "keywords": [
+            "Wrongful confinement",
+            "False imprisonment"
+          ],
+          "children": [],
+          "order": 340
+        },
+        {
+          "id": "sec-ipc.json-342",
+          "type": "section",
+          "number": "342",
+          "title": "Section 342",
+          "content": "Whoever wrongfully restrains any person shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "Wrongful restraint punishment"
+          ],
+          "children": [],
+          "order": 342
+        },
+        {
+          "id": "sec-ipc.json-354",
+          "type": "section",
+          "number": "354",
+          "title": "Section 354",
+          "content": "Whoever assaults or uses criminal force on any woman intending to outrage her modesty shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Outraging modesty",
+            "Assault on woman",
+            "Sexual harassment"
+          ],
+          "children": [],
+          "order": 354
+        },
+        {
+          "id": "sec-ipc.json-354A",
+          "type": "section",
+          "number": "354A",
+          "title": "Section 354A",
+          "content": "Sexual harassment includes unwelcome physical contact, demands for sexual favors, showing pornography, or making sexually colored remarks. Punishment: imprisonment up to 3 years or fine.",
+          "keywords": [
+            "Sexual harassment",
+            "Workplace harassment",
+            "Inappropriate conduct"
+          ],
+          "children": [],
+          "order": "354A"
+        },
+        {
+          "id": "sec-ipc.json-354B",
+          "type": "section",
+          "number": "354B",
+          "title": "Section 354B",
+          "content": "Whoever assaults or uses criminal force with intent to disrobe a woman shall be punished with imprisonment of at least 3 years but may extend to 7 years and fine.",
+          "keywords": [
+            "Disrobing",
+            "Attempt to disrobe",
+            "Assault on woman"
+          ],
+          "children": [],
+          "order": "354B"
+        },
+        {
+          "id": "sec-ipc.json-354C",
+          "type": "section",
+          "number": "354C",
+          "title": "Section 354C",
+          "content": "Whoever captures or publishes images of a woman engaged in a private act without her consent shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Voyeurism",
+            "Privacy violation",
+            "Non-consensual recording"
+          ],
+          "children": [],
+          "order": "354C"
+        },
+        {
+          "id": "sec-ipc.json-354D",
+          "type": "section",
+          "number": "354D",
+          "title": "Section 354D",
+          "content": "Whoever follows a woman or contacts her repeatedly despite disinterest shall be punished with imprisonment up to 3 years and fine.",
+          "keywords": [
+            "Stalking",
+            "Harassment",
+            "Cyberstalking"
+          ],
+          "children": [],
+          "order": "354D"
+        },
+        {
+          "id": "sec-ipc.json-359",
+          "type": "section",
+          "number": "359",
+          "title": "Section 359",
+          "content": "Kidnapping is of two kinds: kidnapping from India, and kidnapping from lawful guardianship.",
+          "keywords": [
+            "Kidnapping",
+            "Abduction"
+          ],
+          "children": [],
+          "order": 359
+        },
+        {
+          "id": "sec-ipc.json-360",
+          "type": "section",
+          "number": "360",
+          "title": "Section 360",
+          "content": "Kidnapping from India means conveying any person beyond the limits of India without consent.",
+          "keywords": [
+            "Kidnapping from India"
+          ],
+          "children": [],
+          "order": 360
+        },
+        {
+          "id": "sec-ipc.json-361",
+          "type": "section",
+          "number": "361",
+          "title": "Section 361",
+          "content": "Kidnapping from lawful guardianship means taking or enticing a minor (under 16 for males, under 18 for females) out of the keeping of their lawful guardian without consent.",
+          "keywords": [
+            "Kidnapping minor",
+            "Child abduction",
+            "Enticement"
+          ],
+          "children": [],
+          "order": 361
+        },
+        {
+          "id": "sec-ipc.json-362",
+          "type": "section",
+          "number": "362",
+          "title": "Section 362",
+          "content": "Abduction is compelling a person by force to go from any place, or inducing a person to go from any place by deceitful means.",
+          "keywords": [
+            "Abduction",
+            "Force",
+            "Deceit"
+          ],
+          "children": [],
+          "order": 362
+        },
+        {
+          "id": "sec-ipc.json-363",
+          "type": "section",
+          "number": "363",
+          "title": "Section 363",
+          "content": "Whoever kidnaps any person shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Kidnapping punishment"
+          ],
+          "children": [],
+          "order": 363
+        },
+        {
+          "id": "sec-ipc.json-366",
+          "type": "section",
+          "number": "366",
+          "title": "Section 366",
+          "content": "Whoever kidnaps or abducts a woman with intent to compel her marriage or seduce her to illicit intercourse shall be punished with imprisonment up to 10 years and fine.",
+          "keywords": [
+            "Kidnapping for marriage",
+            "Sexual exploitation"
+          ],
+          "children": [],
+          "order": 366
+        },
+        {
+          "id": "sec-ipc.json-375",
+          "type": "section",
+          "number": "375",
+          "title": "Section 375",
+          "content": "A man commits rape if he engages in sexual intercourse with a woman under circumstances falling under any of six conditions: against her will, without consent, consent by fear or fraud, consent when unsound mind, with a minor under 18, or when unable to communicate consent.",
+          "keywords": [
+            "Rape",
+            "Sexual assault",
+            "Non-consensual intercourse"
+          ],
+          "children": [],
+          "order": 375
+        },
+        {
+          "id": "sec-ipc.json-376",
+          "type": "section",
+          "number": "376",
+          "title": "Section 376",
+          "content": "Whoever commits rape shall be punished with rigorous imprisonment of at least 10 years but may extend to life imprisonment and fine. In case of gang rape, minimum 20 years imprisonment.",
+          "keywords": [
+            "Rape punishment",
+            "Gang rape",
+            "Life imprisonment"
+          ],
+          "children": [],
+          "order": 376
+        },
+        {
+          "id": "sec-ipc.json-376A",
+          "type": "section",
+          "number": "376A",
+          "title": "Section 376A",
+          "content": "Whoever commits rape and causes death or persistent vegetative state shall be punished with death or rigorous imprisonment for the remainder of natural life.",
+          "keywords": [
+            "Rape causing death",
+            "Death penalty",
+            "Vegetative state"
+          ],
+          "children": [],
+          "order": "376A"
+        },
+        {
+          "id": "sec-ipc.json-376DA",
+          "type": "section",
+          "number": "376DA",
+          "title": "Section 376DA",
+          "content": "Where a woman is raped by one or more persons constituting a group or acting in furtherance of a common intention, each shall be punished with rigorous imprisonment of at least 20 years, extendable to life.",
+          "keywords": [
+            "Gang rape",
+            "Common intention",
+            "Enhanced punishment"
+          ],
+          "children": [],
+          "order": "376DA"
+        },
+        {
+          "id": "sec-ipc.json-377",
+          "type": "section",
+          "number": "377",
+          "title": "Section 377",
+          "content": "Whoever voluntarily engages in carnal intercourse against the order of nature with any person shall be punished with imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "Unnatural offenses",
+            "Sodomy",
+            "Carnal intercourse"
+          ],
+          "children": [],
+          "order": 377
+        }
+      ],
+      "order": 16
+    },
+    {
+      "id": "ch-ipc.json-17",
+      "type": "chapter",
+      "number": "17",
+      "title": "Offenses Against Property",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-378",
+          "type": "section",
+          "number": "378",
+          "title": "Section 378",
+          "content": "Theft is the dishonest taking of movable property out of the possession of any person without that person's consent.",
+          "keywords": [
+            "Theft",
+            "Dishonest taking",
+            "Movable property"
+          ],
+          "children": [],
+          "order": 378
+        },
+        {
+          "id": "sec-ipc.json-379",
+          "type": "section",
+          "number": "379",
+          "title": "Section 379",
+          "content": "Whoever commits theft shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Theft punishment"
+          ],
+          "children": [],
+          "order": 379
+        },
+        {
+          "id": "sec-ipc.json-380",
+          "type": "section",
+          "number": "380",
+          "title": "Section 380",
+          "content": "Whoever commits theft in any building, tent or vessel used for human dwelling or custody of property shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Burglary",
+            "House theft",
+            "Building trespass"
+          ],
+          "children": [],
+          "order": 380
+        },
+        {
+          "id": "sec-ipc.json-381",
+          "type": "section",
+          "number": "381",
+          "title": "Section 381",
+          "content": "Whoever being a clerk or servant commits theft of property in possession of his employer shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Theft by employee",
+            "Servant theft",
+            "Embezzlement"
+          ],
+          "children": [],
+          "order": 381
+        },
+        {
+          "id": "sec-ipc.json-382",
+          "type": "section",
+          "number": "382",
+          "title": "Section 382",
+          "content": "Whoever commits theft and causes hurt or wrongful restraint shall be punished with imprisonment up to 10 years and fine.",
+          "keywords": [
+            "Robbery",
+            "Theft with violence"
+          ],
+          "children": [],
+          "order": 382
+        },
+        {
+          "id": "sec-ipc.json-383",
+          "type": "section",
+          "number": "383",
+          "title": "Section 383",
+          "content": "Extortion is putting a person in fear of injury and dishonestly inducing that person to deliver property or valuable security.",
+          "keywords": [
+            "Extortion",
+            "Fear of injury",
+            "Coercion"
+          ],
+          "children": [],
+          "order": 383
+        },
+        {
+          "id": "sec-ipc.json-384",
+          "type": "section",
+          "number": "384",
+          "title": "Section 384",
+          "content": "Whoever commits extortion shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Extortion punishment"
+          ],
+          "children": [],
+          "order": 384
+        },
+        {
+          "id": "sec-ipc.json-390",
+          "type": "section",
+          "number": "390",
+          "title": "Section 390",
+          "content": "Robbery is theft combined with causing or attempting to cause death, hurt or wrongful restraint. All theft is robbery if accompanied by such violence.",
+          "keywords": [
+            "Robbery",
+            "Theft with violence"
+          ],
+          "children": [],
+          "order": 390
+        },
+        {
+          "id": "sec-ipc.json-391",
+          "type": "section",
+          "number": "391",
+          "title": "Section 391",
+          "content": "When five or more persons conjointly commit a robbery, it is dacoity.",
+          "keywords": [
+            "Dacoity",
+            "Gang robbery",
+            "5+ persons"
+          ],
+          "children": [],
+          "order": 391
+        },
+        {
+          "id": "sec-ipc.json-392",
+          "type": "section",
+          "number": "392",
+          "title": "Section 392",
+          "content": "Whoever commits robbery shall be punished with rigorous imprisonment for at least 3 years but may extend to 10 years and fine.",
+          "keywords": [
+            "Robbery punishment"
+          ],
+          "children": [],
+          "order": 392
+        },
+        {
+          "id": "sec-ipc.json-395",
+          "type": "section",
+          "number": "395",
+          "title": "Section 395",
+          "content": "Whoever commits dacoity shall be punished with imprisonment for life or rigorous imprisonment up to 10 years and fine.",
+          "keywords": [
+            "Dacoity punishment",
+            "Life imprisonment"
+          ],
+          "children": [],
+          "order": 395
+        },
+        {
+          "id": "sec-ipc.json-397",
+          "type": "section",
+          "number": "397",
+          "title": "Section 397",
+          "content": "If at the time of robbery or dacoity the offender uses a deadly weapon or causes grievous hurt, the minimum imprisonment is 7 years.",
+          "keywords": [
+            "Armed robbery",
+            "Deadly weapon",
+            "Grievous hurt"
+          ],
+          "children": [],
+          "order": 397
+        },
+        {
+          "id": "sec-ipc.json-403",
+          "type": "section",
+          "number": "403",
+          "title": "Section 403",
+          "content": "Whoever dishonestly misappropriates or converts to his own use movable property shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Criminal misappropriation",
+            "Conversion",
+            "Dishonest use"
+          ],
+          "children": [],
+          "order": 403
+        },
+        {
+          "id": "sec-ipc.json-405",
+          "type": "section",
+          "number": "405",
+          "title": "Section 405",
+          "content": "Criminal breach of trust is dishonestly misappropriating or converting property entrusted to a person, or using it in violation of trust directions.",
+          "keywords": [
+            "Criminal breach of trust",
+            "Misappropriation",
+            "Entrustment violation"
+          ],
+          "children": [],
+          "order": 405
+        },
+        {
+          "id": "sec-ipc.json-406",
+          "type": "section",
+          "number": "406",
+          "title": "Section 406",
+          "content": "Whoever commits criminal breach of trust shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Breach of trust punishment"
+          ],
+          "children": [],
+          "order": 406
+        },
+        {
+          "id": "sec-ipc.json-409",
+          "type": "section",
+          "number": "409",
+          "title": "Section 409",
+          "content": "Whoever commits criminal breach of trust as a public servant, banker, merchant, agent, or broker shall be punished with imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "Criminal breach by public servant",
+            "Bank fraud",
+            "Agent betrayal"
+          ],
+          "children": [],
+          "order": 409
+        },
+        {
+          "id": "sec-ipc.json-410",
+          "type": "section",
+          "number": "410",
+          "title": "Section 410",
+          "content": "'Stolen property' is property obtained by theft, extortion, robbery, or criminal misappropriation, and any property obtained by dealing with such property.",
+          "keywords": [
+            "Stolen property definition"
+          ],
+          "children": [],
+          "order": 410
+        },
+        {
+          "id": "sec-ipc.json-411",
+          "type": "section",
+          "number": "411",
+          "title": "Section 411",
+          "content": "Whoever dishonestly receives or retains stolen property knowing it to be stolen shall be punished with imprisonment up to 3 years or fine or both.",
+          "keywords": [
+            "Receiving stolen property",
+            "Handling stolen goods"
+          ],
+          "children": [],
+          "order": 411
+        },
+        {
+          "id": "sec-ipc.json-415",
+          "type": "section",
+          "number": "415",
+          "title": "Section 415",
+          "content": "Cheating is deceiving a person fraudulently or dishonestly to induce delivery of property, or to induce a person to do or omit to do something causing damage.",
+          "keywords": [
+            "Cheating",
+            "Fraud",
+            "Deception"
+          ],
+          "children": [],
+          "order": 415
+        },
+        {
+          "id": "sec-ipc.json-416",
+          "type": "section",
+          "number": "416",
+          "title": "Section 416",
+          "content": "Cheating by personation is pretending to be another person, or substituting one person for another.",
+          "keywords": [
+            "Impersonation",
+            "Identity fraud",
+            "Personation"
+          ],
+          "children": [],
+          "order": 416
+        },
+        {
+          "id": "sec-ipc.json-417",
+          "type": "section",
+          "number": "417",
+          "title": "Section 417",
+          "content": "Whoever cheats shall be punished with imprisonment up to 1 year or fine or both.",
+          "keywords": [
+            "Cheating punishment"
+          ],
+          "children": [],
+          "order": 417
+        },
+        {
+          "id": "sec-ipc.json-420",
+          "type": "section",
+          "number": "420",
+          "title": "Section 420",
+          "content": "Whoever cheats and dishonestly induces delivery of property shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Cheating with property delivery",
+            "Fraud",
+            "Section 420"
+          ],
+          "children": [],
+          "order": 420
+        },
+        {
+          "id": "sec-ipc.json-425",
+          "type": "section",
+          "number": "425",
+          "title": "Section 425",
+          "content": "Mischief is causing destruction of property or any change in property destroying its value or utility.",
+          "keywords": [
+            "Mischief",
+            "Property destruction",
+            "Vandalism"
+          ],
+          "children": [],
+          "order": 425
+        },
+        {
+          "id": "sec-ipc.json-426",
+          "type": "section",
+          "number": "426",
+          "title": "Section 426",
+          "content": "Whoever commits mischief shall be punished with imprisonment up to 3 months or fine or both.",
+          "keywords": [
+            "Mischief punishment"
+          ],
+          "children": [],
+          "order": 426
+        },
+        {
+          "id": "sec-ipc.json-441",
+          "type": "section",
+          "number": "441",
+          "title": "Section 441",
+          "content": "Criminal trespass is entering into or upon property in possession of another with intent to commit an offense or to intimidate, insult or annoy.",
+          "keywords": [
+            "Criminal trespass",
+            "Trespassing",
+            "Intimidation"
+          ],
+          "children": [],
+          "order": 441
+        },
+        {
+          "id": "sec-ipc.json-442",
+          "type": "section",
+          "number": "442",
+          "title": "Section 442",
+          "content": "House-trespass is criminal trespass into a building, tent or vessel used for human dwelling or worship or for custody of property.",
+          "keywords": [
+            "House trespass",
+            "Burglary"
+          ],
+          "children": [],
+          "order": 442
+        },
+        {
+          "id": "sec-ipc.json-447",
+          "type": "section",
+          "number": "447",
+          "title": "Section 447",
+          "content": "Whoever commits criminal trespass shall be punished with imprisonment up to 3 months or fine or both.",
+          "keywords": [
+            "Trespass punishment"
+          ],
+          "children": [],
+          "order": 447
+        },
+        {
+          "id": "sec-ipc.json-457",
+          "type": "section",
+          "number": "457",
+          "title": "Section 457",
+          "content": "Whoever commits lurking house-trespass or house-breaking by night shall be punished with imprisonment up to 5 years and fine.",
+          "keywords": [
+            "House-breaking",
+            "Night trespass",
+            "Burglary"
+          ],
+          "children": [],
+          "order": 457
+        },
+        {
+          "id": "sec-ipc.json-458",
+          "type": "section",
+          "number": "458",
+          "title": "Section 458",
+          "content": "Whoever commits lurking house-trespass or house-breaking and causes hurt shall be punished with imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "House-breaking with hurt",
+            "Aggravated burglary"
+          ],
+          "children": [],
+          "order": 458
+        }
+      ],
+      "order": 17
+    },
+    {
+      "id": "ch-ipc.json-18",
+      "type": "chapter",
+      "number": "18",
+      "title": "Offenses Relating to Documents and Property Marks",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-463",
+          "type": "section",
+          "number": "463",
+          "title": "Section 463",
+          "content": "Forgery is making a false document with intent to cause damage or injury, support a claim, commit fraud, or cause a person to part with property.",
+          "keywords": [
+            "Forgery",
+            "False document",
+            "Fraudulent document"
+          ],
+          "children": [],
+          "order": 463
+        },
+        {
+          "id": "sec-ipc.json-465",
+          "type": "section",
+          "number": "465",
+          "title": "Section 465",
+          "content": "Whoever commits forgery shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Forgery punishment"
+          ],
+          "children": [],
+          "order": 465
+        },
+        {
+          "id": "sec-ipc.json-467",
+          "type": "section",
+          "number": "467",
+          "title": "Section 467",
+          "content": "Whoever forges a document purporting to be a valuable security, will, or authority to transfer shares shall be punished with imprisonment for life or up to 10 years and fine.",
+          "keywords": [
+            "Forgery of valuable security",
+            "Will forgery",
+            "Financial forgery"
+          ],
+          "children": [],
+          "order": 467
+        },
+        {
+          "id": "sec-ipc.json-468",
+          "type": "section",
+          "number": "468",
+          "title": "Section 468",
+          "content": "Whoever commits forgery for the purpose of cheating shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Forgery for cheating",
+            "Fraudulent forgery"
+          ],
+          "children": [],
+          "order": 468
+        },
+        {
+          "id": "sec-ipc.json-469",
+          "type": "section",
+          "number": "469",
+          "title": "Section 469",
+          "content": "Whoever commits forgery of a public record or court document shall be punished with imprisonment for life or up to 7 years and fine.",
+          "keywords": [
+            "Forgery of public record",
+            "Court document forgery"
+          ],
+          "children": [],
+          "order": 469
+        },
+        {
+          "id": "sec-ipc.json-471",
+          "type": "section",
+          "number": "471",
+          "title": "Section 471",
+          "content": "Whoever fraudulently uses a forged document knowing it to be forged shall be punished as if he had forged it.",
+          "keywords": [
+            "Using forged document",
+            "Fraudulent use"
+          ],
+          "children": [],
+          "order": 471
+        }
+      ],
+      "order": 18
+    },
+    {
+      "id": "ch-ipc.json-19",
+      "type": "chapter",
+      "number": "19",
+      "title": "Criminal Breach of Contracts of Service",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-491",
+          "type": "section",
+          "number": "491",
+          "title": "Section 491",
+          "content": "Whoever, being bound by a contract to attend on a person of unsound mind, voluntarily omits to do so, shall be punished with imprisonment up to 3 months or fine or both.",
+          "keywords": [
+            "Contract breach",
+            "Care omission",
+            "Unsound mind"
+          ],
+          "children": [],
+          "order": 491
+        }
+      ],
+      "order": 19
+    },
+    {
+      "id": "ch-ipc.json-20",
+      "type": "chapter",
+      "number": "20",
+      "title": "Offenses Relating to Marriage",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-493",
+          "type": "section",
+          "number": "493",
+          "title": "Section 493",
+          "content": "Whoever deceitfully causes a person to believe they are lawfully married, and cohabits with them, shall be punished with imprisonment up to 10 years and fine.",
+          "keywords": [
+            "False marriage",
+            "Deceitful cohabitation"
+          ],
+          "children": [],
+          "order": 493
+        },
+        {
+          "id": "sec-ipc.json-494",
+          "type": "section",
+          "number": "494",
+          "title": "Section 494",
+          "content": "Whoever marries again during the lifetime of a spouse without the spouse being divorced shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Bigamy",
+            "Double marriage",
+            "Polygamy"
+          ],
+          "children": [],
+          "order": 494
+        },
+        {
+          "id": "sec-ipc.json-496",
+          "type": "section",
+          "number": "496",
+          "title": "Section 496",
+          "content": "Whoever fraudulently goes through a marriage ceremony without the ceremony being lawful shall be punished with imprisonment up to 7 years and fine.",
+          "keywords": [
+            "Fraudulent marriage",
+            "False ceremony"
+          ],
+          "children": [],
+          "order": 496
+        },
+        {
+          "id": "sec-ipc.json-497",
+          "type": "section",
+          "number": "497",
+          "title": "Section 497",
+          "content": "Whoever has sexual intercourse with a married woman without the consent of her husband commits adultery.",
+          "keywords": [
+            "Adultery"
+          ],
+          "children": [],
+          "order": 497
+        },
+        {
+          "id": "sec-ipc.json-498A",
+          "type": "section",
+          "number": "498A",
+          "title": "Section 498A",
+          "content": "Whoever subjects a married woman to cruelty shall be punished with imprisonment up to 3 years and fine. Cruelty includes willful conduct driving the woman to suicide or causing grave injury, and harassment for dowry.",
+          "keywords": [
+            "Cruelty to wife",
+            "Domestic violence",
+            "Dowry harassment",
+            "Section 498A"
+          ],
+          "children": [],
+          "order": "498A"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "ch-ipc.json-21",
+      "type": "chapter",
+      "number": "21",
+      "title": "Defamation",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-499",
+          "type": "section",
+          "number": "499",
+          "title": "Section 499",
+          "content": "Whoever by words spoken or intended to be read, or by signs or visible representations, makes or publishes any imputation concerning any person intending to harm their reputation, is said to defame that person.",
+          "keywords": [
+            "Defamation",
+            "Reputation harm",
+            "Libel",
+            "Slander"
+          ],
+          "children": [],
+          "order": 499
+        },
+        {
+          "id": "sec-ipc.json-500",
+          "type": "section",
+          "number": "500",
+          "title": "Section 500",
+          "content": "Whoever defames another shall be punished with simple imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Defamation punishment"
+          ],
+          "children": [],
+          "order": 500
+        }
+      ],
+      "order": 21
+    },
+    {
+      "id": "ch-ipc.json-22",
+      "type": "chapter",
+      "number": "22",
+      "title": "Criminal Intimidation, Insult and Annoyance",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-503",
+          "type": "section",
+          "number": "503",
+          "title": "Section 503",
+          "content": "Criminal intimidation is threatening a person with injury to their person, reputation, or property, intending to cause alarm or compel action.",
+          "keywords": [
+            "Criminal intimidation",
+            "Threat",
+            "Coercion"
+          ],
+          "children": [],
+          "order": 503
+        },
+        {
+          "id": "sec-ipc.json-504",
+          "type": "section",
+          "number": "504",
+          "title": "Section 504",
+          "content": "Whoever intentionally insults and thereby provokes a person to break the public peace shall be punished with imprisonment up to 2 years or fine or both.",
+          "keywords": [
+            "Insult",
+            "Provocation",
+            "Breach of peace"
+          ],
+          "children": [],
+          "order": 504
+        },
+        {
+          "id": "sec-ipc.json-506",
+          "type": "section",
+          "number": "506",
+          "title": "Section 506",
+          "content": "Whoever commits criminal intimidation shall be punished with imprisonment up to 2 years or fine or both. If the threat is to cause death or grievous hurt, imprisonment up to 7 years.",
+          "keywords": [
+            "Criminal intimidation punishment",
+            "Death threat"
+          ],
+          "children": [],
+          "order": 506
+        },
+        {
+          "id": "sec-ipc.json-509",
+          "type": "section",
+          "number": "509",
+          "title": "Section 509",
+          "content": "Whoever utters any word, makes any sound or gesture, or exhibits any object intending to insult the modesty of a woman, or intrudes upon her privacy, shall be punished with imprisonment up to 3 years and fine.",
+          "keywords": [
+            "Modesty insult",
+            "Privacy violation",
+            "Word/gesture"
+          ],
+          "children": [],
+          "order": 509
+        },
+        {
+          "id": "sec-ipc.json-510",
+          "type": "section",
+          "number": "510",
+          "title": "Section 510",
+          "content": "Whoever in a state of intoxication appears in a public place and causes annoyance shall be punished with imprisonment up to 24 hours or fine up to Rs. 10 or both.",
+          "keywords": [
+            "Public intoxication",
+            "Annoyance"
+          ],
+          "children": [],
+          "order": 510
+        }
+      ],
+      "order": 22
+    },
+    {
+      "id": "ch-ipc.json-23",
+      "type": "chapter",
+      "number": "23",
+      "title": "Attempts to Commit Offenses",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-ipc.json-511",
+          "type": "section",
+          "number": "511",
+          "title": "Section 511",
+          "content": "Whoever attempts to commit an offense punishable with imprisonment for life or imprisonment, and does any act towards the commission of such offense, shall be punished with imprisonment up to half of the maximum imprisonment for that offense.",
+          "keywords": [
+            "Attempt",
+            "Inchoate offense",
+            "Preparation"
+          ],
+          "children": [],
+          "order": 511
+        }
+      ],
+      "order": 23
+    }
+  ],
+  "metadata": {
+    "totalSections": 154,
+    "sourceFile": "ipc.json",
+    "contentHash": "45836b242cd6f388",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.821Z",
+    "discoveredAt": "2026-08-11T23:53:51.821Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.821Z",
+  "updatedAt": "2026-08-11T23:53:51.953Z"
+}

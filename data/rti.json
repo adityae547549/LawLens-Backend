@@ -1,0 +1,73 @@
+[
+  {
+    "act": "Right to Information Act (RTI) 2005",
+    "chapter": "I",
+    "title": "Preliminary",
+    "sections": [
+      {
+        "num": 1,
+        "text": "This Act may be called the Right to Information Act, 2005. It extends to the whole of India.",
+        "key_topics": ["RTI title", "Short title", "Commencement"]
+      },
+      {
+        "num": 2,
+        "text": "Definitions: 'Public authority' means any authority or body or institution of self-government established or constituted by or under the Constitution, by any other law made by Parliament or State Legislature, or by notification issued or order made by the appropriate Government, and includes any body owned, controlled or substantially financed or non-Government organisation substantially financed, directly or indirectly by funds provided by the appropriate Government. 'Information' means any material in any form, including records, documents, memos, e-mails, opinions, advices, press releases, circulars, orders, logbooks, contracts, reports, papers, samples, models, data material held in any electronic form.",
+        "key_topics": ["Public authority definition", "Information definition", "Section 2(h)", "Section 2(f)"]
+      }
+    ]
+  },
+  {
+    "act": "Right to Information Act (RTI) 2005",
+    "chapter": "II",
+    "title": "Right to Information and Obligations of Public Authorities",
+    "sections": [
+      {
+        "num": 3,
+        "text": "Right to information: Subject to the provisions of this Act, all citizens shall have the right to information.",
+        "key_topics": ["Right to information", "Citizen right", "Transparency"]
+      },
+      {
+        "num": 4,
+        "text": "Obligations of public authorities: Every public authority shall maintain all its records duly catalogued and indexed, and publish within 120 days from enactment details of its organisation, functions, duties, powers of officers, decision making process, norms, rules, manuals, categories of documents held, and directory of officers (suo motu disclosure).",
+        "key_topics": ["Suo motu disclosure", "Proactive disclosure", "Obligations of public authorities"]
+      },
+      {
+        "num": 6,
+        "text": "Request for obtaining information: A person who desires to obtain any information under this Act shall make a request in writing or through electronic means in English or Hindi or in the official language of the area, accompanying prescribed fee, to the Central Public Information Officer (CPIO) or State Public Information Officer (SPIO). An applicant making request for information shall not be required to give any reason for requesting the information or any other personal details except those that may be necessary for contacting him.",
+        "key_topics": ["RTI application", "CPIO", "SPIO", "No reason required", "Fee"]
+      },
+      {
+        "num": 7,
+        "text": "Disposal of request: The Central Public Information Officer or State Public Information Officer shall as expeditiously as possible, and in any case within thirty days of the receipt of the request, either provide the information on payment of fee or reject the request for any of the reasons specified in sections 8 and 9. Provided that where the information requested for concerns the life or liberty of a person, the same shall be provided within forty-eight hours of the receipt of the request.",
+        "key_topics": ["30 days time limit", "48 hours life or liberty limit", "Disposal of RTI request"]
+      },
+      {
+        "num": 8,
+        "text": "Exemption from disclosure of information: Notwithstanding anything contained in this Act, there shall be no obligation to give any citizen information affecting sovereignty and integrity of India, security, strategic or economic interests; information expressly forbidden by court; breach of privilege of Parliament; commercial confidence, trade secrets, IP unless larger public interest warrants; information available to a person in his fiduciary relationship; information received in confidence from foreign Government; information endangering life or physical safety; cabinet papers; personal information having no relationship to public activity.",
+        "key_topics": ["RTI exemptions", "Section 8(1)", "National security exemption", "Personal information exemption", "Fiduciary relationship"]
+      }
+    ]
+  },
+  {
+    "act": "Right to Information Act (RTI) 2005",
+    "chapter": "V",
+    "title": "Powers and Functions of Information Commissions, Appeals and Penalties",
+    "sections": [
+      {
+        "num": 18,
+        "text": "Powers and functions of Information Commissions: Central Information Commission (CIC) or State Information Commission (SIC) shall receive and inquire into a complaint from any person who has been unable to submit a request because no officer has been appointed, or who has been refused information, or who believes false/incomplete info was provided.",
+        "key_topics": ["CIC powers", "SIC powers", "Inquiry into complaints"]
+      },
+      {
+        "num": 19,
+        "text": "Appeals under RTI: Any person who does not receive a decision within 30 days or is aggrieved by a decision of the CPIO/SPIO may prefer a First Appeal within 30 days to an officer senior in rank to the CPIO/SPIO. A Second Appeal against the decision shall lie within 90 days to the Central Information Commission or State Information Commission.",
+        "key_topics": ["First appeal", "Second appeal", "CIC appeal", "30 days limit for appeal"]
+      },
+      {
+        "num": 20,
+        "text": "Penalties under RTI: Where the Information Commission at the time of deciding any complaint or appeal is of the opinion that the CPIO or SPIO has without reasonable cause refused to receive an application, delayed info without reasonable cause, or knowingly gave incorrect/misleading info, it shall impose a penalty of two hundred and fifty rupees each day till application is received or info is furnished, subject to total maximum penalty of twenty-five thousand rupees.",
+        "key_topics": ["RTI penalties", "250 rupees per day penalty", "Maximum 25,000 penalty on CPIO"]
+      }
+    ]
+  }
+]

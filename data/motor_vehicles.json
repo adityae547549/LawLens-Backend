@@ -1,0 +1,53 @@
+[
+  {
+    "act": "Motor Vehicles Act 1988 (Amended 2019)",
+    "chapter": "VIII",
+    "title": "Control of Traffic & Accidents",
+    "sections": [
+      {
+        "num": 134,
+        "text": "Duty of driver in case of accident and injury to a person (Good Samaritan Protection): When any person is injured or any property damaged as a result of an accident, driver shall take all reasonable steps to secure medical attention for injured person. No Good Samaritan who voluntarily assists an accident victim shall be subjected to harassment by police or civil/criminal liability.",
+        "key_topics": ["Good Samaritan", "Accident duty", "Section 134", "Medical attention to accident victims"]
+      }
+    ]
+  },
+  {
+    "act": "Motor Vehicles Act 1988 (Amended 2019)",
+    "chapter": "XI",
+    "title": "Insurance of Motor Vehicles Against Third Party Risks",
+    "sections": [
+      {
+        "num": 146,
+        "text": "Necessity for insurance against third party risk: No person shall use except as a passenger, or cause or allow any other person to use, a motor vehicle in a public place, unless there is in force in relation to the use of the vehicle a policy of insurance complying with requirements of this Chapter.",
+        "key_topics": ["Mandatory third party insurance", "Section 146", "Motor vehicle insurance"]
+      },
+      {
+        "num": 161,
+        "text": "Special provisions as to compensation in case of hit and run motor accident: Compensation in case of death of any person resulting from a hit and run motor accident is two lakh rupees (Rs. 2 Lakhs) and in case of grievous hurt is fifty thousand rupees (Rs. 50,000).",
+        "key_topics": ["Hit and run compensation", "Section 161", "2 Lakhs hit and run death compensation"]
+      },
+      {
+        "num": 165,
+        "text": "Motor Accidents Claims Tribunal (MACT): State Government may constitute one or more Motor Accidents Claims Tribunals for adjudicating upon claims for compensation in respect of accidents involving death or bodily injury or damage to property.",
+        "key_topics": ["MACT", "Motor Accidents Claims Tribunal", "Section 165", "Accident compensation claim"]
+      }
+    ]
+  },
+  {
+    "act": "Motor Vehicles Act 1988 (Amended 2019)",
+    "chapter": "XIII",
+    "title": "Offences, Penalties and Procedure",
+    "sections": [
+      {
+        "num": 184,
+        "text": "Driving dangerously: Whoever drives a motor vehicle at a speed or in a manner which is dangerous to the public shall be punished for first offence with imprisonment up to one year or fine up to five thousand rupees.",
+        "key_topics": ["Dangerous driving", "Section 184", "Rash driving penalty"]
+      },
+      {
+        "num": 185,
+        "text": "Driving by a drunken person or by a person under the influence of drugs: Whoever, while driving, or attempting to drive, a motor vehicle has in his blood alcohol exceeding 30 mg. per 100 ml. of blood detected in a test by a breath analyser shall be punished for first offence with imprisonment up to six months or fine up to ten thousand rupees.",
+        "key_topics": ["Drunk driving", "Section 185", "Breath analyser test", "30 mg alcohol limit"]
+      }
+    ]
+  }
+]

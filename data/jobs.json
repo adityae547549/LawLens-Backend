@@ -1,0 +1,25 @@
+[
+  {
+    "id": "5ff7da97-92d3-44cb-8a30-f1b1ae54bf76",
+    "type": "rebuild",
+    "name": "SSE Test Job",
+    "description": "",
+    "status": "cancelled",
+    "progress": 0,
+    "result": null,
+    "error": null,
+    "metadata": {
+      "userId": "cd3bec85-6707-45b2-b635-23af84faf941"
+    },
+    "priority": 0,
+    "createdAt": "2026-08-09T09:29:41.977Z",
+    "startedAt": null,
+    "completedAt": "2026-08-09T09:29:41.992Z",
+    "logs": [
+      {
+        "timestamp": "2026-08-09T09:29:41.992Z",
+        "message": "Job cancelled"
+      }
+    ]
+  }
+]

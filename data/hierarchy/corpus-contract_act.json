@@ -1,0 +1,193 @@
+{
+  "id": "corpus-contract_act",
+  "type": "act",
+  "title": "Indian Contract Act 1872",
+  "actNumber": null,
+  "year": null,
+  "authority": "",
+  "description": "Indian Contract Act 1872 — sourced from contract_act.json",
+  "tags": [
+    "corpus"
+  ],
+  "status": "published",
+  "version": 1,
+  "parts": [
+    {
+      "id": "ch-contract_act.json-0",
+      "type": "chapter",
+      "number": "I",
+      "title": "Communication, Acceptance and Revocation of Proposals",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-contract_act.json-2",
+          "type": "section",
+          "number": "2",
+          "title": "Section 2",
+          "content": "Interpretation clause: (a) Proposal: When one person signifies to another his willingness to do or abstain from doing anything with a view to obtaining the assent of that other. (b) Acceptance: When the person to whom proposal is made signifies assent. (e) Agreement: Every promise and every set of promises, forming consideration for each other. (h) Contract: An agreement enforceable by law is a contract.",
+          "keywords": [
+            "Proposal",
+            "Acceptance",
+            "Agreement",
+            "Contract definition",
+            "Section 2(h)"
+          ],
+          "children": [],
+          "order": 2
+        },
+        {
+          "id": "sec-contract_act.json-10",
+          "type": "section",
+          "number": "10",
+          "title": "Section 10",
+          "content": "What agreements are contracts: All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void.",
+          "keywords": [
+            "Valid contract conditions",
+            "Free consent",
+            "Competency",
+            "Lawful consideration",
+            "Section 10"
+          ],
+          "children": [],
+          "order": 10
+        },
+        {
+          "id": "sec-contract_act.json-11",
+          "type": "section",
+          "number": "11",
+          "title": "Section 11",
+          "content": "Who are competent to contract: Every person is competent to contract who is of the age of majority according to the law to which he is subject, and who is of sound mind, and is not disqualified from contracting by any law.",
+          "keywords": [
+            "Minor contract void (Mohori Bibee)",
+            "Sound mind",
+            "Competency to contract"
+          ],
+          "children": [],
+          "order": 11
+        },
+        {
+          "id": "sec-contract_act.json-14",
+          "type": "section",
+          "number": "14",
+          "title": "Section 14",
+          "content": "Free consent defined: Consent is said to be free when it is not caused by coercion (Section 15), undue influence (Section 16), fraud (Section 17), misrepresentation (Section 18), or mistake (Sections 20, 21, 22).",
+          "keywords": [
+            "Free consent",
+            "Coercion",
+            "Undue influence",
+            "Fraud",
+            "Misrepresentation",
+            "Mistake"
+          ],
+          "children": [],
+          "order": 14
+        },
+        {
+          "id": "sec-contract_act.json-27",
+          "type": "section",
+          "number": "27",
+          "title": "Section 27",
+          "content": "Agreement in restraint of trade void: Every agreement by which any one is restrained from exercising a lawful profession, trade, or business of any kind, is to that extent void, except in sale of goodwill.",
+          "keywords": [
+            "Restraint of trade",
+            "Non-compete clause",
+            "Void agreement",
+            "Section 27"
+          ],
+          "children": [],
+          "order": 27
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "ch-contract_act.json-1",
+      "type": "chapter",
+      "number": "VI",
+      "title": "Consequences of Breach of Contract",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-contract_act.json-73",
+          "type": "section",
+          "number": "73",
+          "title": "Section 73",
+          "content": "Compensation for loss or damage caused by breach of contract: When a contract has been broken, the party who suffers by such breach is entitled to receive from the party who has broken the contract, compensation for any loss or damage caused to him thereby, which naturally arose in the usual course of things from such breach (Hadley v Baxendale rule). Remote or indirect damage is not compensable.",
+          "keywords": [
+            "Breach of contract",
+            "Damages for breach",
+            "Direct loss",
+            "Section 73"
+          ],
+          "children": [],
+          "order": 73
+        },
+        {
+          "id": "sec-contract_act.json-74",
+          "type": "section",
+          "number": "74",
+          "title": "Section 74",
+          "content": "Compensation for breach of contract where penalty stipulated for: When a contract has been broken, if a sum is named in the contract as the amount to be paid in case of such breach (liquidated damages or penalty), the party complaining of breach is entitled to receive reasonable compensation not exceeding the amount so named.",
+          "keywords": [
+            "Liquidated damages",
+            "Penalty clause",
+            "Section 74"
+          ],
+          "children": [],
+          "order": 74
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ch-contract_act.json-2",
+      "type": "chapter",
+      "number": "VIII",
+      "title": "Indemnity and Guarantee",
+      "content": "",
+      "children": [
+        {
+          "id": "sec-contract_act.json-124",
+          "type": "section",
+          "number": "124",
+          "title": "Section 124",
+          "content": "'Contract of indemnity' defined: A contract by which one party promises to save the other from loss caused to him by the conduct of the promisor himself, or by the conduct of any other person.",
+          "keywords": [
+            "Contract of indemnity",
+            "Section 124",
+            "Indemnifier"
+          ],
+          "children": [],
+          "order": 124
+        },
+        {
+          "id": "sec-contract_act.json-126",
+          "type": "section",
+          "number": "126",
+          "title": "Section 126",
+          "content": "'Contract of guarantee', 'surety', 'principal debtor' and 'creditor': A contract of guarantee is a contract to perform the promise, or discharge the liability, of a third person in case of his default. The person who gives guarantee is 'surety'.",
+          "keywords": [
+            "Contract of guarantee",
+            "Surety",
+            "Principal debtor",
+            "Creditor",
+            "Section 126"
+          ],
+          "children": [],
+          "order": 126
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "metadata": {
+    "totalSections": 9,
+    "sourceFile": "contract_act.json",
+    "contentHash": "53bbe39b21d36838",
+    "lastEditedBy": "corpus-discovery",
+    "createdAt": "2026-08-11T23:53:51.807Z",
+    "discoveredAt": "2026-08-11T23:53:51.807Z"
+  },
+  "createdAt": "2026-08-11T23:53:51.807Z",
+  "updatedAt": "2026-08-11T23:53:51.900Z"
+}

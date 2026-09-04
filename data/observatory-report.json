@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-02T16:21:32.943Z",
+  "imports": [
+    {
+      "id": "import-1785687692589-ps49",
+      "sourceId": "amendments_json",
+      "act": "Constitutional Amendments Summary",
+      "sectionsCount": 85,
+      "chunksCount": 84,
+      "timestamp": "2026-08-02T16:21:32.589Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692603-20ob",
+      "sourceId": "bns_2023",
+      "act": "Bharatiya Nyaya Sanhita",
+      "sectionsCount": 11,
+      "chunksCount": 11,
+      "timestamp": "2026-08-02T16:21:32.603Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692615-ea5r",
+      "sourceId": "bnss_2023",
+      "act": "Bharatiya Nagarik Suraksha Sanhita",
+      "sectionsCount": 11,
+      "chunksCount": 11,
+      "timestamp": "2026-08-02T16:21:32.615Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692621-p6s4",
+      "sourceId": "bsa_2023",
+      "act": "Bharatiya Sakshya Adhiniyam",
+      "sectionsCount": 6,
+      "chunksCount": 6,
+      "timestamp": "2026-08-02T16:21:32.621Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692632-82l4",
+      "sourceId": "companies_act_2013",
+      "act": "Companies Act",
+      "sectionsCount": 6,
+      "chunksCount": 6,
+      "timestamp": "2026-08-02T16:21:32.632Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692639-9u5c",
+      "sourceId": "consumer_protection_2019",
+      "act": "Consumer Protection Act",
+      "sectionsCount": 8,
+      "chunksCount": 8,
+      "timestamp": "2026-08-02T16:21:32.639Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692646-6ig0",
+      "sourceId": "contract_act_1872",
+      "act": "Indian Contract Act",
+      "sectionsCount": 9,
+      "chunksCount": 9,
+      "timestamp": "2026-08-02T16:21:32.646Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692671-p9ga",
+      "sourceId": "crpc_1973",
+      "act": "Code of Criminal Procedure",
+      "sectionsCount": 124,
+      "chunksCount": 87,
+      "timestamp": "2026-08-02T16:21:32.671Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692680-hrxb",
+      "sourceId": "environment_act_1986",
+      "act": "Environment (Protection) Act",
+      "sectionsCount": 5,
+      "chunksCount": 5,
+      "timestamp": "2026-08-02T16:21:32.680Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692704-rnzg",
+      "sourceId": "evidence_act_1872",
+      "act": "Indian Evidence Act",
+      "sectionsCount": 69,
+      "chunksCount": 50,
+      "timestamp": "2026-08-02T16:21:32.704Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692710-8jwi",
+      "sourceId": "gst_act_2017",
+      "act": "Central Goods and Services Tax Act",
+      "sectionsCount": 5,
+      "chunksCount": 5,
+      "timestamp": "2026-08-02T16:21:32.710Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692746-5c49",
+      "sourceId": "ipc_1860",
+      "act": "Indian Penal Code",
+      "sectionsCount": 154,
+      "chunksCount": 129,
+      "timestamp": "2026-08-02T16:21:32.746Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692754-e1jo",
+      "sourceId": "it_act_2000",
+      "act": "Information Technology Act",
+      "sectionsCount": 8,
+      "chunksCount": 8,
+      "timestamp": "2026-08-02T16:21:32.754Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692825-ug3i",
+      "sourceId": "landmark_cases",
+      "act": "Landmark Supreme Court Judgments",
+      "sectionsCount": 8,
+      "chunksCount": 8,
+      "timestamp": "2026-08-02T16:21:32.825Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692904-31jx",
+      "sourceId": "legal_maxims",
+      "act": "Legal Maxims & Principles",
+      "sectionsCount": 20,
+      "chunksCount": 20,
+      "timestamp": "2026-08-02T16:21:32.904Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692911-b19b",
+      "sourceId": "motor_vehicles_1988",
+      "act": "Motor Vehicles Act",
+      "sectionsCount": 6,
+      "chunksCount": 6,
+      "timestamp": "2026-08-02T16:21:32.911Z",
+      "status": "success"
+    },
+    {
+      "id": "import-1785687692918-j6pn",
+      "sourceId": "rti_2005",
+      "act": "Right to Information Act",
+      "sectionsCount": 10,
+      "chunksCount": 9,
+      "timestamp": "2026-08-02T16:21:32.918Z",
+      "status": "success"
+    }
+  ],
+  "errors": [],
+  "syncHistory": [],
+  "parserErrors": [],
+  "systemEvents": [
+    {
+      "level": "info",
+      "message": "Initializing Legal Knowledge OS...",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:31.893Z"
+    },
+    {
+      "level": "info",
+      "message": "Legal Knowledge OS initialized successfully",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:31.903Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Constitutional Amendments Summary (85 sections, 84 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.589Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Bharatiya Nyaya Sanhita (11 sections, 11 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.603Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Bharatiya Nagarik Suraksha Sanhita (11 sections, 11 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.615Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Bharatiya Sakshya Adhiniyam (6 sections, 6 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.621Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Companies Act (6 sections, 6 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.632Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Consumer Protection Act (8 sections, 8 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.639Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Indian Contract Act (9 sections, 9 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.646Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Code of Criminal Procedure (124 sections, 87 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.671Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Environment (Protection) Act (5 sections, 5 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.680Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Indian Evidence Act (69 sections, 50 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.704Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Central Goods and Services Tax Act (5 sections, 5 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.710Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Indian Penal Code (154 sections, 129 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.746Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Information Technology Act (8 sections, 8 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.754Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Landmark Supreme Court Judgments (8 sections, 8 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.825Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Legal Maxims & Principles (20 sections, 20 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.904Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Motor Vehicles Act (6 sections, 6 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.911Z"
+    },
+    {
+      "level": "info",
+      "message": "Imported: Right to Information Act (10 sections, 9 chunks)",
+      "details": {},
+      "timestamp": "2026-08-02T16:21:32.918Z"
+    }
+  ]
+}

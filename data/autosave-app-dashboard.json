@@ -1,0 +1,12 @@
+{
+  "pageId": "app-dashboard",
+  "overrides": {
+    "test": {
+      "styles": {
+        "color": "blue"
+      }
+    }
+  },
+  "blocks": [],
+  "updatedAt": "2026-08-12T00:16:32.062Z"
+}
