@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: lawlens-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GROQ_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        value: https://lawlens.web.app,https://lawlens-f0ebc.web.app
+      - key: DB_PATH
+        value: ./database
+      - key: UPLOAD_DIR
+        value: ./uploads
+      - key: VECTOR_DB_PATH
+        value: ./vector/index.json
+      - key: RATE_LIMIT_WINDOW_MS
+        value: 900000
+      - key: RATE_LIMIT_MAX
+        value: 100
+    healthCheckPath: /health
+    autoDeploy: true
