@@ -7,6 +7,3 @@ database/*.json
 *.log
 .DS_Store
 Thumbs.db
-.env.local
-.env.production
-.env.development

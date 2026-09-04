@@ -110,7 +110,7 @@ exports.chat = async (req, res) => {
       context = retriever.formatContext(localResults, webResults, graphResults);
       citations = retriever.getCitations(localResults, webResults);
     }
-    const { answer, sources } = await generator.generate(message, context, history, { level, useWebSearch, language, memoryContext, useOwnKnowledge });
+    const { answer, sources, confidence, citationCheck } = await generator.generate(message, context, history, { level, useWebSearch, language, memoryContext, useOwnKnowledge });
 
     const confidenceResult = _calculateConfidence(useOwnKnowledge, citations, sources?.[0]?.type === 'general' ? 40 : 0);
     const convId = _saveConversationAndTrack(req.user, message, answer, citations, confidenceResult.score, conversationId, conversation, level, useWebSearch, localResults.length + webResults.length, 'chat');
@@ -121,6 +121,7 @@ exports.chat = async (req, res) => {
       confidence: confidenceResult.score,
       confidenceLevel: confidenceResult.level,
       confidenceLabel: confidenceResult.label,
+      citationCheck: citationCheck || { verified: [], unverified: [], total: 0 },
       webResultsCount: webResults.length,
       memoryUsed: !!memoryContext,
       sourceType: useOwnKnowledge ? 'general' : 'documents',
@@ -203,6 +204,7 @@ exports.chatStream = async (req, res) => {
           confidence: confidenceResult.score,
           confidenceLevel: confidenceResult.level,
           confidenceLabel: confidenceResult.label,
+          citationCheck: chunk.citationCheck || { verified: [], unverified: [], total: 0 },
           webResultsCount: webResults.length,
           memoryUsed: !!memoryContext,
           sourceType: useOwnKnowledge ? 'general' : 'documents',

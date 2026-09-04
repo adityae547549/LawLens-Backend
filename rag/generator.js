@@ -109,21 +109,24 @@ ${ownKnowledgeInstruction}`;
     ];
 
     if (conversationHistory.length > 0) {
-      const recentHistory = conversationHistory.slice(-6);
+      const recentHistory = conversationHistory.slice(-8);
       for (const msg of recentHistory) {
         messages.push({ role: msg.role, content: msg.content });
       }
     }
 
+    const truncatedContext = context.length > 8000 ? context.slice(0, 8000) + '\n\n[Context truncated for length]' : context;
     const sourcesDesc = useWebSearch ? 'the retrieved documents and web search results' : 'the retrieved documents';
-    const userMessage = `RETRIEVED CONTEXT:\n\n${context}\n\n---\n\nUSER QUESTION: ${query}\n\nProvide a comprehensive answer based on ${sourcesDesc} above. Cite sources for every legal fact. Use [Source N] for local documents and [Web Source N] for web results.`;
+    const userMessage = `RETRIEVED CONTEXT:\n\n${truncatedContext}\n\n---\n\nUSER QUESTION: ${query}\n\nProvide a comprehensive answer based on ${sourcesDesc} above. Cite sources for every legal fact. Use [Source N] for local documents and [Web Source N] for web results.`;
     messages.push({ role: 'user', content: userMessage });
 
     try {
       const res = await this.provider.generate(messages);
       const answer = res.content || 'No response generated.';
       const sources = this._extractSources(context);
-      return { answer, sources };
+      const confidence = this._calculateConfidence(answer, context);
+      const citationCheck = this._verifyCitations(answer, sources);
+      return { answer, sources, confidence, citationCheck };
     } catch (error) {
       console.error('Groq API error:', error.message);
       const degraded = this._buildDegradedAnswer(query, context);
@@ -202,7 +205,8 @@ ${ownKnowledgeInstruction}`;
           yield chunk;
         }
       }
-      yield { type: 'done', sources, confidence: this._calculateConfidence(fullContent, context) };
+      const citationCheck = this._verifyCitations(fullContent, sources);
+      yield { type: 'done', sources, confidence: this._calculateConfidence(fullContent, context), citationCheck };
     } catch (error) {
       console.error('Groq streaming error:', error.message);
       if (fullContent) {
@@ -325,6 +329,28 @@ Standalone search query:`;
       }
     }
     return sources;
+  }
+
+  _verifyCitations(answer, sources) {
+    const citedNumbers = new Set();
+    const citationRegex = /\[Source (\d+)\]/g;
+    let match;
+    while ((match = citationRegex.exec(answer)) !== null) {
+      citedNumbers.add(parseInt(match[1]));
+    }
+
+    const verified = [];
+    const unverified = [];
+    for (const num of citedNumbers) {
+      const source = sources.find(s => s.index === num);
+      if (source) {
+        verified.push({ index: num, name: source.name, verified: true });
+      } else {
+        unverified.push({ index: num, verified: false, reason: 'Source not found in retrieved context' });
+      }
+    }
+
+    return { verified, unverified, total: citedNumbers.size };
   }
 
   /**
