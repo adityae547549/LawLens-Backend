@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
-const morgan = require('morgan');
 const compression = require('compression');
 const rateLimit = require('express-rate-limit');
 const path = require('path');
@@ -14,6 +13,9 @@ if (!process.env.JWT_SECRET) {
 }
 const fs = require('fs');
 const passport = require('./middleware/googleAuth');
+const logger = require('./utils/logger');
+const AppError = require('./utils/AppError');
+const multer = require('multer');
 
 const authRoutes = require('./routes/auth');
 const chatRoutes = require('./routes/chat');
@@ -55,13 +57,13 @@ app.use(cors({
     if (!origin || allowed.includes('*') || allowed.includes(origin)) {
       callback(null, true);
     } else {
-      callback(new Error('CORS: origin not allowed'));
+      callback(null, false);
     }
   },
   credentials: true
 }));
 app.use(compression());
-app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
+app.use(logger.requestMiddleware);
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(passport.initialize());
@@ -150,11 +152,19 @@ if (hasFrontend) {
   });
 }
 
-const logger = require('./utils/logger');
-const AppError = require('./utils/AppError');
-
 app.use((err, req, res, next) => {
   logger.error(err.message || 'Unhandled server error', { stack: err.stack, path: req.path, method: req.method });
+
+  if (err instanceof multer.MulterError) {
+    if (err.code === 'LIMIT_FILE_SIZE') {
+      return res.status(413).json({ error: 'File too large. Maximum size is 10MB.' });
+    }
+    return res.status(400).json({ error: `Upload error: ${err.message}` });
+  }
+
+  if (err.message && err.message.includes('CORS')) {
+    return res.status(403).json({ error: 'CORS: origin not allowed' });
+  }
 
   if (err instanceof AppError || err.isOperational) {
     return res.status(err.statusCode || 400).json({
@@ -174,19 +184,19 @@ app.use((err, req, res, next) => {
 function selfPing() {
   const url = SELF_URL + '/health';
   https.get(url, (res) => {
-    console.log(`[KeepAlive] Ping ${res.statusCode}`);
+    logger.info(`[KeepAlive] Ping ${res.statusCode}`);
   }).on('error', (err) => {
-    console.error(`[KeepAlive] Ping failed: ${err.message}`);
+    logger.error(`[KeepAlive] Ping failed: ${err.message}`);
   });
 }
 
 const server = app.listen(PORT, () => {
-  console.log(`LawLens server running on port ${PORT}`);
+  logger.info(`LawLens server running on port ${PORT}`);
 
   if (process.env.NODE_ENV === 'production' && SELF_URL && !SELF_URL.includes('localhost')) {
     selfPing();
     setInterval(selfPing, 1 * 60 * 1000);
-    console.log(`[KeepAlive] Self-ping active every 1 minute → ${SELF_URL}`);
+    logger.info(`[KeepAlive] Self-ping active every 1 minute → ${SELF_URL}`);
   }
 });
 
@@ -197,6 +207,7 @@ function gracefulShutdown(signal) {
   logger.info(`Received ${signal}. Shutting down HTTP server gracefully...`);
   server.close(() => {
     logger.info('HTTP server closed cleanly.');
+    try { require('./database/db').close(); } catch {}
     process.exit(0);
   });
 
@@ -211,4 +222,9 @@ process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 
 process.on('unhandledRejection', (reason, promise) => {
   logger.error('Unhandled Rejection:', reason);
+});
+
+process.on('uncaughtException', (err) => {
+  logger.error('Uncaught Exception:', { message: err.message, stack: err.stack });
+  gracefulShutdown('uncaughtException');
 });

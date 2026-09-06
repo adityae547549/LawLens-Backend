@@ -1,110 +1,19 @@
-const fs = require('fs');
-const path = require('path');
-const { v4: uuidv4 } = require('uuid');
+let sqliteDb = null;
+let jsonDb = null;
 
-// Resolve DB_PATH relative to the backend directory so data lives in a stable
-// location regardless of the process working directory (previously `./database`
-// resolved against cwd, silently splitting data across folders).
-const BACKEND_DIR = path.resolve(__dirname, '..');
-const DB_PATH = process.env.DB_PATH
-  ? (path.isAbsolute(process.env.DB_PATH) ? process.env.DB_PATH : path.resolve(BACKEND_DIR, process.env.DB_PATH))
-  : path.join(BACKEND_DIR, 'database');
+const USE_SQLITE = process.env.DB_ENGINE !== 'json';
 
-class Database {
-  constructor() {
-    this.collections = {};
-    this.dbPath = DB_PATH;
-    if (!fs.existsSync(this.dbPath)) {
-      fs.mkdirSync(this.dbPath, { recursive: true });
-    }
+if (USE_SQLITE) {
+  try {
+    sqliteDb = require('./sqlite');
+    console.log('[DB] Using SQLite');
+  } catch (err) {
+    console.warn(`[DB] SQLite unavailable (${err.message}), falling back to JSON`);
+    jsonDb = require('./json');
   }
-
-  _getFilePath(collection) {
-    return path.join(this.dbPath, `${collection}.json`);
-  }
-
-  _readCollection(collection) {
-    const filePath = this._getFilePath(collection);
-    if (!fs.existsSync(filePath)) {
-      fs.writeFileSync(filePath, JSON.stringify([]));
-      return [];
-    }
-    try {
-      const data = fs.readFileSync(filePath, 'utf-8');
-      return JSON.parse(data);
-    } catch {
-      return [];
-    }
-  }
-
-  _writeCollection(collection, data) {
-    const filePath = this._getFilePath(collection);
-    const tempPath = filePath + '.tmp';
-    const content = JSON.stringify(data, null, 2);
-
-    // Write to temp file, then atomically rename to avoid partial writes
-    // under concurrent access or crash mid-write.
-    fs.writeFileSync(tempPath, content, 'utf-8');
-    fs.renameSync(tempPath, filePath);
-  }
-
-  findAll(collection, query = {}) {
-    const items = this._readCollection(collection);
-    if (Object.keys(query).length === 0) return items;
-    return items.filter(item =>
-      Object.entries(query).every(([key, value]) => item[key] === value)
-    );
-  }
-
-  findById(collection, id) {
-    const items = this._readCollection(collection);
-    return items.find(item => item.id === id) || null;
-  }
-
-  findOne(collection, query) {
-    const items = this._readCollection(collection);
-    return items.find(item =>
-      Object.entries(query).every(([key, value]) => item[key] === value)
-    ) || null;
-  }
-
-  insertOne(collection, doc) {
-    const items = this._readCollection(collection);
-    const newDoc = { id: uuidv4(), createdAt: new Date().toISOString(), ...doc };
-    items.push(newDoc);
-    this._writeCollection(collection, items);
-    return newDoc;
-  }
-
-  updateOne(collection, query, updates) {
-    const items = this._readCollection(collection);
-    const index = items.findIndex(item =>
-      Object.entries(query).every(([key, value]) => item[key] === value)
-    );
-    if (index === -1) return null;
-    items[index] = { ...items[index], ...updates, updatedAt: new Date().toISOString() };
-    this._writeCollection(collection, items);
-    return items[index];
-  }
-
-  deleteOne(collection, query) {
-    const items = this._readCollection(collection);
-    const index = items.findIndex(item =>
-      Object.entries(query).every(([key, value]) => item[key] === value)
-    );
-    if (index === -1) return false;
-    items.splice(index, 1);
-    this._writeCollection(collection, items);
-    return true;
-  }
-
-  deleteAll(collection) {
-    this._writeCollection(collection, []);
-  }
-
-  count(collection, query = {}) {
-    return this.findAll(collection, query).length;
-  }
+} else {
+  jsonDb = require('./json');
+  console.log('[DB] Using JSON (DB_ENGINE=json)');
 }
 
-module.exports = new Database();
+module.exports = sqliteDb || jsonDb;
