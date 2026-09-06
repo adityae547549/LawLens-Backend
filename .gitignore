@@ -7,3 +7,6 @@ database/*.json
 *.log
 .DS_Store
 Thumbs.db
+
+# Secrets
+RENDER_ENV.txt

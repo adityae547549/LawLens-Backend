@@ -1,5 +1,4 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
+const { admin, isFirebaseAdminInitialized } = require('../utils/firebaseAdmin');
 const db = require('../database/db');
 
 exports.register = async (req, res) => {
@@ -11,26 +10,35 @@ exports.register = async (req, res) => {
     if (password.length < 6) {
       return res.status(400).json({ error: 'Password must be at least 6 characters' });
     }
-    const existing = db.findOne('users', { email });
-    if (existing) {
-      return res.status(409).json({ error: 'Email already registered' });
+
+    if (!isFirebaseAdminInitialized()) {
+      return res.status(500).json({ error: 'Auth provider not configured' });
     }
-    const hashedPassword = await bcrypt.hash(password, 12);
+
+    let firebaseUser;
+    try {
+      firebaseUser = await admin.auth().createUser({
+        email,
+        password,
+        displayName: name,
+      });
+    } catch (e) {
+      if (e.code === 'auth/email-already-exists') {
+        return res.status(409).json({ error: 'Email already registered' });
+      }
+      throw e;
+    }
+
     const user = db.insertOne('users', {
+      firebaseUid: firebaseUser.uid,
       name,
       email,
-      password: hashedPassword,
       role: 'user',
-      preferences: { theme: 'dark', notifications: true }
+      preferences: { theme: 'dark', notifications: true },
     });
-    const token = jwt.sign(
-      { id: user.id, email: user.email, name: user.name, role: user.role },
-      process.env.JWT_SECRET,
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
-    );
+
     res.status(201).json({
-      token,
-      user: { id: user.id, name: user.name, email: user.email, role: user.role }
+      user: { id: user.id, name: user.name, email: user.email, role: user.role },
     });
   } catch (error) {
     console.error('Register error:', error);
@@ -40,39 +48,85 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
   try {
-    const { email, password } = req.body;
-    if (!email || !password) {
-      return res.status(400).json({ error: 'Email and password are required' });
+    const { idToken } = req.body;
+    if (!idToken) {
+      return res.status(400).json({ error: 'Firebase ID token is required' });
     }
-    const user = db.findOne('users', { email });
+
+    if (!isFirebaseAdminInitialized()) {
+      return res.status(500).json({ error: 'Auth provider not configured' });
+    }
+
+    const decoded = await admin.auth().verifyIdToken(idToken);
+    let user = db.findOne('users', { firebaseUid: decoded.uid });
+
     if (!user) {
-      return res.status(401).json({ error: 'Invalid email or password' });
+      user = db.insertOne('users', {
+        firebaseUid: decoded.uid,
+        name: decoded.name || (decoded.email ? decoded.email.split('@')[0] : 'User'),
+        email: decoded.email,
+        role: 'user',
+        preferences: { theme: 'dark', notifications: true },
+      });
     }
-    if (!user.password) {
-      return res.status(401).json({ error: 'This account uses Google Sign-In. Please use "Continue with Google" to login.' });
-    }
-    const isValid = await bcrypt.compare(password, user.password);
-    if (!isValid) {
-      return res.status(401).json({ error: 'Invalid email or password' });
-    }
-    const token = jwt.sign(
-      { id: user.id, email: user.email, name: user.name, role: user.role },
-      process.env.JWT_SECRET,
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
-    );
+
     res.json({
-      token,
-      user: { id: user.id, name: user.name, email: user.email, role: user.role }
+      user: { id: user.id, name: user.name, email: user.email, role: user.role },
     });
   } catch (error) {
     console.error('Login error:', error);
-    res.status(500).json({ error: 'Login failed' });
+    res.status(401).json({ error: 'Login failed' });
+  }
+};
+
+exports.googleAuth = async (req, res) => {
+  try {
+    const { idToken } = req.body;
+    if (!idToken) {
+      return res.status(400).json({ error: 'Firebase ID token is required' });
+    }
+
+    if (!isFirebaseAdminInitialized()) {
+      return res.status(500).json({ error: 'Auth provider not configured' });
+    }
+
+    const decoded = await admin.auth().verifyIdToken(idToken);
+    let user = db.findOne('users', { firebaseUid: decoded.uid });
+
+    if (!user) {
+      user = db.insertOne('users', {
+        firebaseUid: decoded.uid,
+        name: decoded.name || (decoded.email ? decoded.email.split('@')[0] : 'User'),
+        email: decoded.email,
+        avatar: decoded.picture || null,
+        role: 'user',
+        preferences: { theme: 'dark', notifications: true },
+      });
+    } else {
+      const updates = {};
+      if (decoded.picture && !user.avatar) updates.avatar = decoded.picture;
+      if (Object.keys(updates).length > 0) {
+        user = db.updateOne('users', { id: user.id }, updates) || user;
+      }
+    }
+
+    res.json({
+      user: { id: user.id, name: user.name, email: user.email, role: user.role },
+    });
+  } catch (error) {
+    console.error('Google auth error:', error);
+    res.status(500).json({ error: 'Google authentication failed' });
   }
 };
 
 exports.profile = async (req, res) => {
   try {
-    const user = db.findById('users', req.user.id);
+    let user = null;
+    if (req.user.id) {
+      user = db.findById('users', req.user.id);
+    } else if (req.user.firebaseUid) {
+      user = db.findOne('users', { firebaseUid: req.user.firebaseUid });
+    }
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
@@ -90,7 +144,13 @@ exports.updateProfile = async (req, res) => {
     const updates = {};
     if (name) updates.name = name;
     if (preferences) updates.preferences = preferences;
-    const user = db.updateOne('users', { id: req.user.id }, updates);
+
+    let user = null;
+    if (req.user.id) {
+      user = db.updateOne('users', { id: req.user.id }, updates);
+    } else if (req.user.firebaseUid) {
+      user = db.updateOne('users', { firebaseUid: req.user.firebaseUid }, updates);
+    }
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }

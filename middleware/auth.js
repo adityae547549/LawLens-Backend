@@ -1,26 +1,51 @@
-const jwt = require('jsonwebtoken');
+const { admin, isFirebaseAdminInitialized } = require('../utils/firebaseAdmin');
+const db = require('../database/db');
 
-function authenticate(req, res, next) {
+async function authenticate(req, res, next) {
   const authHeader = req.headers.authorization;
   if (!authHeader || !authHeader.startsWith('Bearer ')) {
     return res.status(401).json({ error: 'Authentication required' });
   }
-  const token = authHeader.split(' ')[1];
+  const idToken = authHeader.split(' ')[1];
+
+  if (!isFirebaseAdminInitialized()) {
+    return res.status(500).json({ error: 'Auth provider not configured' });
+  }
+
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded;
+    const decoded = await admin.auth().verifyIdToken(idToken);
+    const user = db.findOne('users', { firebaseUid: decoded.uid });
+    req.user = {
+      id: user ? user.id : null,
+      firebaseUid: decoded.uid,
+      email: decoded.email || null,
+      name: decoded.name || (decoded.email ? decoded.email.split('@')[0] : null),
+      avatar: decoded.picture || null,
+      role: user ? user.role : 'user',
+    };
     next();
   } catch (err) {
     return res.status(401).json({ error: 'Invalid or expired token' });
   }
 }
 
-function optionalAuth(req, res, next) {
+async function optionalAuth(req, res, next) {
   const authHeader = req.headers.authorization;
   if (authHeader && authHeader.startsWith('Bearer ')) {
     try {
-      const token = authHeader.split(' ')[1];
-      req.user = jwt.verify(token, process.env.JWT_SECRET);
+      const idToken = authHeader.split(' ')[1];
+      if (isFirebaseAdminInitialized()) {
+        const decoded = await admin.auth().verifyIdToken(idToken);
+        const user = db.findOne('users', { firebaseUid: decoded.uid });
+        req.user = {
+          id: user ? user.id : null,
+          firebaseUid: decoded.uid,
+          email: decoded.email || null,
+          name: decoded.name || (decoded.email ? decoded.email.split('@')[0] : null),
+          avatar: decoded.picture || null,
+          role: user ? user.role : 'user',
+        };
+      }
     } catch {
       req.user = null;
     }
@@ -35,20 +60,33 @@ function adminOnly(req, res, next) {
   next();
 }
 
-function authenticateSSE(req, res, next) {
+async function authenticateSSE(req, res, next) {
   const authHeader = req.headers.authorization;
-  let token;
+  let idToken;
   if (authHeader && authHeader.startsWith('Bearer ')) {
-    token = authHeader.split(' ')[1];
+    idToken = authHeader.split(' ')[1];
   } else if (req.query && req.query.token) {
-    token = req.query.token;
+    idToken = req.query.token;
   }
-  if (!token) {
+  if (!idToken) {
     return res.status(401).json({ error: 'Authentication required' });
   }
+
+  if (!isFirebaseAdminInitialized()) {
+    return res.status(500).json({ error: 'Auth provider not configured' });
+  }
+
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded;
+    const decoded = await admin.auth().verifyIdToken(idToken);
+    const user = db.findOne('users', { firebaseUid: decoded.uid });
+    req.user = {
+      id: user ? user.id : null,
+      firebaseUid: decoded.uid,
+      email: decoded.email || null,
+      name: decoded.name || (decoded.email ? decoded.email.split('@')[0] : null),
+      avatar: decoded.picture || null,
+      role: user ? user.role : 'user',
+    };
     next();
   } catch (err) {
     return res.status(401).json({ error: 'Invalid or expired token' });

@@ -16,6 +16,9 @@ const passport = require('./middleware/googleAuth');
 const logger = require('./utils/logger');
 const AppError = require('./utils/AppError');
 const multer = require('multer');
+const { initFirebaseAdmin } = require('./utils/firebaseAdmin');
+
+initFirebaseAdmin();
 
 const authRoutes = require('./routes/auth');
 const chatRoutes = require('./routes/chat');
