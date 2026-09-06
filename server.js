@@ -6,15 +6,8 @@ const rateLimit = require('express-rate-limit');
 const path = require('path');
 const https = require('https');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
-const crypto = require('crypto');
-if (!process.env.JWT_SECRET) {
-  process.env.JWT_SECRET = crypto.randomBytes(64).toString('hex');
-  console.warn('[WARN] JWT_SECRET not set in .env — using random secret (tokens will not survive restarts)');
-}
 const fs = require('fs');
-const passport = require('./middleware/googleAuth');
 const logger = require('./utils/logger');
-const AppError = require('./utils/AppError');
 const multer = require('multer');
 const { initFirebaseAdmin } = require('./utils/firebaseAdmin');
 
@@ -52,34 +45,64 @@ if (!fs.existsSync(uploadDir)) {
 
 app.use(helmet({
   crossOriginResourcePolicy: { policy: 'cross-origin' },
-  contentSecurityPolicy: false
+  contentSecurityPolicy: false,
+  referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
+
+const allowedOrigins = (process.env.CORS_ORIGIN || '').split(',').map(s => s.trim()).filter(Boolean);
+
 app.use(cors({
   origin: (origin, callback) => {
-    const allowed = (process.env.CORS_ORIGIN || '*').split(',').map(s => s.trim());
-    if (!origin || allowed.includes('*') || allowed.includes(origin)) {
+    if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
       callback(null, false);
     }
   },
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  maxAge: 86400,
 }));
+
 app.use(compression());
 app.use(logger.requestMiddleware);
-app.use(express.json({ limit: '50mb' }));
-app.use(express.urlencoded({ extended: true, limit: '50mb' }));
-app.use(passport.initialize());
+
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 const limiter = rateLimit({
   windowMs: parseInt(process.env.RATE_LIMIT_WINDOW_MS) || 900000,
   max: parseInt(process.env.RATE_LIMIT_MAX) || 100,
-  message: { error: 'Too many requests, please try again later.' }
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many requests, please try again later.', code: 'RATE_LIMITED' },
 });
 app.use('/api/', limiter);
 
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 20,
+  message: { error: 'Too many authentication attempts, please try again later.', code: 'AUTH_RATE_LIMITED' },
+});
+app.use('/api/auth/login', authLimiter);
+app.use('/api/auth/register', authLimiter);
+
+const aiLimiter = rateLimit({
+  windowMs: 60 * 1000,
+  max: 10,
+  message: { error: 'AI request limit reached. Please wait before trying again.', code: 'AI_RATE_LIMITED' },
+});
+app.use('/api/chat', aiLimiter);
+app.use('/api/ai', aiLimiter);
+
 const healthCheck = (req, res) => {
-  res.json({ status: 'ok', uptime: process.uptime(), timestamp: new Date().toISOString() });
+  res.json({
+    status: 'ok',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+    firebase: require('./utils/firebaseAdmin').isFirebaseAdminInitialized() ? 'configured' : 'not_configured',
+  });
 };
 app.get('/health', healthCheck);
 app.get('/api/health', healthCheck);
@@ -113,30 +136,12 @@ if (hasFrontend) {
       if (filePath.endsWith('.html')) {
         res.setHeader('Cache-Control', 'no-cache');
       }
-      if (filePath.endsWith('.js') || filePath.endsWith('.css')) {
-        res.setHeader('Cache-Control', 'public, max-age=31536000');
-      }
-      if (filePath.endsWith('.json') && filePath.includes('manifest')) {
-        res.setHeader('Content-Type', 'application/manifest+json');
-      }
     }
   }));
 
-  app.get('/sw.js', (req, res) => {
-    res.sendFile(path.join(FRONTEND_DIR, 'sw.js'), {
-      headers: { 'Content-Type': 'application/javascript', 'Cache-Control': 'no-cache' }
-    });
-  });
-
-  app.get('/manifest.json', (req, res) => {
-    res.sendFile(path.join(FRONTEND_DIR, 'manifest.json'), {
-      headers: { 'Content-Type': 'application/manifest+json', 'Cache-Control': 'public, max-age=3600' }
-    });
-  });
-
   app.get('*', (req, res) => {
     if (req.path.startsWith('/api/')) {
-      return res.status(404).json({ error: 'API endpoint not found' });
+      return res.status(404).json({ error: 'API endpoint not found', code: 'NOT_FOUND' });
     }
     const cleanPath = req.path.split('?')[0];
     const fileName = cleanPath === '/' ? 'index.html' : `${cleanPath.slice(1)}.html`;
@@ -149,7 +154,7 @@ if (hasFrontend) {
 } else {
   app.get('*', (req, res) => {
     if (req.path.startsWith('/api/')) {
-      return res.status(404).json({ error: 'API endpoint not found' });
+      return res.status(404).json({ error: 'API endpoint not found', code: 'NOT_FOUND' });
     }
     res.json({ message: 'LawLens API is running. Frontend is hosted separately on Firebase.' });
   });
@@ -160,27 +165,23 @@ app.use((err, req, res, next) => {
 
   if (err instanceof multer.MulterError) {
     if (err.code === 'LIMIT_FILE_SIZE') {
-      return res.status(413).json({ error: 'File too large. Maximum size is 10MB.' });
+      return res.status(413).json({ error: 'File too large. Maximum size is 10MB.', code: 'FILE_TOO_LARGE' });
     }
-    return res.status(400).json({ error: `Upload error: ${err.message}` });
+    return res.status(400).json({ error: `Upload error: ${err.message}`, code: 'UPLOAD_ERROR' });
   }
 
   if (err.message && err.message.includes('CORS')) {
-    return res.status(403).json({ error: 'CORS: origin not allowed' });
+    return res.status(403).json({ error: 'CORS: origin not allowed', code: 'CORS_BLOCKED' });
   }
 
-  if (err instanceof AppError || err.isOperational) {
-    return res.status(err.statusCode || 400).json({
-      error: err.message,
-      type: err.type || 'BAD_REQUEST',
-      details: err.details || undefined
-    });
+  if (err.type === 'entity.parse.failed') {
+    return res.status(400).json({ error: 'Invalid JSON in request body', code: 'INVALID_JSON' });
   }
 
   res.status(500).json({
     error: 'Internal server error',
-    type: 'SERVER_ERROR',
-    message: process.env.NODE_ENV === 'development' ? err.message : undefined
+    code: 'SERVER_ERROR',
+    message: process.env.NODE_ENV === 'development' ? err.message : undefined,
   });
 });
 
@@ -199,7 +200,7 @@ const server = app.listen(PORT, () => {
   if (process.env.NODE_ENV === 'production' && SELF_URL && !SELF_URL.includes('localhost')) {
     selfPing();
     setInterval(selfPing, 1 * 60 * 1000);
-    logger.info(`[KeepAlive] Self-ping active every 1 minute → ${SELF_URL}`);
+    logger.info(`[KeepAlive] Self-ping active every 1 minute`);
   }
 });
 
