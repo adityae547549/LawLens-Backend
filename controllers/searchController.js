@@ -12,7 +12,7 @@ exports.search = async (req, res) => {
     const { localResults, webResults } = await retriever.retrieve(query, { mode, k: 20, useWebSearch, ...filters });
 
     if (req.user) {
-      db.insertOne('searchHistory', {
+      await db.insertOne('searchHistory', {
         userId: req.user.id,
         query,
         mode,
@@ -78,7 +78,8 @@ exports.suggestions = async (req, res) => {
 
 exports.recentSearches = async (req, res) => {
   try {
-    const searches = db.findAll('searchHistory', { userId: req.user.id })
+    const all = await db.findAll('searchHistory', { userId: req.user.id });
+    const searches = (all || [])
       .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
       .slice(0, 20);
     res.json({ searches });
@@ -90,9 +91,9 @@ exports.recentSearches = async (req, res) => {
 
 exports.clearHistory = async (req, res) => {
   try {
-    const searches = db.findAll('searchHistory', { userId: req.user.id });
-    for (const s of searches) {
-      db.deleteOne('searchHistory', { id: s.id });
+    const searches = await db.findAll('searchHistory', { userId: req.user.id });
+    for (const s of searches || []) {
+      await db.deleteOne('searchHistory', { id: s.id });
     }
     res.json({ message: 'Search history cleared' });
   } catch (error) {

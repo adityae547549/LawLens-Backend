@@ -7,11 +7,11 @@ exports.addBookmark = async (req, res) => {
     if (!articleId) {
       return res.status(400).json({ error: 'Article ID is required' });
     }
-    const existing = db.findOne('bookmarks', { userId: req.user.id, articleId });
+    const existing = await db.findOne('bookmarks', { userId: req.user.id, articleId });
     if (existing) {
       return res.status(409).json({ error: 'Already bookmarked' });
     }
-    const bookmark = db.insertOne('bookmarks', {
+    const bookmark = await db.insertOne('bookmarks', {
       userId: req.user.id,
       articleId,
       title: title || `Article ${articleId}`,
@@ -26,8 +26,8 @@ exports.addBookmark = async (req, res) => {
 
 exports.getBookmarks = async (req, res) => {
   try {
-    const bookmarks = db.findAll('bookmarks', { userId: req.user.id })
-      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+    const all = await db.findAll('bookmarks', { userId: req.user.id });
+    const bookmarks = (all || []).sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
     const enriched = bookmarks.map(b => {
       const doc = vectorStore.getDocument(b.articleId);
       return {
@@ -45,7 +45,7 @@ exports.getBookmarks = async (req, res) => {
 
 exports.deleteBookmark = async (req, res) => {
   try {
-    const deleted = db.deleteOne('bookmarks', { id: req.params.id, userId: req.user.id });
+    const deleted = await db.deleteOne('bookmarks', { id: req.params.id, userId: req.user.id });
     if (!deleted) {
       return res.status(404).json({ error: 'Bookmark not found' });
     }
@@ -62,7 +62,7 @@ exports.updateBookmark = async (req, res) => {
     const updates = {};
     if (notes !== undefined) updates.notes = notes;
     if (title !== undefined) updates.title = title;
-    const bookmark = db.updateOne('bookmarks', { id: req.params.id, userId: req.user.id }, updates);
+    const bookmark = await db.updateOne('bookmarks', { id: req.params.id, userId: req.user.id }, updates);
     if (!bookmark) {
       return res.status(404).json({ error: 'Bookmark not found' });
     }

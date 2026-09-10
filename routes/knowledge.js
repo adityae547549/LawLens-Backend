@@ -7,6 +7,10 @@ const express = require('express');
 const router = express.Router();
 const { authenticate, adminOnly } = require('../middleware/auth');
 
+// The knowledge operating system exposes internal data structures (graphs,
+// sources, benchmarks, observatory). Lock every endpoint to admins.
+router.use(authenticate, adminOnly);
+
 // Lazy-load the LKOS to avoid circular deps
 let lkos = null;
 async function getLKOS() {

@@ -1,160 +1,164 @@
 const db = require('../database/db');
-const { v4: uuidv4 } = require('uuid');
+const logger = require('../utils/logger');
 
-exports.listWorkspaces = async (req, res) => {
+const fields = { id: 1, title: 1, description: 1, createdBy: 1, documents: 1, annotations: 1, updatedAt: 1, createdAt: 1 };
+
+async function getUserWorkspaces(req, res) {
   try {
-    const userId = req.user?.id;
-    const allWorkspaces = db.findAll('workspaces');
-    const workspaces = allWorkspaces.filter(w =>
-      w.ownerId === userId || (w.members || []).includes(userId)
-    );
+    const allWorkspaces = await db.findAll('workspaces');
+    const workspaces = (allWorkspaces || []).filter(w => w.createdBy === req.user.id);
     res.json({ workspaces });
   } catch (error) {
-    console.error('List workspaces error:', error);
-    res.status(500).json({ error: 'Failed to list workspaces' });
+    logger.error('List workspaces error', { message: error.message });
+    res.status(500).json({ error: 'Failed to get workspaces', code: 'WORKSPACE_LIST_FAILED' });
   }
-};
+}
 
-exports.createWorkspace = async (req, res) => {
+exports.listWorkspaces = getUserWorkspaces;
+
+exports.createWorkspace = async (req, res, next) => {
   try {
-    const { name, description, members = [] } = req.body;
-    if (!name || name.trim().length === 0) {
-      return res.status(400).json({ error: 'Workspace name is required' });
+    const { title, description } = req.body || {};
+    const workspaceName = title || (req.body && req.body.name);
+    if (!workspaceName || !workspaceName.trim()) {
+      return res.status(400).json({ error: 'Workspace title is required', code: 'TITLE_REQUIRED' });
     }
-
-    const workspace = db.insertOne('workspaces', {
-      name: name.trim(),
-      description: description || '',
-      ownerId: req.user.id,
-      members: [...new Set([req.user.id, ...members])],
+    const workspace = await db.insertOne('workspaces', {
+      title: workspaceName.trim(),
+      description: description ? description.trim() : '',
+      createdBy: req.user.id,
       documents: [],
       annotations: [],
+      updatedAt: new Date().toISOString(),
       createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
     });
+    res.status(201).json({ workspace });
+  } catch (error) {
+    logger.error('Create workspace error', { message: error.message });
+    next(error);
+  }
+};
 
+exports.getWorkspace = async (req, res, next) => {
+  try {
+    const workspace = await db.findById('workspaces', req.params.id);
+    if (!workspace) {
+      return res.status(404).json({ error: 'Workspace not found', code: 'WORKSPACE_NOT_FOUND' });
+    }
+    if (workspace.createdBy !== req.user.id) {
+      return res.status(403).json({ error: 'Access denied', code: 'WORKSPACE_ACCESS_DENIED' });
+    }
     res.json({ workspace });
   } catch (error) {
-    console.error('Create workspace error:', error);
-    res.status(500).json({ error: 'Failed to create workspace' });
+    logger.error('Get workspace error', { message: error.message });
+    next(error);
   }
 };
 
-exports.getWorkspace = async (req, res) => {
+exports.updateWorkspace = async (req, res, next) => {
   try {
-    const workspace = db.findById('workspaces', req.params.id);
+    const workspace = await db.findById('workspaces', req.params.id);
     if (!workspace) {
-      return res.status(404).json({ error: 'Workspace not found' });
+      return res.status(404).json({ error: 'Workspace not found', code: 'WORKSPACE_NOT_FOUND' });
     }
-    const userId = req.user?.id;
-    if (workspace.ownerId !== userId && !(workspace.members || []).includes(userId)) {
-      return res.status(403).json({ error: 'Access denied' });
+    if (workspace.createdBy !== req.user.id) {
+      return res.status(403).json({ error: 'Access denied', code: 'WORKSPACE_ACCESS_DENIED' });
     }
-    res.json({ workspace });
-  } catch (error) {
-    console.error('Get workspace error:', error);
-    res.status(500).json({ error: 'Failed to get workspace' });
-  }
-};
-
-exports.updateWorkspace = async (req, res) => {
-  try {
-    const { name, description, members } = req.body;
-    const workspace = db.findById('workspaces', req.params.id);
-    if (!workspace) {
-      return res.status(404).json({ error: 'Workspace not found' });
+    const allowed = ['title', 'description'];
+    const updates = {};
+    for (const key of allowed) {
+      if (req.body[key] !== undefined) updates[key] = req.body[key];
     }
-    if (workspace.ownerId !== req.user?.id) {
-      return res.status(403).json({ error: 'Only the owner can update the workspace' });
+    if (Object.keys(updates).length === 0) {
+      return res.status(400).json({ error: 'No valid fields to update', code: 'NO_UPDATES' });
     }
-
-    const updates = { updatedAt: new Date().toISOString() };
-    if (name) updates.name = name.trim();
-    if (description !== undefined) updates.description = description;
-    if (members) updates.members = [...new Set([req.user.id, ...members])];
-
-    const updated = db.updateOne('workspaces', { id: req.params.id }, updates);
+    updates.updatedAt = new Date().toISOString();
+    const updated = await db.updateOne('workspaces', { id: req.params.id }, updates);
     res.json({ workspace: updated });
   } catch (error) {
-    console.error('Update workspace error:', error);
-    res.status(500).json({ error: 'Failed to update workspace' });
+    logger.error('Update workspace error', { message: error.message });
+    next(error);
   }
 };
 
-exports.deleteWorkspace = async (req, res) => {
+exports.deleteWorkspace = async (req, res, next) => {
   try {
-    const workspace = db.findById('workspaces', req.params.id);
+    const workspace = await db.findById('workspaces', req.params.id);
     if (!workspace) {
-      return res.status(404).json({ error: 'Workspace not found' });
+      return res.status(404).json({ error: 'Workspace not found', code: 'WORKSPACE_NOT_FOUND' });
     }
-    if (workspace.ownerId !== req.user?.id) {
-      return res.status(403).json({ error: 'Only the owner can delete the workspace' });
+    if (workspace.createdBy !== req.user.id) {
+      return res.status(403).json({ error: 'Access denied', code: 'WORKSPACE_ACCESS_DENIED' });
     }
-    db.deleteOne('workspaces', { id: req.params.id });
-    res.json({ message: 'Workspace deleted' });
+    await db.deleteOne('workspaces', { id: req.params.id });
+    res.json({ success: true });
   } catch (error) {
-    console.error('Delete workspace error:', error);
-    res.status(500).json({ error: 'Failed to delete workspace' });
+    logger.error('Delete workspace error', { message: error.message });
+    next(error);
   }
 };
 
-exports.addDocument = async (req, res) => {
+exports.addDocument = async (req, res, next) => {
   try {
-    const { documentId, name } = req.body;
-    const workspace = db.findById('workspaces', req.params.id);
+    const workspace = await db.findById('workspaces', req.params.id);
     if (!workspace) {
-      return res.status(404).json({ error: 'Workspace not found' });
+      return res.status(404).json({ error: 'Workspace not found', code: 'WORKSPACE_NOT_FOUND' });
     }
-    const userId = req.user?.id;
-    if (workspace.ownerId !== userId && !(workspace.members || []).includes(userId)) {
-      return res.status(403).json({ error: 'Access denied' });
+    if (workspace.createdBy !== req.user.id) {
+      return res.status(403).json({ error: 'Access denied', code: 'WORKSPACE_ACCESS_DENIED' });
     }
-
-    const docs = workspace.documents || [];
-    if (docs.find(d => d.id === documentId)) {
-      return res.status(400).json({ error: 'Document already in workspace' });
+    const { documentId } = req.body || {};
+    if (!documentId) {
+      return res.status(400).json({ error: 'documentId is required', code: 'DOCUMENT_ID_REQUIRED' });
     }
-
-    docs.push({ id: documentId, name: name || documentId, addedAt: new Date().toISOString(), addedBy: userId });
-    const updated = db.updateOne('workspaces', { id: req.params.id }, { documents: docs, updatedAt: new Date().toISOString() });
-    res.json({ workspace: updated });
+    const docs = Array.isArray(workspace.documents) ? workspace.documents : [];
+    if (!docs.includes(documentId)) {
+      docs.push(documentId);
+      await db.updateOne('workspaces', { id: req.params.id }, { documents: docs, updatedAt: new Date().toISOString() });
+    }
+    res.json({ workspace: { ...workspace, documents: docs } });
   } catch (error) {
-    console.error('Add document error:', error);
-    res.status(500).json({ error: 'Failed to add document' });
+    logger.error('Add document to workspace error', { message: error.message });
+    next(error);
   }
 };
 
-exports.addAnnotation = async (req, res) => {
+exports.removeDocument = async (req, res, next) => {
   try {
-    const { documentId, text, highlight } = req.body;
-    if (!documentId || !text) {
-      return res.status(400).json({ error: 'documentId and text are required' });
-    }
-
-    const workspace = db.findById('workspaces', req.params.id);
+    const workspace = await db.findById('workspaces', req.params.id);
     if (!workspace) {
-      return res.status(404).json({ error: 'Workspace not found' });
+      return res.status(404).json({ error: 'Workspace not found', code: 'WORKSPACE_NOT_FOUND' });
     }
-    const userId = req.user?.id;
-    if (workspace.ownerId !== userId && !(workspace.members || []).includes(userId)) {
-      return res.status(403).json({ error: 'Access denied' });
+    if (workspace.createdBy !== req.user.id) {
+      return res.status(403).json({ error: 'Access denied', code: 'WORKSPACE_ACCESS_DENIED' });
     }
-
-    const annotation = {
-      id: uuidv4(),
-      documentId,
-      text,
-      highlight: highlight || '',
-      userId,
-      userName: req.user?.name || 'Anonymous',
-      createdAt: new Date().toISOString()
-    };
-
-    const annotations = [...(workspace.annotations || []), annotation];
-    const updated = db.updateOne('workspaces', { id: req.params.id }, { annotations, updatedAt: new Date().toISOString() });
-    res.json({ workspace: updated, annotation });
+    const docs = Array.isArray(workspace.documents) ? workspace.documents : [];
+    const updatedDocs = docs.filter(id => id !== req.params.documentId);
+    await db.updateOne('workspaces', { id: req.params.id }, { documents: updatedDocs, updatedAt: new Date().toISOString() });
+    res.json({ success: true });
   } catch (error) {
-    console.error('Add annotation error:', error);
-    res.status(500).json({ error: 'Failed to add annotation' });
+    logger.error('Remove document from workspace error', { message: error.message });
+    next(error);
+  }
+};
+
+exports.addAnnotation = async (req, res, next) => {
+  try {
+    const workspace = await db.findById('workspaces', req.params.id);
+    if (!workspace) {
+      return res.status(404).json({ error: 'Workspace not found', code: 'WORKSPACE_NOT_FOUND' });
+    }
+    if (workspace.createdBy !== req.user.id) {
+      return res.status(403).json({ error: 'Access denied', code: 'WORKSPACE_ACCESS_DENIED' });
+    }
+    const annotations = req.body.annotations;
+    if (!Array.isArray(annotations)) {
+      return res.status(400).json({ error: 'annotations must be an array', code: 'INVALID_ANNOTATIONS' });
+    }
+    await db.updateOne('workspaces', { id: req.params.id }, { annotations, updatedAt: new Date().toISOString() });
+    res.json({ success: true, annotations });
+  } catch (error) {
+    logger.error('Save annotations error', { message: error.message });
+    next(error);
   }
 };

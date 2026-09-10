@@ -53,20 +53,26 @@ const allowedOrigins = (process.env.CORS_ORIGIN || '').split(',').map(s => s.tri
 
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(null, false);
-    }
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.length === 0 && /localhost|127\.0\.0\.1/.test(origin)) return callback(null, true);
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    callback(null, false);
   },
   credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Firebase-AppCheck'],
   maxAge: 86400,
 }));
 
 app.use(compression());
 app.use(logger.requestMiddleware);
+
+// Request timeout — kill slow requests after 60s
+app.use((req, res, next) => {
+  req.setTimeout(60000);
+  res.setTimeout(60000);
+  next();
+});
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
@@ -96,12 +102,20 @@ const aiLimiter = rateLimit({
 app.use('/api/chat', aiLimiter);
 app.use('/api/ai', aiLimiter);
 
+const appCheck = require('./middleware/appCheck');
+app.use('/api/', appCheck);
+
+const { getFirebaseMode } = require('./utils/firebaseAdmin');
+
 const healthCheck = (req, res) => {
+  const fbMode = getFirebaseMode();
+  const firebase =
+    fbMode === 'service_account' ? 'configured' : fbMode === 'application_default' ? 'degraded' : 'not_configured';
   res.json({
     status: 'ok',
     uptime: process.uptime(),
     timestamp: new Date().toISOString(),
-    firebase: require('./utils/firebaseAdmin').isFirebaseAdminInitialized() ? 'configured' : 'not_configured',
+    firebase,
   });
 };
 app.get('/health', healthCheck);
@@ -160,6 +174,11 @@ if (hasFrontend) {
   });
 }
 
+// Catch-all for unmatched API routes (all methods)
+app.all('/api/*', (req, res) => {
+  res.status(404).json({ error: 'API endpoint not found', code: 'NOT_FOUND' });
+});
+
 app.use((err, req, res, next) => {
   logger.error(err.message || 'Unhandled server error', { stack: err.stack, path: req.path, method: req.method });
 
@@ -187,7 +206,8 @@ app.use((err, req, res, next) => {
 
 function selfPing() {
   const url = SELF_URL + '/health';
-  https.get(url, (res) => {
+  const client = url.startsWith('https') ? https : require('http');
+  client.get(url, (res) => {
     logger.info(`[KeepAlive] Ping ${res.statusCode}`);
   }).on('error', (err) => {
     logger.error(`[KeepAlive] Ping failed: ${err.message}`);
@@ -199,8 +219,8 @@ const server = app.listen(PORT, () => {
 
   if (process.env.NODE_ENV === 'production' && SELF_URL && !SELF_URL.includes('localhost')) {
     selfPing();
-    setInterval(selfPing, 1 * 60 * 1000);
-    logger.info(`[KeepAlive] Self-ping active every 1 minute`);
+    setInterval(selfPing, 5 * 60 * 1000);
+    logger.info(`[KeepAlive] Self-ping active every 5 minutes`);
   }
 });
 

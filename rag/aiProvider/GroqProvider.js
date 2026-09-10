@@ -5,7 +5,7 @@ class GroqProvider extends BaseProvider {
   constructor(config = {}) {
     super(config);
     this.apiKey = config.apiKey || process.env.GROQ_API_KEY || 'placeholder_key_for_offline_init';
-    this.model = config.model || process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
+    this.model = config.model || process.env.GROQ_MODEL || 'llama-3.1-8b-instant';
     this.temperature = config.temperature ?? 0.1;
     this.maxTokens = config.maxTokens ?? 2048;
 

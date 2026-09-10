@@ -7,11 +7,11 @@ const promptEditor = require('../rag/promptEditor');
 
 exports.getDashboard = async (req, res) => {
   try {
-    const users = db.count('users');
-    const conversations = db.count('conversations');
-    const bookmarks = db.count('bookmarks');
+    const users = await db.count('users');
+    const conversations = await db.count('conversations');
+    const bookmarks = await db.count('bookmarks');
     const documents = vectorStore.count();
-    const searches = db.count('searchHistory');
+    const searches = await db.count('searchHistory');
 
     res.json({
       stats: { users, conversations, bookmarks, documents, searches },
@@ -25,7 +25,8 @@ exports.getDashboard = async (req, res) => {
 
 exports.getUsers = async (req, res) => {
   try {
-    const users = db.findAll('users').map(u => ({
+    const allUsers = await db.findAll('users');
+    const users = (allUsers || []).map(u => ({
       id: u.id,
       name: u.name,
       email: u.email,
@@ -41,7 +42,7 @@ exports.getUsers = async (req, res) => {
 
 exports.deleteUser = async (req, res) => {
   try {
-    const deleted = db.deleteOne('users', { id: req.params.id });
+    const deleted = await db.deleteOne('users', { id: req.params.id });
     if (!deleted) {
       return res.status(404).json({ error: 'User not found' });
     }
@@ -96,9 +97,9 @@ exports.getApiMetrics = async (req, res) => {
   try {
     res.json({
       metrics: {
-        totalRequests: db.count('requests') || 0,
-        activeUsers: db.count('users'),
-        totalConversations: db.count('conversations'),
+        totalRequests: (await db.count('requests')) || 0,
+        activeUsers: await db.count('users'),
+        totalConversations: await db.count('conversations'),
         vectorStoreSize: vectorStore.count()
       }
     });
@@ -110,7 +111,7 @@ exports.getApiMetrics = async (req, res) => {
 
 exports.getPrompt = async (req, res) => {
   try {
-    const prompt = promptEditor.getPrompt();
+    const prompt = await promptEditor.getPrompt();
     res.json({ prompt });
   } catch (error) {
     console.error('Get prompt error:', error);
@@ -124,7 +125,7 @@ exports.updatePrompt = async (req, res) => {
     if (!prompt) {
       return res.status(400).json({ error: 'Prompt is required' });
     }
-    promptEditor.setPrompt(prompt);
+    await promptEditor.setPrompt(prompt);
     res.json({ message: 'Prompt updated', prompt });
   } catch (error) {
     console.error('Update prompt error:', error);
@@ -134,7 +135,7 @@ exports.updatePrompt = async (req, res) => {
 
 exports.resetPrompt = async (req, res) => {
   try {
-    const prompt = promptEditor.resetPrompt();
+    const prompt = await promptEditor.resetPrompt();
     res.json({ message: 'Prompt reset to default', prompt });
   } catch (error) {
     console.error('Reset prompt error:', error);
@@ -224,8 +225,9 @@ exports.deleteDataset = async (req, res) => {
 exports.getDatasetPreview = async (req, res) => {
   try {
     const { fileName } = req.params;
+    const safeFileName = path.basename(fileName).replace(/[^a-zA-Z0-9._-]/g, '_');
     const dataDir = path.resolve(__dirname, '..', 'data');
-    const filePath = path.join(dataDir, fileName);
+    const filePath = path.join(dataDir, safeFileName);
 
     if (!fs.existsSync(filePath)) {
       return res.status(404).json({ error: 'File not found' });

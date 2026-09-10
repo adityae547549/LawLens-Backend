@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const { v4: uuidv4 } = require('uuid');
 const documentProcessor = require('../rag/documentProcessor');
 const vectorStore = require('../rag/vectorStore');
 const db = require('../database/db');
+const logger = require('../utils/logger');
 
 const UPLOADS_DIR = path.resolve(__dirname, '..', 'uploads');
 
@@ -13,15 +13,13 @@ exports.uploadDocument = async (req, res) => {
       return res.status(400).json({ error: 'No file uploaded' });
     }
 
-    const userId = req.user?.id || 'anonymous';
+    const userId = req.user.id;
     const filePath = req.file.path;
     const fileId = req.file.filename;
     const originalName = req.file.originalname;
 
-    // Process and chunk the document
     const chunks = await documentProcessor.processFile(filePath, fileId);
 
-    // Add to vector store with user info
     chunks.forEach(c => {
       c.metadata.userId = userId;
       c.metadata.originalName = originalName;
@@ -30,8 +28,7 @@ exports.uploadDocument = async (req, res) => {
 
     await vectorStore.addDocuments(chunks);
 
-    // Save document record to library
-    const docRecord = db.insertOne('documents', {
+    const docRecord = await db.insertOne('documents', {
       userId,
       fileId,
       originalName,
@@ -58,7 +55,7 @@ exports.uploadDocument = async (req, res) => {
       }
     });
   } catch (error) {
-    console.error('Upload error:', error);
+    logger.error('Upload error', { message: error.message });
     if (req.file && req.file.path && fs.existsSync(req.file.path)) {
       fs.unlinkSync(req.file.path);
     }
@@ -68,8 +65,9 @@ exports.uploadDocument = async (req, res) => {
 
 exports.getLibrary = async (req, res) => {
   try {
-    const userId = req.user?.id || 'anonymous';
-    const documents = db.findAll('documents', { userId });
+    const userId = req.user.id;
+    const all = await db.findAll('documents', { userId });
+    const documents = all || [];
 
     res.json({
       documents: documents.map(d => ({
@@ -87,50 +85,47 @@ exports.getLibrary = async (req, res) => {
       total: documents.length
     });
   } catch (error) {
-    console.error('Get library error:', error);
+    logger.error('Get library error', { message: error.message });
     res.status(500).json({ error: 'Failed to get library' });
   }
 };
 
 exports.deleteDocument = async (req, res) => {
   try {
-    const userId = req.user?.id || 'anonymous';
+    const userId = req.user.id;
     const { id } = req.params;
 
-    const doc = db.findById('documents', id);
+    const doc = await db.findById('documents', id);
     if (!doc || doc.userId !== userId) {
       return res.status(404).json({ error: 'Document not found' });
     }
 
-    // Remove chunks from vector store
     vectorStore.documents = vectorStore.documents.filter(
       d => d.metadata.fileId !== doc.fileId
     );
     await vectorStore.save();
 
-    // Delete physical file
     const filePath = path.join(UPLOADS_DIR, doc.fileId);
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
     }
 
-    // Delete from database
-    db.deleteOne('documents', { id });
+    await db.deleteOne('documents', { id });
 
     res.json({ message: 'Document deleted successfully' });
   } catch (error) {
-    console.error('Delete document error:', error);
+    logger.error('Delete document error', { message: error.message });
     res.status(500).json({ error: 'Failed to delete document' });
   }
 };
 
 exports.updateDocument = async (req, res) => {
   try {
-    const userId = req.user?.id || 'anonymous';
+    const userId = req.user.id;
     const { id } = req.params;
     const { tags, temporary } = req.body;
 
-    const doc = db.findById('documents', id);
+    const doc = await db.findById('documents', id);
     if (!doc || doc.userId !== userId) {
       return res.status(404).json({ error: 'Document not found' });
     }
@@ -139,11 +134,11 @@ exports.updateDocument = async (req, res) => {
     if (tags !== undefined) updates.tags = tags;
     if (temporary !== undefined) updates.temporary = temporary;
 
-    const updated = db.updateOne('documents', { id }, updates);
+    const updated = await db.updateOne('documents', { id }, updates);
 
     res.json({ message: 'Document updated', document: updated });
   } catch (error) {
-    console.error('Update document error:', error);
+    logger.error('Update document error', { message: error.message });
     res.status(500).json({ error: 'Failed to update document' });
   }
 };
@@ -156,7 +151,9 @@ exports.searchInDocument = async (req, res) => {
     let results = await vectorStore.hybridSearch(query, 10);
 
     if (fileId) {
-      results = results.filter(r => r.metadata.fileId === fileId);
+      results = results.filter(r => r.metadata.fileId === fileId && r.metadata.userId === req.user.id);
+    } else {
+      results = results.filter(r => r.metadata.userId === req.user.id);
     }
 
     res.json({
@@ -169,7 +166,7 @@ exports.searchInDocument = async (req, res) => {
       total: results.length
     });
   } catch (error) {
-    console.error('Search in document error:', error);
+    logger.error('Search in document error', { message: error.message });
     res.status(500).json({ error: 'Search failed' });
   }
 };

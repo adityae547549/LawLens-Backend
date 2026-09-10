@@ -3,19 +3,23 @@ const generator = require('../rag/generator');
 const memory = require('../rag/memory');
 const db = require('../database/db');
 
-function trackAnalytics(event, data) {
-  db.insertOne('analytics', { event, ...data, timestamp: new Date().toISOString() });
+async function trackAnalytics(event, data) {
+  try {
+    await db.insertOne('analytics', { event, ...data, timestamp: new Date().toISOString() });
+  } catch (err) {
+    console.error('Analytics tracking failed:', err.message);
+  }
 }
 
 // Private Helper Functions
-function _getChatContext(user, conversationId, mode, useMemory) {
+async function _getChatContext(user, conversationId, mode, useMemory) {
   const useWebSearch = mode === 'web' || mode === 'hybrid';
   const useOwnKnowledge = mode === 'general';
   const conversation = conversationId
-    ? db.findOne('conversations', { id: conversationId })
+    ? await db.findOne('conversations', { id: conversationId })
     : null;
   const history = conversation ? conversation.messages || [] : [];
-  const memoryContext = useMemory && user ? memory.getMemoryContext(user.id) : '';
+  const memoryContext = useMemory && user ? await memory.getMemoryContext(user.id) : '';
 
   return { useWebSearch, useOwnKnowledge, conversation, history, memoryContext };
 }
@@ -28,7 +32,7 @@ function _calculateConfidence(useOwnKnowledge, citations, fallbackScore = 40) {
 
 const MAX_CONVERSATION_MESSAGES = 50;
 
-function _saveConversationAndTrack(user, message, answer, citations, confidenceScore, conversationId, conversation, level, useWebSearch, resultCount, analyticsEvent) {
+async function _saveConversationAndTrack(user, message, answer, citations, confidenceScore, conversationId, conversation, level, useWebSearch, resultCount, analyticsEvent) {
   let convId = conversationId;
   if (user) {
     const existingMessages = conversation ? conversation.messages || [] : [];
@@ -48,7 +52,7 @@ function _saveConversationAndTrack(user, message, answer, citations, confidenceS
     }
 
     if (!convId) {
-      const newConv = db.insertOne('conversations', {
+      const newConv = await db.insertOne('conversations', {
         userId: user.id,
         title: message.slice(0, 60) + (message.length > 60 ? '...' : ''),
         messages: newMessages,
@@ -59,14 +63,14 @@ function _saveConversationAndTrack(user, message, answer, citations, confidenceS
       });
       convId = newConv.id;
     } else {
-      db.updateOne('conversations', { id: convId }, {
+      await db.updateOne('conversations', { id: convId }, {
         messages: newMessages,
         messageCount: totalMessages,
         archivedCount,
         updatedAt: new Date().toISOString()
       });
     }
-    trackAnalytics(analyticsEvent, { userId: user.id, query: message, resultCount, confidence: confidenceScore, useWebSearch });
+    await trackAnalytics(analyticsEvent, { userId: user.id, query: message, resultCount, confidence: confidenceScore, useWebSearch });
   }
   return convId;
 }
@@ -99,7 +103,7 @@ exports.chat = async (req, res) => {
     }
 
     const { useWebSearch, useOwnKnowledge, conversation, history, memoryContext } =
-      _getChatContext(req.user, conversationId, mode, useMemory);
+      await _getChatContext(req.user, conversationId, mode, useMemory);
 
     let localResults = [], webResults = [], graphResults = [], context = '', citations = [];
     if (mode !== 'general') {
@@ -113,7 +117,7 @@ exports.chat = async (req, res) => {
     const { answer, sources, confidence, citationCheck } = await generator.generate(message, context, history, { level, useWebSearch, language, memoryContext, useOwnKnowledge });
 
     const confidenceResult = _calculateConfidence(useOwnKnowledge, citations, sources?.[0]?.type === 'general' ? 40 : 0);
-    const convId = _saveConversationAndTrack(req.user, message, answer, citations, confidenceResult.score, conversationId, conversation, level, useWebSearch, localResults.length + webResults.length, 'chat');
+    const convId = await _saveConversationAndTrack(req.user, message, answer, citations, confidenceResult.score, conversationId, conversation, level, useWebSearch, localResults.length + webResults.length, 'chat');
 
     res.json({
       answer,
@@ -142,7 +146,7 @@ exports.chatStream = async (req, res) => {
     }
 
     const { useWebSearch, useOwnKnowledge, conversation, history, memoryContext } =
-      _getChatContext(req.user, conversationId, mode, useMemory);
+      await _getChatContext(req.user, conversationId, mode, useMemory);
 
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
@@ -197,7 +201,7 @@ exports.chatStream = async (req, res) => {
         res.write(`data: ${JSON.stringify(chunk)}\n\n`);
       } else if (chunk.type === 'done') {
         const confidenceResult = _calculateConfidence(useOwnKnowledge, citations, chunk.confidence || 40);
-        const convId = _saveConversationAndTrack(req.user, message, fullAnswer, citations, confidenceResult.score, conversationId, conversation, level, useWebSearch, localResults.length + webResults.length, 'chat_stream');
+        const convId = await _saveConversationAndTrack(req.user, message, fullAnswer, citations, confidenceResult.score, conversationId, conversation, level, useWebSearch, localResults.length + webResults.length, 'chat_stream');
 
         res.write(`data: ${JSON.stringify({
           type: 'done', citations,
@@ -227,10 +231,11 @@ exports.chatStream = async (req, res) => {
 
 exports.getConversations = async (req, res) => {
   try {
-    const conversations = db.findAll('conversations', { userId: req.user.id })
+    const all = await db.findAll('conversations', { userId: req.user.id });
+    const conversations = (all || [])
       .map(c => ({
-        id: c.id, title: c.title, messageCount: c.messages.length,
-        lastMessage: c.messages.length > 0 ? c.messages[c.messages.length - 1].content.slice(0, 100) : '',
+        id: c.id, title: c.title, messageCount: (c.messages || []).length,
+        lastMessage: c.messages && c.messages.length > 0 ? c.messages[c.messages.length - 1].content.slice(0, 100) : '',
         level: c.level || 'general', createdAt: c.createdAt
       }))
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
@@ -243,7 +248,7 @@ exports.getConversations = async (req, res) => {
 
 exports.getConversation = async (req, res) => {
   try {
-    const conversation = db.findOne('conversations', { id: req.params.id, userId: req.user.id });
+    const conversation = await db.findOne('conversations', { id: req.params.id, userId: req.user.id });
     if (!conversation) return res.status(404).json({ error: 'Conversation not found' });
     res.json({ conversation });
   } catch (error) {
@@ -254,7 +259,7 @@ exports.getConversation = async (req, res) => {
 
 exports.deleteConversation = async (req, res) => {
   try {
-    const deleted = db.deleteOne('conversations', { id: req.params.id, userId: req.user.id });
+    const deleted = await db.deleteOne('conversations', { id: req.params.id, userId: req.user.id });
     if (!deleted) return res.status(404).json({ error: 'Conversation not found' });
     res.json({ message: 'Conversation deleted' });
   } catch (error) {

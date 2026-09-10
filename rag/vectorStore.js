@@ -65,7 +65,9 @@ class VectorStore {
   }
 
   async save() {
-    fs.writeFileSync(this.indexPath, JSON.stringify({ documents: this.documents }));
+    const tempPath = this.indexPath + '.tmp';
+    fs.writeFileSync(tempPath, JSON.stringify({ documents: this.documents }));
+    fs.renameSync(tempPath, this.indexPath);
   }
 
   async load() {

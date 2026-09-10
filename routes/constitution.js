@@ -8,13 +8,20 @@ router.get('/search', constitutionController.search);
 router.get('/amendments', constitutionController.getAmendments);
 router.get('/article/:num', constitutionController.getArticle);
 
+let amendmentsCache = null;
+const amendmentsPath = path.join(__dirname, '..', 'data', 'amendments.json');
+try {
+  amendmentsCache = JSON.parse(fs.readFileSync(amendmentsPath, 'utf8'));
+} catch {
+  amendmentsCache = [];
+}
+
 // GET /api/constitution/timeline — verified timeline data
 router.get('/timeline', (req, res) => {
   try {
     const { from, to, category } = req.query;
-    const amendments = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'amendments.json'), 'utf8'));
 
-    let filtered = amendments;
+    let filtered = amendmentsCache;
     if (from) filtered = filtered.filter(a => a.year >= parseInt(from));
     if (to) filtered = filtered.filter(a => a.year <= parseInt(to));
     if (category && category !== 'all') {

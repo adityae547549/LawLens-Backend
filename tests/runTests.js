@@ -3,15 +3,22 @@ const test = require('node:test');
 
 // Test 1: Validation Schemas
 test('Phase 1 Zod Validation Schemas', async (t) => {
-  const { registerSchema, loginSchema, chatSchema, searchSchema } = require('../validators');
+  const { firebaseIdTokenSchema, profileUpdateSchema, chatSchema, searchSchema } = require('../validators');
 
-  await t.test('registerSchema validates email and password length', () => {
-    const valid = registerSchema.safeParse({ name: ' Test User ', email: 'USER@TEST.COM', password: 'password123' });
+  await t.test('firebaseIdTokenSchema requires an idToken', () => {
+    const valid = firebaseIdTokenSchema.safeParse({ idToken: 'eyJhbGciOiJSUzI1NiJ9.payload.signature' });
     assert.strictEqual(valid.success, true);
-    assert.strictEqual(valid.data.email, 'user@test.com');
+
+    const invalid = firebaseIdTokenSchema.safeParse({});
+    assert.strictEqual(invalid.success, false);
+  });
+
+  await t.test('profileUpdateSchema trims name and bounds theme', () => {
+    const valid = profileUpdateSchema.safeParse({ name: '  Test User  ', preferences: { theme: 'dark' } });
+    assert.strictEqual(valid.success, true);
     assert.strictEqual(valid.data.name, 'Test User');
 
-    const invalid = registerSchema.safeParse({ name: 'User', email: 'user@test.com', password: '123' });
+    const invalid = profileUpdateSchema.safeParse({ preferences: { theme: 'neon' } });
     assert.strictEqual(invalid.success, false);
   });
 

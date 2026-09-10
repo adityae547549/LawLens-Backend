@@ -19,7 +19,7 @@ router.post('/', optionalAuth, validate(feedbackSchema), async (req, res) => {
       comment: (c.comment || '').trim().slice(0, 5000)
     }));
 
-    const feedback = db.insertOne('feedback', {
+    const feedback = await db.insertOne('feedback', {
       userId: req.user?.id || null,
       type: 'comprehensive',
       overallRating: Math.min(5, Math.max(1, parseInt(overallRating))),
@@ -39,8 +39,8 @@ router.post('/', optionalAuth, validate(feedbackSchema), async (req, res) => {
 
 router.get('/', authenticate, async (req, res) => {
   try {
-    const all = db.findAll('feedback');
-    const items = req.user.role === 'admin' ? all : all.filter(f => f.userId === req.user.id);
+    const all = await db.findAll('feedback');
+    const items = req.user.role === 'admin' ? all : (all || []).filter(f => f.userId === req.user.id);
     res.json({ feedback: items.reverse() });
   } catch (err) {
     res.status(500).json({ error: 'Failed to load feedback' });

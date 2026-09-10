@@ -3,7 +3,7 @@ const vectorStore = require('../rag/vectorStore');
 
 exports.getAnalytics = async (req, res) => {
   try {
-    const events = db.findAll('analytics');
+    const events = await db.findAll('analytics');
 
     const chats = events.filter(e => e.event === 'chat' || e.event === 'chat_stream');
     const searches = events.filter(e => e.event === 'search');

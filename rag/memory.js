@@ -6,9 +6,10 @@ class ConversationMemory {
     this.maxMemoryTokens = 2000;
   }
 
-  getMemoryContext(userId) {
+  async getMemoryContext(userId) {
     if (!userId) return '';
-    const conversations = db.findAll('conversations', { userId })
+    const all = await db.findAll('conversations', { userId });
+    const conversations = (all || [])
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
       .slice(0, this.maxConversations);
 
@@ -76,11 +77,11 @@ class ConversationMemory {
     return keySentences || cleaned.slice(0, 200);
   }
 
-  clearUserMemory(userId) {
+  async clearUserMemory(userId) {
     if (!userId) return;
-    const conversations = db.findAll('conversations', { userId });
-    for (const conv of conversations) {
-      db.deleteOne('conversations', { id: conv.id });
+    const conversations = await db.findAll('conversations', { userId });
+    for (const conv of conversations || []) {
+      await db.deleteOne('conversations', { id: conv.id });
     }
   }
 }

@@ -13,7 +13,7 @@ exports.generateShare = async (req, res) => {
     }
 
     const token = generateToken();
-    const share = db.insertOne('shares', {
+    const share = await db.insertOne('shares', {
       token,
       content,
       citations: citations || [],
@@ -40,13 +40,13 @@ exports.generateShare = async (req, res) => {
 exports.getShared = async (req, res) => {
   try {
     const { token } = req.params;
-    const share = db.findOne('shares', { token });
+    const share = await db.findOne('shares', { token });
 
     if (!share) {
       return res.status(404).json({ error: 'Shared content not found or expired' });
     }
 
-    db.updateOne('shares', { token }, { views: share.views + 1 });
+    await db.updateOne('shares', { token }, { views: share.views + 1 });
 
     res.json({
       content: share.content,

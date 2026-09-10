@@ -480,7 +480,7 @@ exports.getAIConfig = async (req, res) => {
     const configPath = path.join(DATA_DIR, 'ai-config.json');
     let config = {
       provider: 'groq',
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       temperature: 0.3,
       maxTokens: 4096,
       topK: 5,

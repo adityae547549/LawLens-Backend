@@ -103,24 +103,24 @@ NEVER invent an answer instead.
 NEVER say "I think" or "I believe" — only state what the sources confirm.`;
 
 class PromptEditor {
-  getPrompt() {
-    const custom = db.findOne('settings', { key: 'system_prompt' });
+  async getPrompt() {
+    const custom = await db.findOne('settings', { key: 'system_prompt' });
     return custom ? custom.value : DEFAULT_SYSTEM_PROMPT;
   }
 
-  setPrompt(prompt) {
-    const existing = db.findOne('settings', { key: 'system_prompt' });
+  async setPrompt(prompt) {
+    const existing = await db.findOne('settings', { key: 'system_prompt' });
     if (existing) {
-      db.updateOne('settings', { key: 'system_prompt' }, { value: prompt });
+      await db.updateOne('settings', { key: 'system_prompt' }, { value: prompt });
     } else {
-      db.insertOne('settings', { key: 'system_prompt', value: prompt });
+      await db.insertOne('settings', { key: 'system_prompt', value: prompt });
     }
   }
 
-  resetPrompt() {
-    const existing = db.findOne('settings', { key: 'system_prompt' });
+  async resetPrompt() {
+    const existing = await db.findOne('settings', { key: 'system_prompt' });
     if (existing) {
-      db.updateOne('settings', { key: 'system_prompt' }, { value: DEFAULT_SYSTEM_PROMPT });
+      await db.updateOne('settings', { key: 'system_prompt' }, { value: DEFAULT_SYSTEM_PROMPT });
     }
     return DEFAULT_SYSTEM_PROMPT;
   }

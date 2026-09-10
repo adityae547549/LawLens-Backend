@@ -1,58 +1,44 @@
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
-const bcrypt = require('bcryptjs');
+const { initFirebaseAdmin } = require('../utils/firebaseAdmin');
+initFirebaseAdmin();
 const db = require('../database/db');
-const vectorStore = require('../rag/vectorStore');
-const documentProcessor = require('../rag/documentProcessor');
-const path = require('path');
-const fs = require('fs');
-
-const DATA_DIR = path.resolve(__dirname, '..', 'data');
 
 async function seed() {
-  console.log('LawLens - Seeding Database');
-  console.log('=========================');
+  const adminFirebaseUid = process.env.ADMIN_FIREBASE_UID;
+  if (!adminFirebaseUid) {
+    console.error('ADMIN_FIREBASE_UID is not set. Skipping admin seeding.');
+    console.error('Set ADMIN_FIREBASE_UID=<firebase-uid> in backend/.env and re-run.');
+    process.exit(1);
+  }
 
-  const users = db.findAll('users');
-  if (users.length === 0) {
-    const defaultAdminPassword = 'admin123';
-    const hashedPassword = await bcrypt.hash(defaultAdminPassword, 12);
-    const admin = db.insertOne('users', {
-      name: 'Admin',
-      email: 'admin@lawlense.com',
-      password: hashedPassword,
+  const existing = await db.findOne('users', { firebaseUid: adminFirebaseUid });
+
+  if (existing) {
+    await db.updateOne('users', { id: existing.id }, { role: 'admin' });
+    console.log(`Admin role applied to ${existing.email || adminFirebaseUid}`);
+  } else {
+    await db.insertOne('users', {
+      firebaseUid: adminFirebaseUid,
+      name: process.env.ADMIN_NAME || 'Admin',
+      email: process.env.ADMIN_EMAIL || null,
       role: 'admin',
-      preferences: { theme: 'dark', notifications: true }
+      preferences: { theme: 'dark', notifications: true },
     });
-    console.log(`\nAdmin user created:`);
-    console.log(`  Email: admin@lawlense.com`);
-    console.log(`  Password: ${defaultAdminPassword}`);
-    console.log(`  Role: admin`);
-  } else {
-    console.log('Users already exist, skipping admin creation');
+    console.log(`Admin user created for ${process.env.ADMIN_EMAIL || adminFirebaseUid}`);
   }
 
-  console.log('\nBuilding vector database...');
-  const files = fs.existsSync(DATA_DIR) ? fs.readdirSync(DATA_DIR) : [];
-  if (files.length === 0) {
-    console.log('No documents found in data/ directory');
-    console.log('Place legal documents (PDF, TXT, DOCX, JSON, MD) in backend/data/');
-  } else {
-    await vectorStore.clear();
-    const { chunks, errors } = await documentProcessor.processDirectory(DATA_DIR);
-    if (chunks.length > 0) {
-      await vectorStore.addDocuments(chunks);
-      console.log(`Added ${chunks.length} chunks to vector store`);
-    }
-    if (errors.length > 0) {
-      errors.forEach(e => console.log(`Error: ${e.file}: ${e.error}`));
-    }
-  }
-
-  console.log('\nSeed complete!');
-  console.log(`\nAccess LawLens at http://localhost:${process.env.PORT || 3000}`);
+  const seeded = true;
+  console.log('Seeding complete.');
+  return { seeded };
 }
 
-seed().catch(err => {
-  console.error('Seed failed:', err);
-  process.exit(1);
-});
+if (require.main === module) {
+  seed()
+    .then(({ seeded }) => process.exit(seeded ? 0 : 1))
+    .catch(err => {
+      console.error('Seeding failed:', err.message);
+      process.exit(1);
+    });
+}
+
+module.exports = seed;

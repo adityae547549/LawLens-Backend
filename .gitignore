@@ -1,5 +1,7 @@
 .env
 .env.*
+.firebase-adminsdk.json
+.firebase-service-account.json
 node_modules/
 uploads/
 vector/
@@ -7,6 +9,3 @@ database/*.json
 *.log
 .DS_Store
 Thumbs.db
-
-# Secrets
-RENDER_ENV.txt

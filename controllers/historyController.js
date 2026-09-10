@@ -2,19 +2,21 @@ const db = require('../database/db');
 
 exports.getHistory = async (req, res) => {
   try {
-    const conversations = db.findAll('conversations', { userId: req.user.id })
+    const allConvs = await db.findAll('conversations', { userId: req.user.id });
+    const conversations = (allConvs || [])
       .map(c => ({
         id: c.id,
         title: c.title,
-        messageCount: c.messages.length,
-        lastMessage: c.messages.length > 0
+        messageCount: (c.messages || []).length,
+        lastMessage: c.messages && c.messages.length > 0
           ? { role: c.messages[c.messages.length - 1].role, content: c.messages[c.messages.length - 1].content.slice(0, 150) }
           : null,
         createdAt: c.createdAt
       }))
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
-    const searches = db.findAll('searchHistory', { userId: req.user.id })
+    const allSearches = await db.findAll('searchHistory', { userId: req.user.id });
+    const searches = (allSearches || [])
       .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
       .slice(0, 50);
 
@@ -27,7 +29,7 @@ exports.getHistory = async (req, res) => {
 
 exports.deleteConversation = async (req, res) => {
   try {
-    const deleted = db.deleteOne('conversations', { id: req.params.id, userId: req.user.id });
+    const deleted = await db.deleteOne('conversations', { id: req.params.id, userId: req.user.id });
     if (!deleted) return res.status(404).json({ error: 'Conversation not found' });
     res.json({ message: 'Conversation deleted' });
   } catch (error) {
@@ -38,9 +40,9 @@ exports.deleteConversation = async (req, res) => {
 
 exports.exportData = async (req, res) => {
   try {
-    const conversations = db.findAll('conversations', { userId: req.user.id });
-    const bookmarks = db.findAll('bookmarks', { userId: req.user.id });
-    const searches = db.findAll('searchHistory', { userId: req.user.id });
+    const conversations = await db.findAll('conversations', { userId: req.user.id });
+    const bookmarks = await db.findAll('bookmarks', { userId: req.user.id });
+    const searches = await db.findAll('searchHistory', { userId: req.user.id });
 
     const exportPayload = {
       exportedAt: new Date().toISOString(),
@@ -62,9 +64,9 @@ exports.exportData = async (req, res) => {
 
 exports.clearHistory = async (req, res) => {
   try {
-    const convs = db.findAll('conversations', { userId: req.user.id });
-    for (const c of convs) {
-      db.deleteOne('conversations', { id: c.id });
+    const convs = await db.findAll('conversations', { userId: req.user.id });
+    for (const c of convs || []) {
+      await db.deleteOne('conversations', { id: c.id });
     }
     res.json({ message: 'History cleared' });
   } catch (error) {

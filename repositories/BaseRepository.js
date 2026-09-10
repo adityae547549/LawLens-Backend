@@ -6,35 +6,35 @@ class BaseRepository {
     this.db = db;
   }
 
-  findAll(query = {}) {
+  async findAll(query = {}) {
     return this.db.findAll(this.collection, query);
   }
 
-  findById(id) {
+  async findById(id) {
     return this.db.findById(this.collection, id);
   }
 
-  findOne(query) {
+  async findOne(query) {
     return this.db.findOne(this.collection, query);
   }
 
-  insertOne(doc) {
+  async insertOne(doc) {
     return this.db.insertOne(this.collection, doc);
   }
 
-  updateOne(query, updates) {
+  async updateOne(query, updates) {
     return this.db.updateOne(this.collection, query, updates);
   }
 
-  deleteOne(query) {
+  async deleteOne(query) {
     return this.db.deleteOne(this.collection, query);
   }
 
-  deleteAll() {
+  async deleteAll() {
     return this.db.deleteAll(this.collection);
   }
 
-  count(query = {}) {
+  async count(query = {}) {
     return this.db.count(this.collection, query);
   }
 }
